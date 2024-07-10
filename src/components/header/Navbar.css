@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-container{
+    display: flex;
+    flex: 1;
+    max-width: 1500px;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    background-color: rgb(12, 84, 85);
+    font-family: Work Sans;
+    color: white;
+}
+
+.navbar-center-content{
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.navbar-svg-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
