@@ -4,23 +4,34 @@
     box-sizing: border-box;
 }
 
+.navbar-logo-title-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar-logo {
+    object-fit: contain;
+    border-radius: 50%;
+    height: 70px;
+}
+
 .navbar-container{
     display: flex;
     flex: 1;
-    max-width: 1500px;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 11px 40px;
     align-items: center;
-    background-color: rgb(12, 84, 85);
+    background-color: rgb(19,112,120);
     font-family: Work Sans;
     color: white;
+    border-bottom: 2px solid white;
 }
 
 .navbar-center-content{
     display: flex;
     gap: 50px;
     font-size: 18px;
-    margin-top: 5px;
     cursor: pointer;
 }
 
