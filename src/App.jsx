@@ -1,14 +1,10 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './components/header/header'
-
-import Slide from './components/header/slide'
-
-
+import Slide from './components/Slide/Slide'
+import Header from "./components/Header/header"
 
 function App() {
   
-
   return (
    <>
     <Header/>
