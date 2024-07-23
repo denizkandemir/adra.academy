@@ -2,7 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import "./Slide.css";
+import "./Slide.scss";
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
 import { Navigation, Pagination } from 'swiper/modules';
 import cat1 from "/cat1.jpg";
