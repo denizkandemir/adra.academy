@@ -2,7 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import "./Slide.css";
+import "./Slide.scss";
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
 import { Navigation, Pagination , Autoplay, Keyboard ,EffectCards } from 'swiper/modules';
 import slide1 from "/slide1.jpg";
