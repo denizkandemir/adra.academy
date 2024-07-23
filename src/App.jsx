@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Slide from './components/Slide/Slide'
-import Header from "./components/Header/header"
+import Slide from "./components/Slide/Slide"
+import Header from "./components/header/header"
 
 function App() {
   

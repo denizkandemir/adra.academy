@@ -2,13 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 .slide-container img {
-  width: 100%;
-  height: 400px;
+  height: 500px;
   object-fit: contain;
+  border-radius: 5px;
+
 }
+
 
 .slide-title {
   font-family: Work Sans;
@@ -18,11 +21,8 @@
 .button-prev-slide,
 .button-next-slide {
   color: #fff;
-  /* Set the color of the arrows */
   background-color: rgba(0, 0, 0, 0.5);
-  /* Background color for better visibility */
   border-radius: 50%;
-  /* Make the buttons round */
   width: 50px;
   height: 50px;
   display: flex;

@@ -4,12 +4,12 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import "./Slide.css";
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
-import { Navigation, Pagination } from 'swiper/modules';
-import cat1 from "/cat1.jpg";
-import cat2 from "/cat2.webp";
-import cat3 from "/cat3.jpg";
-import cat4 from "/cat4.jpg";
-import cat5 from "/cat5.gif";
+import { Navigation, Pagination , Autoplay, Keyboard ,EffectCards } from 'swiper/modules';
+import slide1 from "/slide1.jpg";
+import slide2 from "/slide2.jpg";
+import slide3 from "/slide3.jpg"
+import slide4 from "/slide4.jpg";
+import slide5 from "/slide5.jpg";
 
 function Slide() {
 
@@ -18,7 +18,7 @@ function Slide() {
       <div className="slide-page-container">
          <h1 className="slide-title"> Biz Kimiz? </h1>
          <Swiper
-            modules={[Navigation, Pagination]}
+            modules={[Navigation, Pagination,Autoplay, Keyboard ,EffectCards ]}
             spaceBetween={50}
             slidesPerView={1}
             navigation={{
@@ -26,8 +26,14 @@ function Slide() {
                prevEl: ".button-prev-slide"
             }}
             pagination={{ clickable: true }}
-            loop={true}
-
+            loop={false}
+            autoplay = {{delay:5000 , pauseOnMouseEnter: true}}
+            keyboard = {{ enabled : true}}
+            rewind = {true}
+            effect="cards"
+            cardsEffect={{slideShadows:false,perSlideRotate:2}}
+            
+            
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
 
@@ -37,27 +43,27 @@ function Slide() {
                   <div>Current slide is {isActive ? 'active' : 'not active'}</div>
                )}
                <div className="slide-container">
-                  <img className="slide-1" src={cat1} alt="" />
+                  <img className="slide-1" src={slide1} alt="" />
                </div>
             </SwiperSlide>
             <SwiperSlide>
                <div className="slide-container">
-                  <img className="slide-2" src={cat2} alt="" />
+                  <img className="slide-2" src={slide2} alt="" />
                </div>
             </SwiperSlide>
             <SwiperSlide>
                <div className="slide-container">
-                  <img className="slide-3" src={cat3} alt="" />
+                  <img className="slide-3" src={slide3} alt="" />
                </div>
             </SwiperSlide>
             <SwiperSlide>
                <div className="slide-container">
-                  <img className="slide-4" src={cat4} alt="" />
+                  <img className="slide-4" src={slide4} alt="" />
                </div>
             </SwiperSlide>
             <SwiperSlide>
                <div className="slide-container">
-                  <img className="slide-5" src={cat5} alt="" />
+                  <img className="slide-5" src={slide5} alt="" />
                </div>
             </SwiperSlide>
 
@@ -74,4 +80,4 @@ function Slide() {
    )
 }
 
-export default Slide;
+export default Slide; 
