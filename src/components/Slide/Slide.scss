@@ -4,28 +4,32 @@
   align-items: center;
   padding: 20px;
   margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.slide-page-container {
+  background-image: url("/adra back2.png");
+  background-size:cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
 }
 
 .slide-container img {
-  height: 520px;
+  height: 490px;
   object-fit: contain;
   border-radius: 5px;
-
 }
-
 
 .slide-title {
   font-family: Work Sans;
   font-size: 50px;
   color: rgb(11, 72, 75);
-
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   text-align: center;
   text-decoration: underline;
   text-decoration-style: wavy;
   text-underline-offset: 15px;
-
-
+  margin-top: 20px;
 }
 
 .button-prev-slide,
@@ -54,17 +58,18 @@
 
 
 .button-next-slide {
-  right: 10px;
+  right: 110px;
+
 }
 
 .button-prev-slide {
-  left: 10px;
+  left: 110px;
 }
 
 
 
 .slide-page-container {
-  padding: 50px 0 50px 0;
+  padding: 75px 0;
 }
 
 .swiper-pagination {

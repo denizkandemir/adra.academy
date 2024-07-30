@@ -18,7 +18,7 @@ const Programs = () => {
 
     {
       img: img2,
-      title: "Birebir Akademik Destek ",
+      title: "Akademik Destek ",
       id: 2,
     },
 
@@ -37,19 +37,33 @@ const Programs = () => {
 
   return (
     <div className="programs-container">
+
       <p className="programs-main-title">  Programlarımız </p>
       <div className="courses-container">
         {
           courses.map((course) => (
-            <div key={course.id} className="programs-title-container">
+            <div key={course.id} className="programs-wrapper">
               <img className="programs-img" src={course.img} alt="" />
-              <p className="courses-title">  {course.title} </p>
+              <div className="programs-content-container">
+                <p className="courses-title">  {course.title} </p>
+                <div className="programs-bottom-content-container">
+                  <div className="programs-svg-p-container">
+                    <p className="programs-p"> Yüz Yüze </p>
+                  </div>
+                  <div className="programs-svg-p-container">
+                    <p className="programs-p"> Online </p>
+                  </div>
+                  <button className="programs-button"> İncele </button>
+
+                </div>
+              </div>
             </div>
           ))
         }
-      </div>
-    </div>
 
+      </div>
+
+    </div>
   )
 }
 
