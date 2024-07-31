@@ -1,9 +1,12 @@
+
 .footer-container{
   background-image: url("/footer bg.jpg");
   background-repeat: no-repeat;
   background-size:cover; 
   background-position: center;
   display: flex;
+  gap: 150px;
+  align-items: center;
 }
 
 .footer-logo{
@@ -19,7 +22,9 @@
   padding-bottom: 10px;
 }
 
-p{
+.footer-phoneNo,
+.footer-address,
+.footer-email p{
   color: white;
   font-size: 15px;
   font-family: Work Sans;
@@ -41,7 +46,24 @@ p{
   justify-content: center;
   align-items: center;
   //padding: 10px 10px 0 10px;
+}
+.footer-courses-services-container{
+  color: white;
+  font-family: Work Sans;
   
 }
+.footer-courses-services-title{
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+.footer-courses-services-index{
+  font-size: 15px;
+  margin-bottom: 35px;
+}
+.footer-courses-services-index p{
+  margin-bottom: 3px;
+}
+
 
 

@@ -4,6 +4,7 @@
   align-items: center;
   padding: 20px;
   margin-top: 25px;
+  margin-bottom: 30px;
 }
 
 .slide-page-container {
@@ -14,23 +15,21 @@
 }
 
 .slide-container img {
-  height: 490px;
+  height: 470px;
   object-fit: contain;
   border-radius: 5px;
-
 }
+
 .slide-title {
   font-family: Work Sans;
-  font-size: 60px;
+  font-size: 50px;
   color: rgb(11, 72, 75);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-align: center;
   text-decoration: underline;
   text-decoration-style: wavy;
   text-underline-offset: 15px;
-  margin-top: 35px;
-  
-
+  margin-top: 20px;
 }
 
 .button-prev-slide,
@@ -70,7 +69,7 @@
 
 
 .slide-page-container {
-  padding: 50px 0 50px 0;
+  padding: 65px 0 55px 0;
 }
 
 .swiper-pagination {
