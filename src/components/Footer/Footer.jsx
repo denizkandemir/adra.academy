@@ -5,8 +5,8 @@ function Footer() {
   return (
     <>
       <div className="footer-container">
+      <img className="footer-logo" src={logo} alt="" />
         <div className="footer-content-container">
-          <img className="footer-logo" src={logo} alt="" />
           <div className="footer-phoneNo">
             <svg
               width="23px"
@@ -77,41 +77,14 @@ function Footer() {
             </svg>
             <p>info.academyadra@gmail.com</p>
           </div>
-        </div>
-
-        <div className="footer-content-container">
-          <div className="footer-courses-services-container">
-            <div className="footer-courses-services-title">
-              <p>Hizmetlerimiz</p>
-            </div>
-            <div className="footer-courses-services-index">
-              <p>Yabancı Dil ve Akademik Başarı</p>
-              <p>Kurumsal Çözüm Ortaklığı</p>
-              <p>Tercüme Hizmetleri</p>
-            </div>
-            <div className="footer-courses-services-container">
-              <div className="footer-courses-services-title">
-                <p>Kurslarımız</p>
-              </div>
-              <div className="footer-courses-services-index">
-                <p>Yabancı Dil Atölyeleri</p>
-                <p>Akademik Destek</p>
-                <p>Öğrenci Koçluğu</p>
-                <p>Yabancı Dil Koçluğu</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="footer-content-container">
           <div className="footer-social-container">
             <div className="footer-social">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
-                width="38"
-                height="38"
+                width="35"
+                height="35"
                 viewBox="0 0 30 30"
                 style={{ fill: "#FFFFFF" }}
               >
@@ -127,8 +100,8 @@ function Footer() {
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
-                width="35"
-                height="35"
+                width="32"
+                height="32"
                 viewBox="0,0,300,150"
                 style={{ fill: "#FFFFFF" }}
               >
@@ -159,8 +132,8 @@ function Footer() {
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
-                width="48"
-                height="48"
+                width="45"
+                height="45"
                 viewBox="0,0,300,150"
                 style={{ fill: "#FFFFFF" }}
               >
@@ -187,6 +160,36 @@ function Footer() {
               </svg>
             </div>
           </div>
+        </div>
+
+        <div className="footer-content-container">
+          <div className="footer-courses-services-container">
+            <div className="footer-services-container">
+            <div className="footer-courses-services-title">
+              <p>Hizmetlerimiz</p>
+            </div>
+            <div className="footer-courses-services-index">
+              <p>Yabancı Dil ve Akademik Başarı</p>
+              <p>Kurumsal Çözüm Ortaklığı</p>
+              <p>Tercüme Hizmetleri</p>
+            </div>
+            </div>
+            <div className="footer-courses-container">
+              <div className="footer-courses-services-title">
+                <p>Kurslarımız</p>
+              </div>
+              <div className="footer-courses-services-index">
+                <p>Yabancı Dil Atölyeleri</p>
+                <p>Akademik Destek</p>
+                <p>Öğrenci Koçluğu</p>
+                <p>Yabancı Dil Koçluğu</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="footer-content-container">
+          
         </div>
       </div>
     </>
