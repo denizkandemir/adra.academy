@@ -1,0 +1,47 @@
+.footer-container{
+  background-image: url("/footer bg.jpg");
+  background-repeat: no-repeat;
+  background-size:cover; 
+  background-position: center;
+  display: flex;
+}
+
+.footer-logo{
+  height: 300px;
+}
+
+.footer-phoneNo,
+.footer-address,
+.footer-email{
+  display: flex;
+  padding-left: 160px;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+p{
+  color: white;
+  font-size: 15px;
+  font-family: Work Sans;
+  padding-top: 2px;
+}
+
+.footer-address p{
+  padding-top: 2px;
+}
+
+.footer-social-container{
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social{
+ //border: 2px solid rgb(255, 255, 255);
+ //border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  //padding: 10px 10px 0 10px;
+  
+}
+
+
