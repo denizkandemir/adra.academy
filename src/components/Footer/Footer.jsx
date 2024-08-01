@@ -5,9 +5,9 @@ function Footer() {
   return (
     <>
       <div className="footer-container">
-      <img className="footer-logo" src={logo} alt="" />
+        <img className="footer-logo" src={logo} alt="" />
         <div className="footer-content-container">
-          <div className="footer-phoneNo">
+          <div className="footer-svg-p-container">
             <svg
               width="23px"
               height="23px"
@@ -20,9 +20,9 @@ function Footer() {
                 fill="white"
               />
             </svg>
-            <p>+90 507 705 5010</p>
+            <p className="footer-p">+90 507 705 5010</p>
           </div>
-          <div className="footer-address">
+          <div className="footer-svg-p-container">
             <svg
               width="23px"
               height="23px"
@@ -41,12 +41,12 @@ function Footer() {
                 fill=""
               />
             </svg>
-            <p>
+            <p className="footer-p">
               Ali Çetinkaya Mah. 3054.Sokak No:9/30
               <br /> Ayvalık, Balıkesir
             </p>
           </div>
-          <div className="footer-email">
+          <div className="footer-svg-p-container">
             <svg
               height="20px"
               width="20px"
@@ -75,7 +75,7 @@ function Footer() {
                 />
               </g>
             </svg>
-            <p>info.academyadra@gmail.com</p>
+            <p className="footer-p">info.academyadra@gmail.com</p>
           </div>
           <div className="footer-social-container">
             <div className="footer-social">
@@ -161,35 +161,18 @@ function Footer() {
             </div>
           </div>
         </div>
-
-        <div className="footer-content-container">
-          <div className="footer-courses-services-container">
-            <div className="footer-services-container">
-            <div className="footer-courses-services-title">
-              <p>Hizmetlerimiz</p>
-            </div>
-            <div className="footer-courses-services-index">
-              <p>Yabancı Dil ve Akademik Başarı</p>
-              <p>Kurumsal Çözüm Ortaklığı</p>
-              <p>Tercüme Hizmetleri</p>
-            </div>
-            </div>
-            <div className="footer-courses-container">
-              <div className="footer-courses-services-title">
-                <p>Kurslarımız</p>
-              </div>
-              <div className="footer-courses-services-index">
-                <p>Yabancı Dil Atölyeleri</p>
-                <p>Akademik Destek</p>
-                <p>Öğrenci Koçluğu</p>
-                <p>Yabancı Dil Koçluğu</p>
-              </div>
-            </div>
-          </div>
+        <div className="footer-content-container  footer-second">
+          <p className="footer-courses-services-title">Hizmetlerimiz</p>
+          <p className="footer-p">Yabancı Dil ve Akademik Başarı</p>
+          <p className="footer-p">Kurumsal Çözüm Ortaklığı</p>
+          <p className="footer-p">Tercüme Hizmetleri</p>
         </div>
-
-        <div className="footer-content-container">
-          
+        <div className="footer-content-container  footer-third">
+          <p className="footer-courses-services-title">Kurslarımız</p>
+          <p className="footer-p">Yabancı Dil Atölyeleri</p>
+          <p className="footer-p">Akademik Destek</p>
+          <p className="footer-p">Öğrenci Koçluğu</p>
+          <p className="footer-p">Yabancı Dil Koçluğu</p>
         </div>
       </div>
     </>

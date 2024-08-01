@@ -3,44 +3,49 @@
   background-image: url("/footer bg.jpg");
   background-repeat: no-repeat;
   background-size:cover; 
-  background-position: center;
+  background-position: bottom;
   display: flex;
-  gap: 60px;
   align-items: center;
+  padding: 50px 65px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .footer-second {
+    margin-bottom: 78px;
+  }
+
+  .footer-third {
+    margin-bottom: 56px;
+  }
+
+  .footer-content-container {
+    display: grid;
+    gap: 10px;
+
+
+  }
 }
 
 .footer-logo{
-  height: 250px;
-  width: 250px;
+  height: 300px;
   object-fit: cover;
-  margin-left: 40px;
+  width: 300px;
 }
 
-
-.footer-phoneNo,
-.footer-address,
-.footer-email{
+.footer-svg-p-container{
   display: flex;
   gap: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  align-items: center;
 }
 
-.footer-phoneNo,
-.footer-address,
-.footer-email p{
+.footer-p {
   color: white;
-  font-size: 15px;
+  font-size: 17px;
   font-family: Work Sans;
-  padding-top: 2px;
 }
 
-.footer-phoneNo{
-  padding-top: 50px;
-}
 
-.footer-address p{
-  padding-top: 2px;
-}
 
 .footer-social-container{
   display: flex;
@@ -54,28 +59,20 @@
   align-items: center;
   //padding: 10px 10px 0 10px;
 }
-.footer-courses-services-container{
-  color: white;
-  font-family: Work Sans;
-  margin-top: 15px;
-  display: flex;
-  gap: 100px;
-  margin-left: 100px;
-  
-}
+
 .footer-courses-services-title{
-  font-size: 17px;
+  font-size: 24px;
   font-weight: 600;
   padding-bottom: 5px;
-  //text-decoration:underline;
+  color: white;
+  font-family: Work Sans;
 }
+
 .footer-courses-services-index{
-  font-size: 14px;
-  margin-bottom: 15px;
+  font-size: 15px;
+  margin-bottom: 35px;
 }
-.footer-courses-services-index p{
-  margin-bottom: 7px;
-}
+
 
 
 
