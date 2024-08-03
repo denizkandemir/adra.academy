@@ -1,0 +1,78 @@
+
+.footer-container{
+  background-image: url("/back adra.png");
+  background-repeat: no-repeat;
+  background-size:cover; 
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+  padding: 50px 65px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .footer-second {
+    margin-bottom: 78px;
+  }
+
+  .footer-third {
+    margin-bottom: 56px;
+  }
+
+  .footer-content-container {
+    display: grid;
+    gap: 10px;
+
+
+  }
+}
+
+.footer-logo{
+  height: 300px;
+  object-fit: cover;
+  width: 300px;
+}
+
+.footer-svg-p-container{
+  display: flex;
+  gap: 10px;
+  padding-bottom: 5px;
+  align-items: center;
+}
+
+.footer-p {
+  color: white;
+  font-size: 17px;
+  font-family: Work Sans;
+}
+
+
+
+.footer-social-container{
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social{
+ //border: 2px solid rgb(255, 255, 255);
+ //border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  //padding: 10px 10px 0 10px;
+}
+
+.footer-courses-services-title{
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 5px;
+  color: white;
+  font-family: Work Sans;
+}
+
+.footer-courses-services-index{
+  font-size: 15px;
+  margin-bottom: 35px;
+}
+
+
+
+
