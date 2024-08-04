@@ -3,6 +3,7 @@ import './App.css'
 import Slide from "./components/Slide/Slide"
 import Header from './components/Header/header'
 import Programs from './components/Programs/Programs'
+import MottoSection from './components/MottoSection/MottoSection'
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
     <Header/>
     <Slide/>
     <Programs/>
+    <MottoSection/>
   
    </>
   )
