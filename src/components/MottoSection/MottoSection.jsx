@@ -2,6 +2,8 @@ import React from "react";
 import "./MottoSection.scss";
 import mottoImg from "/adraMotto.jpg"
 import InstagramIcon from "../svgs/InstaSvg";
+import FacebookSvg from "../svgs/FacebookSvg";
+import LinkedInSvg2 from "../svgs/LinkedInSvg2";
 
 
 const MottoSection = () => {
@@ -24,7 +26,11 @@ const MottoSection = () => {
           </div>
           <div className="insta-svg-container">
             <p className="social-media-p"> Bizi Sosyal Medyadan Takip Edin </p>
-            <InstagramIcon width={50} height={50} />
+            <div className="social-media-svg-container">
+              <FacebookSvg width={50} height={50} fill={"black"} />
+              <LinkedInSvg2 width={45} height={45} fill={"black"} />
+              <InstagramIcon width={45} height={45} fill={"black"} />
+            </div>
           </div>
         </div>
       </div>

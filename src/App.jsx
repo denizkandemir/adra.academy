@@ -4,6 +4,8 @@ import Slide from "./components/Slide/Slide"
 import Header from './components/Header/header'
 import Programs from './components/Programs/Programs'
 import MottoSection from './components/MottoSection/MottoSection'
+import Footer from './components/Footer/Footer'
+
 
 function App() {
   
@@ -13,7 +15,9 @@ function App() {
     <Slide/>
     <Programs/>
     <MottoSection/>
-  
+    <Footer/>
+   
+
    </>
   )
 }
