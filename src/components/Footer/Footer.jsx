@@ -1,7 +1,7 @@
 import "./Footer.scss";
 import logo from "/logo2.jpg";
 
-function Footer() {
+const Footer = () => {
   return (
     <>
       <div className="footer-container">
