@@ -49,15 +49,16 @@
 
 .footer-social-container{
   display: flex;
-  gap: 15px;
+  gap: 10px;
 }
 
 .footer-social{
- //border: 2px solid rgb(255, 255, 255);
- //border-radius: 50%;
+//  border: 2px solid rgb(255, 255, 255);
+//  border-radius: 50%;
+  display: flex;
   justify-content: center;
-  align-items: center;
-  //padding: 10px 10px 0 10px;
+  align-items: end;
+  // padding: 0 5px;
 }
 
 .footer-courses-services-title{
