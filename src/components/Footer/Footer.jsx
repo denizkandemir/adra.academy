@@ -1,5 +1,8 @@
 import "./Footer.scss";
 import logo from "/logo2.jpg";
+import FacebookSvg from "../svgs/FacebookSvg";
+import InstagramIcon from "../svgs/InstaSvg";
+import LinkedInSvg from "../svgs/LinkedInSvg";
 
 const Footer = () => {
   return (
@@ -79,85 +82,13 @@ const Footer = () => {
           </div>
           <div className="footer-social-container">
             <div className="footer-social">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                x="0px"
-                y="0px"
-                width="35"
-                height="35"
-                viewBox="0 0 30 30"
-                style={{ fill: "#FFFFFF" }}
-              >
-                <path
-                  d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h10v-9h-3v-3h3v-1.611C16,9.339,17.486,8,20.021,8 
-    c1.214,0,1.856,0.09,2.16,0.131V11h-1.729C19.376,11,19,11.568,19,12.718V14h3.154l-0.428,3H19v9h5c1.105,0,2-0.895,2-2V6 
-    C26,4.895,25.104,4,24,4z"
-                ></path>
-              </svg>
+              <FacebookSvg width={35} height={35} fill={"white"}/>
             </div>
             <div className="footer-social">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                x="0px"
-                y="0px"
-                width="32"
-                height="32"
-                viewBox="0,0,300,150"
-                style={{ fill: "#FFFFFF" }}
-              >
-                <g
-                  fill="#ffffff"
-                  fillRule="nonzero"
-                  stroke="none"
-                  strokeWidth="1"
-                  strokeLinecap="butt"
-                  strokeLinejoin="miter"
-                  strokeMiterlimit="10"
-                  strokeDasharray=""
-                  strokeDashoffset="0"
-                  fontFamily="none"
-                  fontWeight="none"
-                  fontSize="none"
-                  textAnchor="none"
-                  style={{ mixBlendMode: "normal" }}
-                >
-                  <g transform="translate(0, -25) scale(8.53333,8.53333)">
-                    <path d="M9,25h-5v-15h5zM6.501,8c-1.383,0 -2.501,-1.121 -2.501,-2.501c0,-1.38 1.12,-2.499 2.501,-2.499c1.378,0 2.499,1.121 2.499,2.499c0,1.38 -1.121,2.501 -2.499,2.501zM27,25h-4.807v-7.3c0,-1.741 -0.033,-3.98 -2.499,-3.98c-2.503,0 -2.888,1.896 -2.888,3.854v7.426h-4.806v-15.011h4.614v2.051h0.065c0.642,-1.18 2.211,-2.424 4.551,-2.424c4.87,0 5.77,3.109 5.77,7.151c0,0 0,8.233 0,8.233z"></path>
-                  </g>
-                </g>
-              </svg>
+              <LinkedInSvg width={40} height={40} fill={"white"} />
             </div>
             <div className="footer-social">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                x="0px"
-                y="0px"
-                width="45"
-                height="45"
-                viewBox="0,0,300,150"
-                style={{ fill: "#FFFFFF" }}
-              >
-                <g
-                  fill="#ffffff"
-                  fillRule="nonzero"
-                  stroke="none"
-                  strokeWidth="1"
-                  strokeLinecap="butt"
-                  strokeLinejoin="miter"
-                  strokeMiterlimit="10"
-                  strokeDasharray=""
-                  strokeDashoffset="0"
-                  fontFamily="none"
-                  fontWeight="none"
-                  fontSize="none"
-                  textAnchor="none"
-                  style={{ mixBlendMode: "normal" }}
-                >
-                  <g transform="translate(0, -70) scale(4,4)">
-                    <path d="M31.82031,12c-18.382,0 -19.82031,1.43931 -19.82031,19.82031v0.35938c0,18.381 1.43831,19.82031 19.82031,19.82031h0.35938c18.382,0 19.82031,-1.43931 19.82031,-19.82031v-0.17969c0,-18.548 -1.452,-20 -20,-20zM43.99414,18c1.105,-0.003 2.00286,0.88914 2.00586,1.99414c0.003,1.105 -0.88914,2.00286 -1.99414,2.00586c-1.105,0.003 -2.00286,-0.88914 -2.00586,-1.99414c-0.003,-1.105 0.88914,-2.00286 1.99414,-2.00586zM31.97656,22c5.522,-0.013 10.01044,4.45456 10.02344,9.97656c0.013,5.522 -4.45456,10.01044 -9.97656,10.02344c-5.522,0.013 -10.01044,-4.45456 -10.02344,-9.97656c-0.013,-5.522 4.45456,-10.01044 9.97656,-10.02344zM31.98633,26c-3.314,0.008 -5.99433,2.70163 -5.98633,6.01563c0.008,3.313 2.70067,5.99238 6.01367,5.98438c3.314,-0.008 5.99433,-2.70067 5.98633,-6.01367c-0.008,-3.314 -2.70067,-5.99433 -6.01367,-5.98633z"></path>
-                  </g>
-                </g>
-              </svg>
+              <InstagramIcon width={30} height={30} fill={"white"} />
             </div>
           </div>
         </div>
