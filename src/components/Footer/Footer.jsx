@@ -4,7 +4,7 @@ import FacebookSvg from "../svgs/FacebookSvg";
 import InstagramIcon from "../svgs/InstaSvg";
 import LinkedInSvg from "../svgs/LinkedInSvg";
 
-function Footer() {
+const Footer = () => {
   return (
     <>
       <div className="footer-container">

@@ -1,0 +1,42 @@
+.contact-us-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 70px;
+  padding: 50px 0;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0 30px 0;
+}
+
+.cu-sticker {
+  width: 500px;
+}
+
+.cu-title {
+  font-weight: 600;
+  font-family: Work Sans;
+  margin-bottom: 15px;
+}
+.cu-text {
+  font-size: 19px;
+  font-family: Work Sans;
+}
+.cu-mid-title {
+  font-weight: 500;
+  font-family: Work Sans;
+  margin-bottom: 15px;
+}
+
+.cu-button-container {
+  background-color: rgb(19, 112, 120);
+  color: white;
+  font-size: 15px;
+  padding: 12px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid white;
+  font-family: Work Sans;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}

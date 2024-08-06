@@ -5,6 +5,7 @@ import Header from './components/Header/header'
 import Programs from './components/Programs/Programs'
 import MottoSection from './components/MottoSection/MottoSection'
 import Footer from './components/Footer/Footer'
+import ContactUs from './components/ContactUs/ContactUs'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <Header/>
     <Slide/>
     <Programs/>
+    <ContactUs/>
     <MottoSection/>
     <Footer/>
    
