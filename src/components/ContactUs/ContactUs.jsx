@@ -25,11 +25,11 @@ const ContactUs = () => {
           <button className="cu-button-container">
             <div className="button-arrow">
               <svg
+                width="25px"
+                height="25px"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="25"
                 style={{ display: "block", margin: "auto" }}
               >
                 <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
@@ -40,9 +40,9 @@ const ContactUs = () => {
                 ></g>
                 <g id="SVGRepo_iconCarrier">
                   <path
-                    d="M6 12H18M18 12L13 7M18 12L13 17"
-                    stroke="#ffffff"
-                    strokeWidth="2"
+                    d="M4 12H6.5M20 12L14 6M20 12L14 18M20 12H9.5"
+                    stroke="#fff"
+                    strokeWidth="1.5"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   ></path>
