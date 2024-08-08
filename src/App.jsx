@@ -15,8 +15,8 @@ function App() {
     <Header/>
     <Slide/>
     <Programs/>
-    <ContactUs/>
     <MottoSection/>
+    <ContactUs/>
     <Footer/>
    
 
