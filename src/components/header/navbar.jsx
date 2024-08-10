@@ -1,5 +1,7 @@
 import "./Navbar.scss";
 import logo from "/logo.jpg" 
+import { Link } from "react-router-dom";
+
 
 function Navbar() {
 
@@ -10,10 +12,10 @@ function Navbar() {
              <h1 className="navbar-title"> Academy Adra </h1>
             </div>
             <div className="navbar-center-content">
-                <p> Ana Sayfa </p>
+                <Link to="/">Ana Sayfa</Link>
                 <p> Hizmetlerimiz </p>
                 <p> Kurslarımız </p>
-                <p> Neredeyiz? </p>
+                <Link to="/contact">İletişim</Link>
             </div>
             <div className="navbar-svg-container">
             <svg width="30px" height="30px" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">

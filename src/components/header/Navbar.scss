@@ -5,6 +5,31 @@
     align-items: center;
 }
 
+.navbar-center-content p,
+.navbar-center-content a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    overflow:hidden;
+    transition: .3s;
+    &:after {
+      position: absolute;
+      transition: .3s;
+      content: '';
+      width: 0;
+      right: 0;
+      bottom: 0;
+      height: 1px;
+      background: #f7f7f7;
+    }
+    &:hover {
+        cursor: pointer;
+        &:after {
+          width: 100%;
+          left: 0;
+        }}
+}
+
 .navbar-logo {
     object-fit: contain;
     border-radius: 50%;

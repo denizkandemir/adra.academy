@@ -1,4 +1,4 @@
-import Navbar from "./navbar"
+
 import logo from "/logo.jpg"
 import "./Header.scss";
 import TeacherSvg from "../svgs/teacher";
@@ -7,7 +7,7 @@ function Header() {
 
   return (
     <>
-      <Navbar />
+     
       <div className="header-container">
         <div className="header-content-container">
           <div className="header-p-button-container">

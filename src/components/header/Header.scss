@@ -44,6 +44,26 @@ $primary-font:Work Sans;
     border-radius: 10px;
     border: 1px solid white;
     font-family: Work Sans;
+
+    position: relative;
+    overflow:hidden;
+    transition: .3s;
+    &:after {
+      position: absolute;
+      transition: .3s;
+      content: '';
+      width: 0;
+      left: 50%;
+      bottom: 0;
+      height: 3px;
+      background: #f7f7f7;
+    }
+    &:hover {
+        cursor: pointer;
+        &:after {
+          width: 100%;
+          left: 0;
+        }}
 }
 
 .header-bottom-content-container{
