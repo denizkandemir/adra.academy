@@ -13,11 +13,11 @@ $primary-font:Work Sans;
 .header-content-container{
     display: flex;
     align-items: center;
-    padding-top: 70px;
-    padding-bottom: 140px;
     justify-content: space-around;
+    height: 500px;
     width: 100vw;
     width: 100%;
+    z-index: 10;
 }
 
 .header-p-button-container {
@@ -35,15 +35,31 @@ $primary-font:Work Sans;
     font-size: 20px;
 }
 
-
-.header-logo{
-    opacity: 1;
+.header-back-left{
+    height: 80%;
     object-fit: contain;
-    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.header-green{
+    object-fit: contain;
+    height: 100%;
     position: absolute;
     right: 0;
     top: 0;
-    justify-self: end;
+}
+
+.header-person{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+    padding-right: 35px;
 }
 
 

@@ -2,7 +2,10 @@
 import logo from "/logo.jpg"
 import "./Header.scss";
 import TeacherSvg from "../svgs/teacher";
-import headerImage from "/header-image.jpg"
+import headerBackGreen from "/header-back-green.png"
+import headerPerson from "/header-person.png"
+import headerBackLeft from "/header-back-left.png"
+
 
 function Header() {
 
@@ -24,11 +27,16 @@ function Header() {
           <div>
             
           </div>
+          <div className="header-logo-container">
+            <img className="header-green" src={headerBackGreen} alt="" />
+            <img className="header-person" src={headerPerson} alt="" />
+            
+
+
+          </div>
           
         </div>
-        <div className="header-logo-container">
-            <img className="header-logo" src={headerImage} alt="" />
-          </div>
+   
         <div className="header-bottom-content-container">
           <div className="header-info-container">
             <div className="header-info-content">
