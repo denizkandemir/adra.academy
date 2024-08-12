@@ -15,14 +15,14 @@ function Navbar() {
             </div>
             <div className="navbar-center-content">
                 <p> Ana Sayfa </p>
-                <div className="services-menü-container">
-                    <p> Hizmetlerimiz </p>
+                <div className="menü-container">
+                    <p className="navbar-dropdown-p"> Hizmetlerimiz </p>
                     <div className="dropdown-component-container">
                         <NavbarDropdown content={services} />
                     </div>
                 </div>
-                <div className="programs-menü-container">
-                    <p className="programs-p"> Kurslarımız </p>
+                <div className="menü-container">
+                    <p  className="navbar-dropdown-p"> Kurslarımız </p>
                     <div className="dropdown-component-container">
                         <NavbarDropdown content={courses} />
                     </div>
