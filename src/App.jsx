@@ -14,7 +14,7 @@ function App() {
    <>
     <Header/>
     <Slide/>
-    <Programs/>
+    <Programs containerClass={"programs-container"}/>
     <ContactUs/>
     <MottoSection/>
     <Footer/>
