@@ -14,19 +14,7 @@ import { Layout } from "./Layout";
 
 function App() {
   return (
-    /*<>
-
    
-    <Header/>
-    <Slide/>
-    <Programs/>
-    <MottoSection/>
-    <ContactUs/>
-    <Footer/>
-   
-
-   </>*/
-
     <Router>
       <Routes>
         <Route element={<Layout/>}>

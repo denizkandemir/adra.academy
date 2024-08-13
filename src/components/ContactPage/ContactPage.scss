@@ -1,0 +1,50 @@
+$primary-font: Work Sans;
+
+.contact-content-container {
+  display: grid;
+  grid-column: 2;
+  gap: 20px 60px;
+}
+
+.contact-info {
+  display: flex;
+  font-weight: 500;
+  gap: 20px;
+  padding-bottom: 10px;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.contact-container {
+  font-family: $primary-font;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-btn-container {
+  gap: 50px;
+  display: flex;
+}
+
+.contact-btn {
+  background-color: black;
+  padding: 5px 10px;
+}
+
+.contact-btn-text {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-p {
+  font-weight: 300;
+  padding: 15px 0 15px 0;
+}
+
+.contact-logo{
+    object-fit: contain;
+    width: 100%;
+    height: 350px;
+}
