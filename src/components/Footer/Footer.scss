@@ -18,11 +18,20 @@
     margin-bottom: 56px;
   }
 
+  
+@media(max-width:730px) {
+  .footer-second {
+    margin-bottom: 0px;
+  }
+
+  .footer-third {
+    margin-bottom: 0px;
+  }
+}
+
   .footer-content-container {
     display: grid;
     gap: 10px;
-
-
   }
 }
 
@@ -45,20 +54,15 @@
   font-family: Work Sans;
 }
 
-
-
 .footer-social-container{
   display: flex;
   gap: 10px;
 }
 
 .footer-social{
-//  border: 2px solid rgb(255, 255, 255);
-//  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: end;
-  // padding: 0 5px;
 }
 
 .footer-courses-services-title{
@@ -74,6 +78,19 @@
   margin-bottom: 35px;
 }
 
+
+@media(max-width:1370px){
+
+  .footer-container{
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .footer-content-container{
+    width: 275px;
+  }
+
+}
 
 
 

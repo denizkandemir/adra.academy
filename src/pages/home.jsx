@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Navbar from "../components/Header/navbar";
+import Navbar from "../components/Header/Navbar/navbar";
 import Header from "../components/Header/Header";
 import Slide from "../components/Slide/Slide";
 import Programs from "../components/Programs/Programs";
@@ -13,7 +13,7 @@ const Home = () => {
     <>
       <Header />
       <Slide />
-      <Programs />
+      <Programs/>
       <MottoSection />
       <ContactUs />
      
