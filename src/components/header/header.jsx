@@ -1,14 +1,15 @@
-import Navbar from "./navbar"
-import logo from "/logo.jpg"
+
 import "./Header.scss";
 import TeacherSvg from "../svgs/teacher";
+import headerImage from "/header-image.jpg"
 
 function Header() {
 
   return (
     <>
-      <Navbar />
+     
       <div className="header-container">
+      
         <div className="header-content-container">
           <div className="header-p-button-container">
             <h1 className="header-title"> LOREM İPSUM</h1>
@@ -19,10 +20,13 @@ function Header() {
             </p>
             <button className="header-button"> Kurslarımız </button>
           </div>
-          <div className="header-logo-container">
-            <img className="header-logo" src={logo} alt="" />
+          <div>
+            
           </div>
         </div>
+        <div className="header-logo-container">
+            <img className="header-logo" src={headerImage} alt="" />
+          </div>
         <div className="header-bottom-content-container">
           <div className="header-info-container">
             <div className="header-info-content">

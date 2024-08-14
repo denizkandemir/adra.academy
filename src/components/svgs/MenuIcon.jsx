@@ -3,8 +3,8 @@ import React from 'react';
 const MenuIcon = () => {
   return (
     <svg
-      width="50px"
-      height="50px"
+      width="40px"
+      height="40px"
       viewBox="0 0 24 24"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +20,7 @@ const MenuIcon = () => {
             x2="19"
             y2="7"
             id="Path"
-            stroke="#0C0310"
+            stroke="white"
             strokeWidth="2"
             strokeLinecap="round"
           />
@@ -30,7 +30,7 @@ const MenuIcon = () => {
             x2="19"
             y2="17"
             id="Path"
-            stroke="#0C0310"
+            stroke="white"
             strokeWidth="2"
             strokeLinecap="round"
           />
@@ -40,7 +40,7 @@ const MenuIcon = () => {
             x2="19"
             y2="12"
             id="Path"
-            stroke="#0C0310"
+            stroke="white"
             strokeWidth="2"
             strokeLinecap="round"
           />

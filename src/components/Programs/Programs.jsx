@@ -2,10 +2,10 @@ import "./Programs.scss";
 import BooksPeople from "../svgs/BooksPeople";
 import courses from '../objects/courses';
 
-const Programs = ({containerClass}) => {
+const Programs = () => {
 
   return (
-    <div className={containerClass}>
+    <div className="programs-container">
       <div className="programs-main-title-container">
         {/* <BooksPeople width={60} height={60}/> */}
         <p className="programs-main-title">  Kurslarımız </p>
