@@ -1,15 +1,16 @@
 
 import "./Header.scss";
 import TeacherSvg from "../svgs/teacher";
-import headerImage from "/header-image.jpg"
+import headerBackGreen from "/header-back-green.png"
+import headerBackLeft from "/header-back-left.png"
+import headerMainImg from "/header-main-img.png"
 
 function Header() {
 
   return (
     <>
-     
+
       <div className="header-container">
-      
         <div className="header-content-container">
           <div className="header-p-button-container">
             <h1 className="header-title"> LOREM İPSUM</h1>
@@ -21,11 +22,12 @@ function Header() {
             <button className="header-button"> Kurslarımız </button>
           </div>
           <div>
-            
+            <img className="header-person" src={headerMainImg} alt="" />
           </div>
+         
         </div>
         <div className="header-logo-container">
-            <img className="header-logo" src={headerImage} alt="" />
+            <img className="header-green" src={headerBackGreen} alt="" />
           </div>
         <div className="header-bottom-content-container">
           <div className="header-info-container">
@@ -92,7 +94,7 @@ function Header() {
               </div>
             </div>
             <div className="header-info-content">
-              <TeacherSvg width={70} height={70}/>
+              <TeacherSvg width={70} height={70} />
               <div className="info-title-p-container">
                 <p className="info-title"> Profesyonel Kurslarımız </p>
                 <p className="info-p"> Lorem ipsum dolor sit <br /> amet consectetur, adipisicing elit.</p>

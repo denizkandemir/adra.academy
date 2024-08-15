@@ -4,20 +4,19 @@ $primary-font:Work Sans;
     position: relative;
     background-color: rgb(255, 255, 255);
     margin-bottom: 25px;
-   /* background-image:url("/header-back.jpg"); 
-    background-repeat: no-repeat;
-    height: 800px;*/
- 
+    z-index: -1;
+    padding: 20px;
+    padding-top: 50px;
 }
 
 .header-content-container{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    height: 500px;
-    width: 100vw;
+    justify-content: space-evenly;
+    height: 100%;
     width: 100%;
     z-index: 10;
+    flex-wrap: wrap;
 }
 
 .header-p-button-container {
@@ -47,19 +46,16 @@ $primary-font:Work Sans;
 
 .header-green{
     object-fit: contain;
-    height: 100%;
     position: absolute;
+    z-index: -1;
     right: 0;
     top: 0;
 }
 
 .header-person{
-    position: absolute;
     z-index: 1;
-    right: 0;
-    bottom: 0;
-    height: 90%;
-    padding-right: 35px;
+    height: 420px;
+    object-fit: contain;
 }
 
 
@@ -99,10 +95,11 @@ $primary-font:Work Sans;
 
     .header-info-container{
         display: flex;
-        justify-content: center;
-        gap: 60px;
+        justify-content: space-evenly;
+        width: 100%;
         position: absolute;
-        bottom: -45px;
+        bottom: -150px;
+        display: none; //delete this line in order to see bottom content
     }
     
     .header-info-content {
