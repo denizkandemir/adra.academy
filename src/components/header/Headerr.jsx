@@ -13,10 +13,11 @@ function Header() {
       <div className="header-container">
         <div className="header-content-container">
           <div className="header-p-button-container">
-            <h1 className="header-title"> LOREM İPSUM</h1>
+            <h1 className="header-title"> BİZİMLE HAYAT İÇİN <br/> İNGİLİZCE ÖĞREN! </h1>
             <p className="header-p"> Lorem ipsum dolor sit,
-              <br /> amet consectetur adipisicing elit. Placeat eius maxime ,
-              <br /> tempore iste repudiandae in itaque possimus non harum dolor
+              <br /> amet consectetur adipisicing elit. Placeat          
+              <br /> tempore iste repudiandae in itaque possimus
+              <br />    eius maxime , non harum dolor
               <br />molestias cumque temporibus.
             </p>
             <button className="header-button"> Kurslarımız </button>

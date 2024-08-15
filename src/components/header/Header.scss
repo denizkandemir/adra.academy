@@ -21,17 +21,21 @@ $primary-font:Work Sans;
 
 .header-p-button-container {
     margin-top: 20px;
-
 }
 
 .header-title {
-    color:black;
-    margin-bottom: 8px;
+    color:rgb(12,72,75);
+    font-size: 40px;
+    font-family: $primary-font;
+    margin-bottom: 17px;
+    font-weight: 550;
 }
 
 .header-p{
     color:black;
     font-size: 20px;
+    font-family: $primary-font;
+    font-weight: 400;
 }
 
 .header-back-left{
