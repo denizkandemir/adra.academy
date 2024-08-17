@@ -8,7 +8,6 @@ const Services = () => {
     <div className="services-main-container">
       <div className="services-title-container">
         <p className="services-title"> Hizmetlerimiz </p>
-        {/* <img  className="services-logo" src={logo} alt="" /> */}
       </div>
       <div className="services-container">
         {
@@ -20,6 +19,10 @@ const Services = () => {
               <div className="services-text-container">
                 <p className="services-p"> {service.title} </p>
                 <p className="services-text"> {service.text} </p>
+              </div>
+              <div className="services-button-container">
+                <img className="services-logo" src={service.gif} alt="" />
+                <button className="services-button"> İncele </button>               
               </div>
             </div>
           ))
