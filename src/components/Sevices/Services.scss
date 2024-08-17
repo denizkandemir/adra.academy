@@ -1,0 +1,75 @@
+$primary-color: rgb(11, 72, 75);
+$primary-font: Work Sans;
+$secondary-color: rgb(19, 112, 120);
+;
+
+
+
+.services-main-container {
+    background-color: $primary-color;
+    padding: 50px;
+
+
+    .services-container {
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        gap: 30px;
+
+        .services-wrapper {
+            background-color: $secondary-color;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+
+            border-radius: 10px;
+            max-width: 280px;
+            flex: 1;
+
+            .services-img {
+                object-fit: cover;
+                height: 150px;
+                width: 100%;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+
+            .services-text-container {
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
+                gap: 10px;
+
+                .services-p {
+                    font-family: $primary-font;
+                    color: $primary-color;
+                    font-size: 20px;
+                    font-weight: 600;
+                    text-align: center;
+
+                }
+
+                .services-text{
+                    font-family: $primary-font;
+                    color: white;
+                    font-size: 17px;
+                    font-weight: 350;
+                }
+            }
+
+
+
+            // .services-logo{
+            //     object-fit: contain;
+            //     height: 150px;
+            //     border-radius: 50%;
+            //     margin-top: 20px;
+            // }
+        }
+
+    }
+
+
+
+
+}
