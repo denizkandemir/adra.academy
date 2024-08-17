@@ -8,7 +8,6 @@
     color: white;
     text-decoration: none;
     position: relative;
-    overflow:hidden;
     transition: .3s;
     width: fit-content;
     &:after {
@@ -17,9 +16,10 @@
       content: '';
       width: 0;
       right: 0;
-      bottom: 0;
-      height: 1px;
+      top: 23px;
+      height: 1.5px;
       background: #f7f7f7;
+      border-radius: 10px;
     }
     &:hover {
         cursor: pointer;
@@ -97,6 +97,7 @@
 
 .hamburger-container {
     display: none;
+    cursor: pointer;
 }
 
 .open-sidebar{
@@ -107,6 +108,10 @@
 .close-sidebar{
     transform: translateX(-130%);
     transition: all 1.5s ease-in-out;
+}
+
+.sidebar-closer{
+    cursor: pointer;
 }
 
 .dropdown-icon {
