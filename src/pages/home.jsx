@@ -6,6 +6,7 @@ import Slide from "../components/Slide/Slide";
 import Programs from "../components/Programs/Programs";
 import MottoSection from "../components/MottoSection/MottoSection";
 import ContactUs from "../components/ContactUs/ContactUs";
+import Services from "../components/Services/Services";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Slide />
       <Programs/>
       <MottoSection />
+      <Services/>
       <ContactUs />
      
     </>

@@ -2,15 +2,10 @@
 $primary-color: rgb(19, 112, 120);
 $primary-font: Work Sans;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 .programs-container {
-  background: linear-gradient(to top, rgb(19, 112, 130), rgb(19, 110, 120, 0.85));
-  margin-top: 20px;
+  background: rgb(34, 149, 161);
+  background: radial-gradient(circle, rgba(34, 149, 161, 1) 15%, rgba(12, 72, 76, 1) 100%);  margin-top: 20px;
   padding-bottom: 55px;
   padding-top: 10px;
 }

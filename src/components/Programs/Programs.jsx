@@ -1,6 +1,6 @@
 import "./Programs.scss";
 import BooksPeople from "../svgs/BooksPeople";
-import courses from '../objects/courses';
+import courses from "../../objects/courses";
 
 const Programs = () => {
 

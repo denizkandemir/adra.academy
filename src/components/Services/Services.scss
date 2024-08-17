@@ -1,0 +1,100 @@
+$primary-color: rgb(11, 72, 75);
+$primary-font: Work Sans;
+$secondary-color: rgb(19, 112, 120);
+
+
+.services-main-container {
+
+    // background: rgb(45,153,150);
+    // background: radial-gradient(circle, rgba(45,153,150,1) 27%, rgba(11,72,76,1) 97%);
+    // background: rgb(32,144,148);
+    // background: radial-gradient(circle, rgba(32,144,148,1) 19%, rgba(12,72,76,1) 100%);
+    background: rgb(34, 149, 161);
+    background: radial-gradient(circle, rgba(34, 149, 161, 1) 20%, rgba(12, 72, 76, 1) 100%);
+    padding: 50px 20px 100px 20px;
+
+    .services-title {
+        color: white;
+        font-family: $primary-font;
+        font-size: 45px;
+        font-weight: 600;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+
+    .services-container {
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        gap: 55px;
+        flex-wrap: wrap; 
+    
+        .services-wrapper {
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+            border-radius: 10px;
+            width: 335px;
+      
+
+            .services-img {
+                object-fit: cover;
+                height: 200px;
+                width: 100%;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+
+            .services-text-container {
+                padding: 30px 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
+                gap: 15px;
+
+                .services-p {
+                    font-family: $primary-font;
+                    color: $primary-color;
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+
+                .services-text {
+                    font-family: $primary-font;
+                    color: black;
+                    font-size: 19px;
+                    font-weight: 350;
+                }
+            }
+
+            .services-button-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                padding-top: 0;
+
+                .services-button {
+                    padding: 10px 40px;
+                    border-radius: 6px;
+                    color: white;
+                    background-color: $secondary-color;
+                    font-family: $primary-font;
+                    font-size: 15px;
+                }
+
+                .services-logo {
+                    object-fit: contain;
+                    height: 60px;
+                    border-radius: 50%;
+                }
+
+            }
+        }
+
+    }
+
+
+
+
+}

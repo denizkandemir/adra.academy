@@ -1,7 +1,7 @@
 import React from "react";
 import NavbarDropdown from "./NavbarDropdown";
-import courses from '../../objects/courses';
-import services from "../../objects/services";
+import courses from "../../../objects/courses";
+import services from "../../../objects/services";
 import { Link } from "react-router-dom";
 import SidebarDropdownIcon from "../../svgs/SidebarDropdownSvg";
 

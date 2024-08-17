@@ -1,6 +1,6 @@
-$primary-font:Work Sans;
+$primary-font: Work Sans;
 
-.header-container{
+.header-container {
     position: relative;
     background-color: rgb(255, 255, 255);
     margin-bottom: 25px;
@@ -9,7 +9,7 @@ $primary-font:Work Sans;
     padding-top: 50px;
 }
 
-.header-content-container{
+.header-content-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -24,21 +24,21 @@ $primary-font:Work Sans;
 }
 
 .header-title {
-    color:rgb(12,72,75);
+    color: rgb(12, 72, 75);
     font-size: 40px;
     font-family: $primary-font;
     margin-bottom: 17px;
     font-weight: 550;
 }
 
-.header-p{
-    color:black;
+.header-p {
+    color: black;
     font-size: 20px;
     font-family: $primary-font;
     font-weight: 400;
 }
 
-.header-back-left{
+.header-back-left {
     height: 80%;
     object-fit: contain;
     position: absolute;
@@ -48,7 +48,7 @@ $primary-font:Work Sans;
 }
 
 
-.header-green{
+.header-green {
     object-fit: contain;
     position: absolute;
     z-index: -1;
@@ -56,81 +56,42 @@ $primary-font:Work Sans;
     top: 0;
 }
 
-.header-person{
+.header-person {
     z-index: 1;
     height: 420px;
     object-fit: contain;
 }
 
 
-.header-button{
-    background-color:rgb(19,112,120);
+.header-button {
+    background-color: rgb(19, 112, 120);
     color: white;
-    padding: 15px 25px;
+    padding: 17px 27px;
     margin-top: 20px;
     border-radius: 10px;
     border: 1px solid white;
     font-family: Work Sans;
-
+    font-size: 14px;
     position: relative;
-    overflow:hidden;
-    transition: .3s;
+    transition: 0.3s;
+    cursor: pointer;
+
     &:after {
-      position: absolute;
-      transition: .3s;
-      content: '';
-      width: 0;
-      left: 50%;
-      bottom: 0;
-      height: 3px;
-      background: #f7f7f7;
+        position: absolute;
+        transition: .3s;
+        content: '';
+        width: 0;
+        left: 50%;
+        bottom: 0;
+        height: 3px;
+        background: #f7f7f7;
     }
+
     &:hover {
         cursor: pointer;
         &:after {
-          width: 100%;
-          left: 0;
-        }}
-}
-
-.header-bottom-content-container{
-     display: flex;
-     justify-content: center;
-
-    .header-info-container{
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%;
-        position: absolute;
-        bottom: -150px;
-        display: none; //delete this line in order to see bottom content
-    }
-    
-    .header-info-content {
-        display: flex;
-        gap: 15px;
-        justify-content: center;
-        border: 1.5px solid gray;
-        background-color: white;
-        padding: 20px;
-        border-radius: 10px;
-        align-items: center;
-        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-
-        .info-title {
-            font-family: $primary-font;
-            font-size: 18px;
-            margin-bottom: 8px;
-            letter-spacing: -0.7px;
-            
+            width: 100%;
+            left: 0;
         }
-
-        .info-p{
-            font-family: $primary-font;
-             font-size: 16px;
-             letter-spacing: -0.7px;
-             
-        } 
-    }    
+    }
 }
-

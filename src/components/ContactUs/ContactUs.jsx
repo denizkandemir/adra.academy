@@ -16,8 +16,8 @@ const ContactUs = () => {
           <p className="cu-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quasi{" "}
             <br />
-            eveniet, eligendi accusamus excepturi, repudiandae vero unde
-            voluptate magnam
+            eveniet, eligendi accusamus excepturi, repudiandae  vero unde
+    
             <br /> quibusdam itaque, officia harum delectus dolores nulla
             necessitatibus
             <br /> quaerat? Adipisci, ratione?
