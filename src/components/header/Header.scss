@@ -4,46 +4,62 @@ $primary-font:Work Sans;
     position: relative;
     background-color: rgb(255, 255, 255);
     margin-bottom: 25px;
-   /* background-image:url("/header-back.jpg"); 
-    background-repeat: no-repeat;
-    height: 800px;*/
-    height: 500px;
     z-index: -1;
- 
+    padding: 20px;
+    padding-top: 50px;
 }
 
 .header-content-container{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 100%;
     width: 100%;
+    z-index: 10;
+    flex-wrap: wrap;
 }
 
 .header-p-button-container {
     margin-top: 20px;
-
 }
 
 .header-title {
-    color:black;
-    margin-bottom: 8px;
+    color:rgb(12,72,75);
+    font-size: 40px;
+    font-family: $primary-font;
+    margin-bottom: 17px;
+    font-weight: 550;
 }
 
 .header-p{
     color:black;
     font-size: 20px;
+    font-family: $primary-font;
+    font-weight: 400;
+}
+
+.header-back-left{
+    height: 80%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 
-.header-logo{
-    opacity: 1;
+.header-green{
     object-fit: contain;
     position: absolute;
-    height: 100%;
+    z-index: -1;
     right: 0;
     top: 0;
-    justify-self: end;
+}
+
+.header-person{
+    z-index: 1;
+    height: 420px;
+    object-fit: contain;
 }
 
 
@@ -83,10 +99,10 @@ $primary-font:Work Sans;
 
     .header-info-container{
         display: flex;
-        justify-content: center;
-        gap: 60px;
+        justify-content: space-evenly;
+        width: 100%;
         position: absolute;
-        bottom: -45px;
+        bottom: -150px;
         display: none; //delete this line in order to see bottom content
     }
     
