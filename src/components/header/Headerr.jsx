@@ -13,7 +13,7 @@ function Header() {
       <div className="header-container">
         <div className="header-content-container">
           <div className="header-p-button-container">
-            <h1 className="header-title"> BİZİMLE HAYAT İÇİN <br/> İNGİLİZCE ÖĞREN! </h1>
+            <h1 className="header-title"> ACADEMY ADRA İLE <br/>  HAYAT İÇİN İNGİLİZCE ÖĞREN! </h1>
             <p className="header-p"> Lorem ipsum dolor sit,
               <br /> amet consectetur adipisicing elit. Placeat          
               <br /> tempore iste repudiandae in itaque possimus
