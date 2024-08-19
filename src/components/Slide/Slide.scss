@@ -12,6 +12,10 @@
   background-size:cover; 
    background-position: center; 
    background-repeat: no-repeat;
+   padding: 20px 0 85px 0;
+   margin-top: 150px;
+ 
+
 }
 
 .slide-container img {
@@ -29,7 +33,7 @@
   text-decoration: underline;
   text-decoration-style: wavy;
   text-underline-offset: 15px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .button-prev-slide,
@@ -64,12 +68,6 @@
 
 .button-prev-slide {
   left: 110px;
-}
-
-
-
-.slide-page-container {
-  padding: 65px 0 85px 0;
 }
 
 .swiper-pagination {
