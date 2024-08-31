@@ -1,3 +1,5 @@
+$primary-font: "Work Sans";
+
 .contact-us-container {
   display: flex;
   flex-wrap: wrap-reverse;
@@ -19,19 +21,19 @@
 
   .cu-title {
     font-weight: 600;
-    font-family: Work Sans;
+    font-family: $primary-font;
     margin-bottom: 15px;
   }
 
   .cu-text {
     font-size: 19px;
-    font-family: Work Sans;
+    font-family: $primary-font;
   }
 
 
   .cu-mid-title {
     font-weight: 500;
-    font-family: Work Sans;
+    font-family: $primary-font;
     margin-bottom: 15px;
   }
 }
@@ -46,7 +48,7 @@
   margin-top: 20px;
   border-radius: 10px;
   border: 1px solid white;
-  font-family: Work Sans;
+  font-family: $primary-font;
   display: flex;
   align-items: center;
   gap: 7px;
@@ -76,4 +78,6 @@
 .button-text,
 .button-arrow {
   z-index: 1;
+  text-decoration: none;
+  font-family: $primary-font;
 }

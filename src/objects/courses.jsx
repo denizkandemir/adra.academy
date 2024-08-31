@@ -8,7 +8,9 @@ const courses = [
     {
       img: img1,
       title: "Yabancı Dil Atölyeleri",
-      id: 1
+      id: 1,
+      path: "/workshopPage"
+
     },
 
 
@@ -16,18 +18,21 @@ const courses = [
       img: img2,
       title: "Akademik Destek ",
       id: 2,
+      path: "/academicSupportPage"
     },
 
     {
       img: img3,
       title: "Öğrenci Koçluğu",
       id: 3,
+      path: "/studentCoachPage"
     },
 
     {
       img: img4,
       title: "Yabancı Dil Koçluğu",
       id: 4,
+      path: "/languageCoachPage"
     },
   ]
 
