@@ -1,5 +1,6 @@
 import "./ContactUs.scss";
 import sticker from "/cu-sticker.jpg";
+import { Link } from "react-router-dom";
 
 const ContactUs = () => {
   return (
@@ -22,6 +23,7 @@ const ContactUs = () => {
             necessitatibus
             <br /> quaerat? Adipisci, ratione?
           </p>
+          <Link className="contact-us-link" to="/contact">
           <button className="cu-button-container">
             <div className="button-arrow">
               <svg
@@ -51,6 +53,7 @@ const ContactUs = () => {
             </div>
             <p className="button-text">Bize Ulaşın!</p>
           </button>
+          </Link>
         </div>
       </div>
     </>
