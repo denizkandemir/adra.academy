@@ -1,0 +1,41 @@
+@import "./src/styles/variables";
+
+.academic-page-header-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 50px;
+  
+   .svg-title-container {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+   
+    .square-div {
+       width: 15px;
+       height: 28px;
+       background-color: $primary-color;
+       border-radius: 5px; 
+    } 
+   }
+
+   .academic-service-title{
+    text-align: center;
+    font-family: $primary-font;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    font-size: 17px;
+    // color: $primary-color;
+   }
+
+   .academic-title {
+    text-align: center;
+    font-family: $primary-font;
+    color: $primary-color;
+    font-weight: 550;
+    font-size: 35px;
+    margin-top: 5px;
+   }
+
+}

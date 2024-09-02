@@ -1,4 +1,5 @@
-$primary-font: Work Sans;
+// @import "../styles/variables";
+@import "./src/styles/variables";
 
 .header-container {
     position: relative;
