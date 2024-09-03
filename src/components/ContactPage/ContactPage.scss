@@ -32,10 +32,12 @@ $primary-color: rgb(12, 72, 75);
 
     .contact-p {
       font-weight: 300;
-      padding: 15px 0 15px 0;
+      padding: 15px 0;
+      max-width: 400px;
     }
 
     .contact-btn-container {
+      margin-top: 5px;
       gap: 20px;
       display: flex;
 

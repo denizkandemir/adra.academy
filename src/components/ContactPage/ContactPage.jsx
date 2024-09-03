@@ -93,10 +93,8 @@ const ContactPage = () => {
             <div className="contact-title-p-container">
               <h1 className="contact-title">Bize Ulaşın</h1>
               <p className="contact-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae{" "}
-                <br />
-                dicta ratione dolores dolorem. Alias illum aperiam tempore{" "}
-                <br />
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae
+                dicta ratione dolores dolorem. Alias illum aperiam tempore
                 similique, fugiat reiciendis dolores expedita?
               </p>
               <div className="contact-btn-container">
