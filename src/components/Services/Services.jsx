@@ -2,6 +2,7 @@ import React from "react";
 import services from "../../objects/services";
 import logo from "/logo.jpg"
 import "./Services.scss"
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -22,7 +23,10 @@ const Services = () => {
               </div>
               <div className="services-button-container">
                 <img className="services-logo" src={service.gif} alt="" />
-                <button className="services-button"> İncele </button>               
+                 <Link className="services-link" to={service.path}>
+                  <button className="services-button"> İncele </button>     
+                 </Link>
+                       
               </div>
             </div>
           ))

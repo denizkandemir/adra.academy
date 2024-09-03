@@ -21,6 +21,11 @@ $primary-font: Work Sans;
         position: relative;
         height: 115px;
         align-items: center;
+
+        .dropdown-link{
+            z-index: 10;
+            text-decoration: none;
+        }
     }
 
    

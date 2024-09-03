@@ -4,11 +4,6 @@ $secondary-color: rgb(19, 112, 120);
 
 
 .services-main-container {
-
-    // background: rgb(45,153,150);
-    // background: radial-gradient(circle, rgba(45,153,150,1) 27%, rgba(11,72,76,1) 97%);
-    // background: rgb(32,144,148);
-    // background: radial-gradient(circle, rgba(32,144,148,1) 19%, rgba(12,72,76,1) 100%);
     background: rgb(34, 149, 161);
     background: radial-gradient(circle, rgba(34, 149, 161, 1) 20%, rgba(12, 72, 76, 1) 100%);
     padding: 50px 20px 100px 20px;
@@ -74,6 +69,11 @@ $secondary-color: rgb(19, 112, 120);
                 padding: 20px;
                 padding-top: 0;
 
+                .services-link {
+                    text-decoration: none;
+                    color: white;
+                }
+
                 .services-button {
                     padding: 10px 40px;
                     border-radius: 6px;
@@ -81,6 +81,7 @@ $secondary-color: rgb(19, 112, 120);
                     background-color: $secondary-color;
                     font-family: $primary-font;
                     font-size: 15px;
+                    cursor: pointer;
                 }
 
                 .services-logo {

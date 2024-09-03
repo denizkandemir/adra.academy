@@ -3,6 +3,9 @@ import logo from "/logo2.jpg";
 import FacebookSvg from "../svgs/FacebookSvg";
 import InstagramIcon from "../svgs/InstaSvg";
 import LinkedInSvg from "../svgs/LinkedInSvg";
+import courses from "../../objects/courses";
+import services from "../../objects/services";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -82,28 +85,55 @@ const Footer = () => {
           </div>
           <div className="footer-social-container">
             <div className="footer-social">
-              <FacebookSvg width={35} height={35} fill={"white"}/>
+              <a
+                href="https://www.facebook.com/p/Academy-Adra-61553271547191/"
+                className="navbar-svg-link"
+                target="_blank"
+                style={{ marginTop: '3px' }}
+              >
+                <FacebookSvg width={35} height={35} fill={"white"} />
+              </a>
             </div>
             <div className="footer-social">
-              <LinkedInSvg width={40} height={40} fill={"white"} />
+              <a
+                href="https://www.instagram.com/academyadra/"
+                className="navbar-svg-link"
+                target="_blank"
+              >
+                <LinkedInSvg width={40} height={40} fill={"white"} />
+              </a>
             </div>
             <div className="footer-social">
-              <InstagramIcon width={30} height={30} fill={"white"} />
+              <a
+                href="https://www.instagram.com/academyadra/"
+                className="navbar-svg-link"
+                target="_blank"
+                style={{ marginTop: '4px' }}
+              >
+                <InstagramIcon width={30} height={30} fill={"white"} />
+              </a>
             </div>
           </div>
         </div>
         <div className="footer-content-container  footer-second">
           <p className="footer-courses-services-title">Hizmetlerimiz</p>
-          <p className="footer-p">Yabancı Dil ve Akademik Başarı</p>
-          <p className="footer-p">Kurumsal Çözüm Ortaklığı</p>
-          <p className="footer-p">Tercüme Hizmetleri</p>
+          {
+            services.map((service) => (
+              <Link to={service.path} className="footer-link">
+                <p className="footer-p" key={service.id}> {service.title} </p>
+              </Link>
+            ))
+          }
         </div>
         <div className="footer-content-container  footer-third">
           <p className="footer-courses-services-title">Kurslarımız</p>
-          <p className="footer-p">Yabancı Dil Atölyeleri</p>
-          <p className="footer-p">Akademik Destek</p>
-          <p className="footer-p">Öğrenci Koçluğu</p>
-          <p className="footer-p">Yabancı Dil Koçluğu</p>
+          {
+            courses.map((course) => (
+              <Link to={course.path} className="footer-link">
+                <p className="footer-p" key={course.id}> {course.title} </p>
+              </Link>
+            ))
+          }
         </div>
       </div>
     </>

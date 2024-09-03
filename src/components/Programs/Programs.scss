@@ -89,6 +89,11 @@ $primary-font: Work Sans;
         display: grid;
         gap: 2px;
 
+        .programs-link {
+          text-decoration: none;
+          color: white;
+        }
+
         .programs-svg-p-container {
           display: flex;
           justify-content: space-between;

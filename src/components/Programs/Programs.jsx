@@ -1,6 +1,7 @@
 import "./Programs.scss";
 import BooksPeople from "../svgs/BooksPeople";
 import courses from "../../objects/courses";
+import { Link } from "react-router-dom";
 
 const Programs = () => {
 
@@ -42,7 +43,9 @@ const Programs = () => {
                       />
                     </svg>
                   </div>
-                  <button className="programs-button">  Keşfet </button>
+                  <Link className="programs-link" to={course.path}>
+                   <button className="programs-button">  Keşfet </button>
+                  </Link>
                 </div>
               </div>
             </div>
