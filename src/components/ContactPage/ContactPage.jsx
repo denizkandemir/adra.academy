@@ -126,7 +126,7 @@ const ContactPage = () => {
               <iframe className="contact-map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3086.0037406982574!2d26.711451175957873!3d39.3335007716342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ba75f6584f44c9%3A0x3ff06628567ed1a2!2sAcademy%20ADRA!5e0!3m2!1sen!2str!4v1723555360297!5m2!1sen!2str"
                
-                height="250"
+                height="330"
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
