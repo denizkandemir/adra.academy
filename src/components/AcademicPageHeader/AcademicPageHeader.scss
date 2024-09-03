@@ -9,33 +9,111 @@
   
    .svg-title-container {
     display: flex;
-    gap: 5px;
+    gap: 3px;
     align-items: center;
+
+    .academic-service-title{
+      font-family: $primary-font;
+      font-weight: 450;
+      letter-spacing: -0.5px;
+      color: $primary-color;
+      font-size: 17px;
+      // color: $primary-color;
+     }
    
     .square-div {
-       width: 15px;
-       height: 28px;
+       width: 10px;
+       height: 20px;
        background-color: $primary-color;
-       border-radius: 5px; 
+       border-radius: 4px; 
     } 
    }
 
-   .academic-service-title{
-    text-align: center;
-    font-family: $primary-font;
-    font-weight: 400;
-    letter-spacing: -0.5px;
-    font-size: 17px;
-    // color: $primary-color;
-   }
 
    .academic-title {
-    text-align: center;
     font-family: $primary-font;
     color: $primary-color;
     font-weight: 550;
-    font-size: 35px;
-    margin-top: 5px;
+    font-size: 32px;
+   }
+
+   .academic-imgs-info-container {
+      display: flex;
+      gap: 80px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+      
+      .academic-info-container {
+
+         .academic-header-title {
+            font-family: $primary-font;
+            color: $secondary-color;
+            font-weight: 600;
+            font-size: 32px;
+            margin-bottom: 15px;
+            margin-top: 10px;
+         }
+      }
+
+      .academic-imgs-container {
+         .students-img {
+            object-fit: cover;
+            width: 510px;
+            height: 190px;
+            border-radius: 25px;
+         }
+
+         .imgs-bottom-content-container {
+            display: flex;
+            gap: 20px;
+            margin-top: 17px;
+
+             
+            .book-img {
+               object-fit: cover;
+               width: 210px;
+               height: 294px;
+               border-radius: 15px;
+            }
+   
+            .kids-img {
+               object-fit: contain;
+               width: 280px;
+               border-radius: 15px;
+                margin-top: 15px;
+            }
+
+            .experience-container {
+               background: rgb(34,149,161);
+               background: linear-gradient(0deg, rgba(34,149,161,1) 15%, rgba(12,78,85,1) 100%);
+               padding: 22px 15px;
+               border-radius: 15px;
+               color: white;
+               display: flex;
+               gap: 17px;
+               align-items: center;
+               // justify-content: center;
+
+               .experience-number-p {
+                  font-family: $primary-font;
+                  font-weight: 400;
+                  font-size: 37px;
+               }
+
+               .experience-p {
+                  font-weight: 450;
+                  font-family: $primary-font;
+                  font-size: 21px;
+
+               }
+                
+            }
+         }
+
+
+      
+      }
    }
 
 }
