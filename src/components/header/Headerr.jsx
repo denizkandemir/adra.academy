@@ -19,7 +19,7 @@ function Header() {
               <br />    eius maxime , non harum dolor
               <br />molestias cumque temporibus.
             </p>
-            <button className="header-button"> Aramıza Katılın! </button>
+            <p className="header-button"> Aramıza Katılın! </p>
           </div>
           <div>
             <img className="header-person" src={headerMainImg} alt="" />
