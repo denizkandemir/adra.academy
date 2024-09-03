@@ -76,7 +76,7 @@
     position: relative;
     transition: 0.3s;
     cursor: pointer;
-
+    z-index: 1000;
     &:after {
         position: absolute;
         transition: .3s;
@@ -86,6 +86,7 @@
         bottom: 0;
         height: 3px;
         background: #f7f7f7;
+        z-index: 20;
     }
 
     &:hover {
