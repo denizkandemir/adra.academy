@@ -1,0 +1,65 @@
+$primary-font: Work Sans;
+
+.student-coach-container {
+  display: flex;
+  font-family: $primary-font;
+  justify-content: center;
+  flex-direction: column;
+
+  .background {
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+
+    z-index: -1;
+  }
+
+  .student-coach-content-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 50px;
+    margin: 100px 0 100px 0;
+
+    .student-coach-text-container {
+      letter-spacing: 0.8px;
+
+      .student-coach-title {
+        height: 85px;
+        margin-right: 20px;
+      }
+      .student-coach-title2 {
+        font-size: 25px;
+        font-weight: 500;
+        padding-left: 17px;
+      }
+      .student-coach-p {
+        font-weight: 270;
+        padding: 10px 0;
+        font-size: 22px;
+        padding-left: 17px;
+      }
+    }
+
+    .student-coach-sticker {
+      object-fit: contain;
+      height: 330px;
+    }
+
+    .student-coach-mid-text {
+      font-size: 30px;
+      font-weight: 500;
+    }
+
+    .student-coach-last-p {
+      text-align: right;
+      font-weight: 270;
+      padding: 10px 0;
+      font-size: 21px;
+      padding-left: 10px;
+      letter-spacing: 0.5px;
+      margin-top: 60px;
+    }
+    .bold-text{
+        font-weight: 500;
+    }
+  }
+}
