@@ -18,7 +18,7 @@
       letter-spacing: -0.5px;
       color: $primary-color;
       font-size: 17px;
-      // color: $primary-color;
+      color: rgb(129, 126, 126);
      }
    
     .square-div {
@@ -50,9 +50,31 @@
             font-family: $primary-font;
             color: $secondary-color;
             font-weight: 600;
-            font-size: 32px;
+            font-size: 33.5px;
             margin-bottom: 15px;
             margin-top: 10px;
+         }
+
+         .academic-p {
+            font-family: $primary-font;
+            font-weight: 400;
+            font-size: 20px;
+            margin-bottom: 10px;
+            margin-top: 17px;
+            opacity: 0.8;
+            max-width: 600px;
+            line-height: 24px;
+         }
+
+      
+         .academic-bottom-p {
+            font-weight: 500;
+            font-size: 29px;
+            line-height: 35px;
+            font-family: $primary-font;
+            margin-top: 25px;
+            opacity: 0.75;
+            max-width: 600px;
          }
       }
 
@@ -110,9 +132,6 @@
                 
             }
          }
-
-
-      
       }
    }
 

@@ -6,7 +6,6 @@ const AcademicPage = () => {
   return (
     <>
       <AcademicPageHeader/>
-      <Programs/>
     </>
   
   )

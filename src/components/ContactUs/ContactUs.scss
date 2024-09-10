@@ -2,15 +2,23 @@
 
 .contact-us-container {
   display: flex;
-  flex-wrap: wrap-reverse;
   padding: 70px 15px;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+}
+
+.contact-content-container {
+  display: flex;
+  gap: 50px;
+  max-width: 1500px;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
 }
 
 .cu-sticker {
   object-fit: contain;
-  height: 500px;
+  max-height: 500px;
   width: 100%;
 }
 

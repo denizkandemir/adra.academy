@@ -42,11 +42,14 @@ const AcademicPageHeader = () => {
             <h2 className="academic-header-title">
               Alanında Uzman Eğitmenlerimiz İle <br /> İngilizce Geleceğinizi Şekillendirin!
             </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
-              Rem enim in nobis earum quae inventore doloremque quo sed doloribus amet. <br />
-              Voluptas assumenda suscipit corrupti consequuntur <br />
-              deleniti voluptates quas officia facere.
+            <p className="academic-p">
+              Academy Adra olarak, yabancı dil eğitiminin akademik başarı üzerindeki önemli etkisinin farkındayız. Yabancı dilde yeterlilik kazanmak, öğrencilerimize sadece dil becerileri kazandırmakla kalmaz, aynı zamanda akademik hayatta da önemli avantajlar sağlar.
+            </p>
+            <p className="academic-p">
+              Yabancı dil öğreniminin yalnızca gramer ve kelime bilgisinden ibaret olmadığını, aynı zamanda eleştirel düşünme, problem çözme ve kültürel farkındalık gibi beceriler kazandırdığını vurguluyoruz. Academy Adra'da öğrenciler, okul için değil, hayat için öğrenerek dil becerilerini geliştirir ve akademik başarılarını ileri taşır.
+            </p>
+            <p className="academic-bottom-p">
+             Academy Adra ile Yabancı Dilde Ustalık, Akademik Başarıda Öncülük.
             </p>
           </div>
         </div>
