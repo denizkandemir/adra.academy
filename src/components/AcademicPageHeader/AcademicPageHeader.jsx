@@ -56,7 +56,6 @@ const AcademicPageHeader = () => {
       </div>
     </div>
   )
-
 }
 
 export default AcademicPageHeader;
