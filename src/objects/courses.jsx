@@ -10,9 +10,7 @@ const courses = [
       title: "Yabancı Dil Atölyeleri",
       id: 1,
       path: "/workshopPage"
-
     },
-
 
     {
       img: img2,
@@ -25,7 +23,7 @@ const courses = [
       img: img3,
       title: "Öğrenci Koçluğu",
       id: 3,
-      path: "/studentCoachPage"
+      path: "/ogrenciKoclugu"
     },
 
     {
