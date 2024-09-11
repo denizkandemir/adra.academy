@@ -1,7 +1,4 @@
-$primary-color: rgb(11, 72, 75);
-$primary-font: Work Sans;
-$secondary-color: rgb(19, 112, 120);
-
+@import "./src/styles/variables";
 
 .services-main-container {
     background: rgb(34, 149, 161);
@@ -81,6 +78,7 @@ $secondary-color: rgb(19, 112, 120);
                     background-color: $secondary-color;
                     font-family: $primary-font;
                     font-size: 15px;
+                    border: none;
                     cursor: pointer;
                 }
 

@@ -1,20 +1,24 @@
-$primary-font: Work Sans;
+// @import "../styles/variables";
+@import "./src/styles/variables";
 
 .header-container {
     position: relative;
     background-color: rgb(255, 255, 255);
-    margin-bottom: 25px;
     z-index: -1;
     padding: 20px;
     padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-content-container {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    max-width: 1500px;
+    gap: 20px 100px;
     height: 100%;
-    width: 100%;
     z-index: 10;
     flex-wrap: wrap;
 }
@@ -27,7 +31,7 @@ $primary-font: Work Sans;
     color: rgb(12, 72, 75);
     font-size: 40px;
     font-family: $primary-font;
-    margin-bottom: 17px;
+    margin-bottom: 20px;
     font-weight: 550;
 }
 
@@ -36,6 +40,10 @@ $primary-font: Work Sans;
     font-size: 20px;
     font-family: $primary-font;
     font-weight: 400;
+    opacity: 0.8;
+    line-height: 24px;
+    word-spacing: 2px;
+    max-width: 560px;
 }
 
 .header-back-left {
@@ -67,7 +75,7 @@ $primary-font: Work Sans;
     background-color: rgb(19, 112, 120);
     color: white;
     padding: 17px 27px;
-    margin-top: 20px;
+    margin-top: 22px;
     border-radius: 10px;
     border: 1px solid white;
     font-family: Work Sans;
@@ -75,7 +83,7 @@ $primary-font: Work Sans;
     position: relative;
     transition: 0.3s;
     cursor: pointer;
-    z-index: 1000;
+    z-index: 10;
     &:after {
         position: absolute;
         transition: .3s;

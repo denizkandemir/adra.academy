@@ -13,11 +13,8 @@ function Header() {
         <div className="header-content-container">
           <div className="header-p-button-container">
             <h1 className="header-title"> ACADEMY ADRA İLE <br />  HAYAT İÇİN İNGİLİZCE ÖĞREN! </h1>
-            <p className="header-p"> Lorem ipsum dolor sit,
-              <br /> amet consectetur adipisicing elit. Placeat
-              <br /> tempore iste repudiandae in itaque possimus
-              <br />    eius maxime , non harum dolor
-              <br />molestias cumque temporibus.
+            <p className="header-p">
+              İngilizce, global dünyada başarıya ulaşmanın anahtarıdır. Uzman eğitmenlerimizle, kişiye özel eğitim planlarımız ve esnek ders programlarımızla hedeflerinize ulaşın. Online veya yüz yüze ders seçeneklerimizle öğrenim deneyiminizi kolaylaştırıyoruz.
             </p>
             <button className="header-button"> Aramıza Katılın! </button>
           </div>

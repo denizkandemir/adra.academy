@@ -25,17 +25,14 @@ const Services = () => {
                 <img className="services-logo" src={service.gif} alt="" />
                  <Link className="services-link" to={service.path}>
                   <button className="services-button"> İncele </button>     
-                 </Link>
-                       
+                 </Link>          
               </div>
             </div>
           ))
         }
-
       </div>
     </div>
   )
-
 }
 
 export default Services;

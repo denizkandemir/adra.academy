@@ -1,12 +1,12 @@
 import React from "react";
 import AcademicPageHeader from "../components/AcademicPageHeader/AcademicPageHeader";
-import Programs from "../components/Programs/Programs";
+import AcademicPageCourses from "../components/AcademicPageCourses/AcademicPageCourses";
 
 const AcademicPage = () => {
   return (
     <>
       <AcademicPageHeader/>
-      <Programs/>
+      <AcademicPageCourses/>
     </>
   
   )
