@@ -14,7 +14,6 @@ const courses = [
       text2:"Yabancı dil atölyeleri, dil becerilerinizi hızla geliştirmek için tasarlandı. Konuşma pratiğinden yazı yazmaya, uzman eğitmenlerle interaktif derslerle öğrenme sürecinizi kolaylaştırın.", 
     },
 
-
     {
       img: img2,
       title: "Akademik Destek ",
@@ -28,9 +27,10 @@ const courses = [
       img: img3,
       title: "Öğrenci Koçluğu",
       id: 3,
-      path: "/studentCoachPage",
+      path: "/ogrenciKoclugu",
       text: "Öğrencilerimizin akademik ve kişisel hedeflerine ulaşmaları için bütüncül bir yaklaşımla sunduğumuz öğrenci koçluğu hizmetlerimizle, başarıya giden yolda sizlere rehberlik ediyoruz.Koçlarımız, sadece akademik başarı değil, aynı zamanda kişisel gelişiminizi de ön planda tutarak size yol gösterir.",  
       text2:"Öğrenci koçluğu, bireyin kendini tanımasını, hedeflerini netleştirmesini ve bu hedeflere ulaşma yolunda motivasyonunu artırmasını sağlayan bir rehberlik sürecidir. Deneyimli koçlarımız akademik başarı, öğrencilerde zaman yönetimi, verimli çalışma teknikleri, sınav kaygısı ile baş etme ve hedef belirleme gibi konularda yardımcı olur.",
+  
     },
 
     {

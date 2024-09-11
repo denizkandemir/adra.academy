@@ -6,6 +6,7 @@ import Home from "./pages/home";
 import { Layout } from "./Layout";
 import Loader from "/loader.gif";
 import AcademicPage from "./pages/AcademicPage";
+import StudentCoach from "./pages/StudentCoach";
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/academicPage" element={<AcademicPage/>}/>
+          <Route path="/ogrenciKoclugu" element={<StudentCoach/>}/>
         </Route>
       </Routes>
     </Router>
