@@ -9,33 +9,40 @@ $primary-font: Work Sans;
   .background {
     background-color: rgb(235, 235, 235);
     width: 100%;
-
-    z-index: -1;
   }
 
   .student-coach-content-container {
     display: flex;
-    justify-content: space-evenly;
-    padding: 0 50px;
-    margin: 100px 0 100px 0;
+    justify-content: center;
+    gap: 60px 0px;
+    padding: 100px 50px;
+
 
     .student-coach-text-container {
       letter-spacing: 0.8px;
 
       .student-coach-title {
+        object-fit: contain;
         height: 85px;
-        margin-right: 20px;
       }
+
       .student-coach-title2 {
         font-size: 25px;
         font-weight: 500;
-        padding-left: 17px;
+        opacity: 0.8;
+        margin-top: 10px;
       }
+
       .student-coach-p {
-        font-weight: 270;
-        padding: 10px 0;
+        font-weight: 400;
+        padding: 2px 0;
+        max-width: 800px;
         font-size: 22px;
-        padding-left: 17px;
+        letter-spacing: 0px;
+        word-spacing: 2px;
+        line-height: 27px;
+        opacity: 0.85;
+        margin-top: 10px;
       }
     }
 
@@ -47,19 +54,63 @@ $primary-font: Work Sans;
     .student-coach-mid-text {
       font-size: 30px;
       font-weight: 500;
+      max-width: 800px;
     }
 
     .student-coach-last-p {
-      text-align: right;
-      font-weight: 270;
-      padding: 10px 0;
+      font-weight: 400;
       font-size: 21px;
-      padding-left: 10px;
-      letter-spacing: 0.5px;
-      margin-top: 60px;
+      opacity: 0.85;
+      line-height: 27px;
+      letter-spacing: 0px;
+      word-spacing: 2px;
+      max-width: 800px;
     }
-    .bold-text{
-        font-weight: 500;
+
+    .bold-text {
+      font-weight: 500;
+    }
+  }
+
+  .bottom-content-container {
+    align-items: center;
+    gap: 70px;
+  }
+}
+
+@media(max-width:1050px) {
+
+  .student-coach-container {
+    .student-coach-content-container {
+      flex-wrap: wrap;
+      padding: 50px 20px;
+
+      .student-coach-sticker {
+        max-width: 100%;
+        max-height: 480px;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media(max-width:600px) {
+  .student-coach-container {
+    .student-coach-content-container {
+
+      .student-coach-last-p {
+        font-size: 18px;
+      }
+
+      .student-coach-text-container {
+        .student-coach-p {
+          font-size: 18px;
+        }
+      }
+
+      .student-coach-mid-text {
+        font-size: 20px;
+      }
     }
   }
 }

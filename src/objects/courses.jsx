@@ -10,7 +10,7 @@ const courses = [
       title: "Yabancı Dil Atölyeleri",
       id: 1,
       path: "/workshopPage",
-      text: "Academy Adra olarak, dil öğrenimini çok yönlü ve interaktif hale getiren atölyelerimizle, öğrencilerimize eşsiz bir dil deneyimi sunuyoruz. Düzenlediğimiz yabancı dil atölyeleri, dil öğrenmenin sadece kitaplardan ve sınıf ortamından ibaret olmadığını kanıtlıyor. İster başlangıç seviyesinde olun, ister ileri düzeyde; bu atölyeler tam size göre!", 
+      text: "Academy Adra olarak, dil öğrenimini çok yönlü ve interaktif hale getiren atölyelerimizle, öğrencilerimize eşsiz bir dil deneyimi sunuyoruz. Düzenlediğimiz yabancı dil atölyeleri, dil öğrenmenin sadece kitaplardan ve sınıf ortamından ibaret olmadığını kanıtlıyor. İster başlangıç seviyesinde olun, ister ileri düzeyde, bu atölyeler tam size göre!", 
       text2:"Yabancı dil atölyeleri, dil becerilerinizi hızla geliştirmek için tasarlandı. Konuşma pratiğinden yazı yazmaya, uzman eğitmenlerle interaktif derslerle öğrenme sürecinizi kolaylaştırın.", 
     },
 
