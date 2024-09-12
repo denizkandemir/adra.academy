@@ -1,5 +1,4 @@
 import "./Programs.scss";
-import BooksPeople from "../svgs/BooksPeople";
 import courses from "../../objects/courses";
 import { Link } from "react-router-dom";
 
@@ -8,7 +7,6 @@ const Programs = () => {
   return (
     <div className="programs-container">
       <div className="programs-main-title-container">
-        {/* <BooksPeople width={60} height={60}/> */}
         <p className="programs-main-title">  Kurslarımız </p>
       </div>
       <div className="courses-container">
@@ -43,7 +41,7 @@ const Programs = () => {
                       />
                     </svg>
                   </div>
-                  <Link className="programs-link" to={course.path}>
+                  <Link className="programs-link"  to={{ pathname: course.path,}} state={course} >
                    <button className="programs-button">  Keşfet </button>
                   </Link>
                 </div>

@@ -12,7 +12,10 @@ const services = [
         id: 1,
         text: "Yabancı dil alanında her yaş grubu ve eğitim ihtiyacına uygun atölyeler, öğrenci koçluğu ve birebir akademik destek programlarımızı keşfedin.",
         gif: academyGif,
-        path: "/academicPage"
+        path: "/academicPage",
+        serviceText:"",
+        serviceText2:"", 
+        serviceImg:"",
       },
   
   
@@ -22,7 +25,10 @@ const services = [
         id: 2,
         text:"Modern dil eğitimi çözümlerimizle, kurumsal ihtiyaçlarınıza özel, etkili ve sürdürülebilir bir ortaklık sunuyoruz.",
         gif: brainGif,
-        path: "/partnershipPahe"
+        path: "/hizmetlerimiz",
+        serviceText:"",
+        serviceText2:"", 
+        serviceImg:"",
       },
   
       {
@@ -31,7 +37,10 @@ const services = [
         id: 3,
         text:"Alanında uzman çeviri ve tercüme ekibimizle, yazılı ve sözlü çeviri hizmetlerinizi yüksek kalite standartlarında ve etkin bir şekilde karşılıyoruz.",
         gif:translatorGif,
-        path: "/translatePage"
+        path: "/hizmetlerimiz",
+        serviceText:"",
+        serviceText2:"", 
+        serviceImg:"",
       },
 ]
 

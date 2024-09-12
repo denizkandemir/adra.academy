@@ -3,6 +3,7 @@ import "./StudentCoachPage.scss";
 import coach from "/coach2.png";
 import coach2 from "/coach3.png";
 import studentCoaching from "/Adra Coaching2.png";
+import { useLocation } from "react-router-dom";
 
 const StudentCoachPage = () => {
   return (
