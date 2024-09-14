@@ -1,0 +1,16 @@
+@import "./src/styles/variables";
+
+.service-page-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px 70px;
+    padding: 100px 50px;
+
+    .service-page-img {
+        object-fit: cover;
+       height: 500px;
+       width: 500px;
+       border-radius: 10px;
+  
+    }
+}

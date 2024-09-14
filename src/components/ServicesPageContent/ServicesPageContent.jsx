@@ -1,5 +1,5 @@
 import React from "react";
-import "./ServisPageContent.scss";
+import "./ServicesPageContent.scss";
 
 const ServicesPageContent = ({service}) => {
   return (

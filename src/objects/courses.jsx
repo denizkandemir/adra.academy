@@ -2,6 +2,10 @@ import img1 from "/atölye-adra.jpeg"
 import img2 from "/destek-adra.jpeg"
 import img3 from "/öğrenci-koçluğu-adra.jpeg"
 import img4 from "/adra-koç.jpeg"
+import serviceImg1 from "/adraEnglishCoaching.png"
+import serviceImg12 from "/adraEnglishCoaching2.png"
+import serviceImg2 from "/adraAcademicSupport.png"
+
 
 const courses = [
 
@@ -26,7 +30,7 @@ const courses = [
       text2:"Akademik destek programı, akademik başarıyı artırmak isteyen öğrenciler için özel olarak tasarlandı. Makale yazma, sunum hazırlama ve sınavlara hazırlık konularında uzman eğitmenlerimizle birebir destek sunuyoruz.", 
       serviceText:"Grup atölyelerini tercih etmeyen öğrenenler için kişiye özel program tasarımları ile bire bir eğitim fırsatı sunmaktayız.",
       serviceText2:"", 
-      serviceImg:"",
+      serviceImg:serviceImg2,
     },
 
     {
@@ -34,7 +38,7 @@ const courses = [
       title: "Öğrenci Koçluğu",
       id: 3,
       path: "/ogrenciKoclugu",
-      text: "Öğrencilerimizin akademik ve kişisel hedeflerine ulaşmaları için bütüncül bir yaklaşımla sunduğumuz öğrenci koçluğu hizmetlerimizle, başarıya giden yolda sizlere rehberlik ediyoruz.Koçlarımız, sadece akademik başarı değil, aynı zamanda kişisel gelişiminizi de ön planda tutarak size yol gösterir.",  
+      text: "Öğrencilerimizin akademik ve kişisel hedeflerine ulaşmaları için bütüncül bir yaklaşımla sunduğumuz öğrenci koçluğu hizmetlerimizle, başarıya giden yolda sizlere rehberlik ediyoruz. Koçlarımız, sadece akademik başarı değil, aynı zamanda kişisel gelişiminizi de ön planda tutarak size yol gösterir.",  
       text2:"Öğrenci koçluğu, bireyin kendini tanımasını, hedeflerini netleştirmesini ve bu hedeflere ulaşma yolunda motivasyonunu artırmasını sağlayan bir rehberlik sürecidir. Deneyimli koçlarımız akademik başarı, öğrencilerde zaman yönetimi, verimli çalışma teknikleri, sınav kaygısı ile baş etme ve hedef belirleme gibi konularda yardımcı olur.",
       serviceText:"",
       serviceText2:"", 
@@ -50,7 +54,7 @@ const courses = [
       text2:"Yabancı dil koçluğu, bireyin dil öğrenme sürecini kişisel ihtiyaçlarına ve hedeflerine uygun şekilde yapılandırarak daha etkili bir öğrenim deneyimi sunar. Dil koçları, öğrencilerin hedeflerini belirlemelerine, motivasyonlarını artırmalarına ve belirlenen hedeflere kısa sürede ulaşmalarına yardımcı olur. ",
       serviceText:"Yabancı Dil Koçluğu, sınıf ortamında ya da grup çalışmaları ile dil öğrenme biçimini benimsemeyen, ya da öncesinde bu gibi yöntemleri deneyimlemiş olan dil öğrenicilerinin bireysel ihtiyaçlarına yönelik oluşturulan bir profesyonel takip ve destek sistemidir.",
       serviceText2:"Öğrencilerin ve yetişkinlerin yararlanabileceği bu hizmet ile profesyoneller tarafından bireylerin dil gelişimleri için uygun stratejiler belirlenir, dil eğitiminin zorluklarına ve bu zorlukları aşma yöntemlerine ilişkin farkındalık yaratılır, dil gelişimine yönelik çalışma programları oluşturulur, uygulanır ve gözlemlenir.", 
-      serviceImg:"",
+      serviceImg:serviceImg1,
     },
   ]
 

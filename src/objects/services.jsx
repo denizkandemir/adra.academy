@@ -1,5 +1,7 @@
 import img1 from "/adra-akademik-başarı.jpeg"
-import img2 from "/adra-kurumsal.jpg"
+import img2 from "/adra-business.png"
+import serviceImg1 from "/adra-business-page.png"
+import serviceImg2 from "/adra-translate.png"
 import img3 from "/adra-tercüme.jpeg"
 import academyGif from "/success.gif"
 import brainGif from "/brainstorming.gif"
@@ -28,7 +30,7 @@ const services = [
         path: "/hizmetlerimiz",
         serviceText:"",
         serviceText2:"", 
-        serviceImg:"",
+        serviceImg: serviceImg1,
       },
   
       {
@@ -40,7 +42,7 @@ const services = [
         path: "/hizmetlerimiz",
         serviceText:"",
         serviceText2:"", 
-        serviceImg:"",
+        serviceImg:serviceImg2,
       },
 ]
 
