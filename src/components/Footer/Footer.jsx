@@ -119,9 +119,11 @@ const Footer = () => {
           <p className="footer-courses-services-title">Hizmetlerimiz</p>
           {
             services.map((service) => (
-              <Link to={service.path} className="footer-link">
-                <p className="footer-p" key={service.id}> {service.title} </p>
-              </Link>
+              <div key={service.id}>
+                <Link to={{ pathname: service.path,}} state={service} className="footer-link">
+                  <p className="footer-p" key={service.id}> {service.title} </p>
+                </Link>
+              </div>
             ))
           }
         </div>
@@ -129,9 +131,11 @@ const Footer = () => {
           <p className="footer-courses-services-title">Kurslarımız</p>
           {
             courses.map((course) => (
-              <Link to={course.path} className="footer-link">
-                <p className="footer-p" key={course.id}> {course.title} </p>
-              </Link>
+              <div key={course.id}>
+                <Link to={{ pathname: course.path,}} state= {course}  className="footer-link">
+                  <p className="footer-p" key={course.id}> {course.title} </p>
+                </Link>
+              </div>
             ))
           }
         </div>
