@@ -19,6 +19,7 @@ const courses = [
       serviceText:"", 
       serviceText2:"", 
       serviceImg:"",
+      miniTitle:"Kurslarımız",
     },
 
     {
@@ -28,9 +29,10 @@ const courses = [
       path: "/hizmetlerimiz",
       text: "Öğrencilerimizin akademik hedeflerine ulaşmaları için gereken tüm desteği akademimizde sağlamaktan gurur duyuyoruz. Sunmuş olduğumuz akademik destek hizmetleri, akademik başarılarını güçlendirmek isteyen öğrencilere yönelik olarak hazırlanmıştır. Bu hizmetler, dil becerilerini geliştirme, akademik yazılar yazma ve akademik sunum yapma gibi konularda rehberlik eder.",
       text2:"Akademik destek programı, akademik başarıyı artırmak isteyen öğrenciler için özel olarak tasarlandı. Makale yazma, sunum hazırlama ve sınavlara hazırlık konularında uzman eğitmenlerimizle birebir destek sunuyoruz.", 
-      serviceText:"Grup atölyelerini tercih etmeyen öğrenenler için kişiye özel program tasarımları ile bire bir eğitim fırsatı sunmaktayız.",
-      serviceText2:"", 
+      serviceText:"Öğrencilerimizin ve profesyonellerimizin akademik başarılarını desteklemek amacıyla kapsamlı akademik destek hizmetleri sunuyoruz. Kişiye özel program tasarımları ile bire bir eğitim fırsatı sunmaktayız.",
+      serviceText2:"Her alanda uzman eğitmenlerimiz ve danışmanlarımız, akademik yolculuğunuzda size rehberlik etmek ve çalışmalarınızı en yüksek standartlara taşımak için yanınızda. Başarıya giden yolda güvenilir bir çözüm ortağı arıyorsanız, bize ulaşın ve ihtiyaçlarınıza yönelik bireysel destek alın.", 
       serviceImg:serviceImg2,
+      contentTitle: "Kurslarımız",
     },
 
     {
@@ -43,6 +45,7 @@ const courses = [
       serviceText:"",
       serviceText2:"", 
       serviceImg:"",
+      contentTitle: "Kurslarımız",
     },
 
     {
@@ -55,6 +58,7 @@ const courses = [
       serviceText:"Yabancı Dil Koçluğu, sınıf ortamında ya da grup çalışmaları ile dil öğrenme biçimini benimsemeyen, ya da öncesinde bu gibi yöntemleri deneyimlemiş olan dil öğrenicilerinin bireysel ihtiyaçlarına yönelik oluşturulan bir profesyonel takip ve destek sistemidir.",
       serviceText2:"Öğrencilerin ve yetişkinlerin yararlanabileceği bu hizmet ile profesyoneller tarafından bireylerin dil gelişimleri için uygun stratejiler belirlenir, dil eğitiminin zorluklarına ve bu zorlukları aşma yöntemlerine ilişkin farkındalık yaratılır, dil gelişimine yönelik çalışma programları oluşturulur, uygulanır ve gözlemlenir.", 
       serviceImg:serviceImg1,
+      contentTitle: "Kurslarımız",
     },
   ]
 
