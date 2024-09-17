@@ -24,18 +24,18 @@
 
 
 .cu-text-container {
-  max-width: 660px;
-
-
   .cu-title {
     font-weight: 600;
     font-family: $primary-font;
     margin-bottom: 15px;
+  
   }
 
   .cu-text {
     font-size: 19px;
     font-family: $primary-font;
+    max-width: 590px;
+    line-height: 25px;
   }
 
 

@@ -5,7 +5,7 @@
     position: relative;
     background-color: rgb(255, 255, 255);
     z-index: -1;
-    padding: 20px;
+    padding: 20px 50px;
     padding-top: 50px;
     display: flex;
     justify-content: center;
@@ -20,7 +20,6 @@
     gap: 20px 100px;
     height: 100%;
     z-index: 10;
-    flex-wrap: wrap;
 }
 
 .header-p-button-container {
@@ -104,4 +103,12 @@
             left: 0;
         }
     }
+}
+
+@media(max-width:1140px){
+  .header-container {
+    .header-content-container {
+        flex-wrap: wrap;
+    }
+  }
 }

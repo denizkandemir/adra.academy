@@ -14,8 +14,6 @@
    background-repeat: no-repeat;
    padding: 20px 0 85px 0;
    margin-top: 150px;
- 
-
 }
 
 .slide-container img {
@@ -95,4 +93,11 @@
   width: 11px;
   height: 11px;
 
+}
+
+@media(max-width:1140px){
+ .slide-page-container {
+  margin-top: 20px;
+  padding-bottom: 40px;
+ }
 }

@@ -16,13 +16,10 @@ const ContactUs = () => {
               Lorem ipsum dolor sit amet consectetur.
             </h2>
             <p className="cu-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quasi{" "}
-              <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quasi
               eveniet, eligendi accusamus excepturi, repudiandae  vero unde
-
-              <br /> quibusdam itaque, officia harum delectus dolores nulla
-              necessitatibus
-              <br /> quaerat? Adipisci, ratione?
+              quibusdam itaque, officia harum delectus dolores nulla
+              necessitatibus quaerat? Adipisci, ratione?
             </p>
             <Link to="/contact" className="button-text">
               <button className="cu-button-container">

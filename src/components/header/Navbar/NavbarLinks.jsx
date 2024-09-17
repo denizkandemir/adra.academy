@@ -4,7 +4,9 @@ import courses from "../../../objects/courses";
 import services from "../../../objects/services";
 import { Link } from "react-router-dom";
 import SidebarDropdownIcon from "../../svgs/SidebarDropdownSvg";
-
+import FacebookSvg from "../../svgs/FacebookSvg";
+import InstagramIcon from "../../svgs/InstaSvg";
+import LinkedInSvg2 from "../../svgs/LinkedInSvg2";
 
 const NavbarLinks = ({ container }) => {
     return (
@@ -33,6 +35,11 @@ const NavbarLinks = ({ container }) => {
                 </div>
             </div>
             <Link className="navbar-link" to="/contact">İletişim</Link>
+            <div className="sidebar-social-container">
+               <InstagramIcon width={30} height={25}  fill={"white"}/>
+               <FacebookSvg width={30} height={30}  fill={"white"} />
+               <LinkedInSvg2 width={30} height={25} fill={"white"}/>
+            </div>
         </div>
     )
 }

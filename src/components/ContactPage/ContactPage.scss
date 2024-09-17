@@ -9,10 +9,9 @@ $primary-color: rgb(12, 72, 75);
   align-items: center;
   flex-direction: column;
 
-  .contact-content-container {
+  .contact-page-content-container {
     display: flex;
     gap: 35px 60px;
-    flex-wrap: wrap-reverse;
 
     .contact-info {
       display: flex;
@@ -64,6 +63,15 @@ $primary-color: rgb(12, 72, 75);
           }
         }
       }
+    }
+  }
+}
+
+@media(max-width:700px){
+  .contact-container {
+    .contact-page-content-container {
+      flex-wrap: wrap-reverse;
+      justify-content: center;
     }
   }
 }
