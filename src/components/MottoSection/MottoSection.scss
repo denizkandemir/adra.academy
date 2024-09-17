@@ -7,8 +7,6 @@
    justify-content: center;
    flex-direction: column;
 
-  
-
    .title-photo-main-container {
       padding: 70px 50px 40px 50px;
       display: flex;
@@ -49,12 +47,10 @@
          }
       }
 
-
-    
-   
       .motto-photo {
          object-fit: contain;
-         height: 430px;
+         max-height: 430px;
+         max-width: 100%;
       }
    }
 
