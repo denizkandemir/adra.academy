@@ -1,0 +1,73 @@
+$primary-font: Work Sans;
+
+.workshops-content-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 100px 50px;
+  font-family: $primary-font;
+  
+
+  &#content1 {
+    flex-wrap: wrap-reverse;
+    align-items: start;  
+  }
+  &#content2 {
+    flex-wrap: wrap;
+  }
+
+  .workshop-photo {
+    object-fit: contain;
+    height: 330px;
+  }
+
+  .workshops-title {
+    padding-bottom: 25px;
+  }
+  details {
+    margin: 5px;
+    font-size: 18px;
+  }
+  details > * {
+    padding: 15px;
+  }
+
+  .workshop-accordion-text {
+    font-size: 15px;
+    // background-color: #f5f5f5;
+    border-style: none none solid;
+    border-width: 2px;
+  }
+
+  summary {
+    border-style: solid none;
+    margin-bottom: 3px;
+    border-width: 1px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+    text-indent: 0px;
+  }
+
+  summary::before {
+    content: "";
+    position: absolute;
+    inset: 17px;
+    left: auto;
+    aspect-ratio: 1;
+    background: conic-gradient(from 90deg at 26% 26%, #0000 90deg, #000000 0)
+      100% 100%/58% 58%;
+    clip-path: inset(1px);
+    transition: 0.3s;
+  }
+  details[open] summary::before {
+    transform: rotate(45deg);
+  }
+  details[open] summary {
+    background: #e4e4e4;
+    text-indent: 1rem;
+  }
+}
