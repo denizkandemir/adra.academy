@@ -2,17 +2,28 @@ import React from "react";
 import "./Workshops.scss";
 import workshop1 from "/workshop-1.jpg";
 import workshop2 from "/workshop-2.jpeg";
+import workshop3 from "/workshop-3.jpg";
+
+import { useEffect, useState } from "react";
 
 const Workshops = () => {
-  let details = document.querySelectorAll(".workshop-accordion details");
+  //   useEffect(() => {
+  //     const div = document.querySelectorAll(".workshop-accordion div");
 
-  details.forEach(function (d, index) {
-    d.onclick = () => {
-      details.forEach(function (c, i) {
-        index === i ? "" : c.removeAttribute("open");
-      });
-    };
-  });
+  //     div.forEach((d, index) => {
+  //       d.onclick = () => {
+  //         div.forEach((c, i) => {
+  //           if (index !== i) c.removeAttribute("open");
+  //         });
+  //       };
+  //     });
+  //   }, []);
+
+  const [openAccordion, setOpenAccordion] = useState("");
+
+  const accordionHandler = (accordion) => {
+    setOpenAccordion(accordion);
+  };
 
   return (
     <>
@@ -21,37 +32,56 @@ const Workshops = () => {
           <img className="workshop-photo" src={workshop1} alt="" />
           <div className="workshops-text-container">
             <div className="workshops-title">
-              <h1>Genel İngilizce Atölye Grupları</h1>
+              <h2 className="worksop-title">Genel İngilizce Atölye Grupları</h2>
             </div>
             <div className="workshop-accordion">
-              <details>
-                <summary>ADRA Mini</summary>
+              <div
+                className={
+                  openAccordion === "accordion1"
+                    ? "open-accordion"
+                    : "close-accordion"
+                }
+                onClick={() => accordionHandler("accordion1") }
+              >
+                <h4 className="workshops-title2">ADRA Mini</h4>
+                <div className="workshop-accordion-text">
+                  İlkokul öğrencileri için tasarlanmış özgün ve eğlenceli
+                  İngilizce eğitimi programımızdır.
+                </div>
+              </div>
+
+              <div
+                className={
+                  openAccordion === "accordion2"
+                    ? "open-accordion"
+                    : "close-accordion"
+                }
+                onClick={() => accordionHandler("accordion2")}
+              >
+                <h4 className="workshops-title2">ADRA Teens</h4>
                 <div className="workshop-accordion-text">
                   {" "}
-                  İlkokul öğrencileri için tasarlanmış özgün ve <br />
-                  eğlenceli İngilizce eğitimi programımızdır.{" "}
+                  Ortaokul ve lise düzeyinde öğrencilerimizin katılabileceği bu
+                  atölyemiz genç öğrencilerin İngilizce dil becerilerinin
+                  geliştirilmesine odaklanan bütüncül bir yaklaşım sunmaktadır.{" "}
                 </div>
-              </details>
+              </div>
 
-              <details>
-                <summary>ADRA Teens</summary>
+              <div
+                className={
+                  openAccordion === "accordion3"
+                    ? "open-accordion"
+                    : "close-accordion"
+                }
+                onClick={() => accordionHandler("accordion3")}
+              >
+                <h4 className="workshops-title2">ADRA Adults</h4>
                 <div className="workshop-accordion-text">
-                  {" "}
-                  Ortaokul ve lise düzeyinde öğrencilerimizin <br />
-                  katılabileceği bu atölyemiz genç öğrencilerin İngilizce <br />
-                  dil becerilerinin geliştirilmesine odaklanan bütüncül <br />
-                  bir yaklaşım sunmaktadır.{" "}
+                  Yetişkinlere yönelik Genel İngilizce atölyemiz, zengin
+                  içeriklerle dört temel dil becerisinin geliştirilmesini
+                  hedefler.
                 </div>
-              </details>
-
-              <details>
-                <summary>ADRA Adults</summary>
-                <div className="workshop-accordion-text">
-                  Yetişkinlere yönelik Genel İngilizce atölyemiz, <br />
-                  zengin içeriklerle dört temel dil becerisinin <br />
-                  geliştirilmesini hedefler.
-                </div>
-              </details>
+              </div>
             </div>
           </div>
         </div>
@@ -59,63 +89,165 @@ const Workshops = () => {
         <div className="workshops-content-container" id="content2">
           <div className="workshops-text-container">
             <div className="workshops-title">
-              <h1>Odaklı İngilizce Atölye Grupları</h1>
+              <h2 className="worksop-title"> Odaklı İngilizce Atölye Grupları</h2>
             </div>
             <div className="workshop-accordion">
-              <details>
-                <summary>ADRA Learn</summary>
+              <div
+                className={
+                  openAccordion === "accordion4"
+                    ? "open-accordion"
+                    : "close-accordion"
+                }
+                onClick={() => accordionHandler("accordion4")}
+              >
+                <h4 className="workshops-title2">ADRA Learn</h4>
                 <div className="workshop-accordion-text">
-                  Academy Adra’nın en seçkin eğitimlerinden biri olan
-                  <br />
-                  Öğrenmeyi Öğrenme atölyemiz, katılımcıların öğrenme
-                  <br />
-                  süreçlerini hızlandırmak ve en etkili hâle getirmek için
-                  <br />
-                  tasarlanmıştır.
+                  Academy Adra’nın en seçkin eğitimlerinden biri olan Öğrenmeyi
+                  Öğrenme atölyemiz, katılımcıların öğrenme süreçlerini
+                  hızlandırmak ve en etkili hâle getirmek için tasarlanmıştır.
                 </div>
-              </details>
+              </div>
 
-              <details>
-                <summary>ADRA Talks</summary>
+              <div
+                className={
+                  openAccordion === "accordion5"
+                    ? "open-accordion"
+                    : "close-accordion"
+                }
+                onClick={() => accordionHandler("accordion5")}
+              >
+                <h4 className="workshops-title2">ADRA Talks</h4>
                 <div className="workshop-accordion-text">
-                  Konuşma becerilerinizi mükemmelleştirmek için
-                  <br />
-                  tasarlanmıştır. Lise öğrencileri ve yetişkinler <br />
-                  için ayrı gruplar halinde çalışmalar yapılır.
+                  Konuşma becerilerinizi mükemmelleştirmek için tasarlanmıştır.
+                  Lise öğrencileri ve yetişkinler için ayrı gruplar halinde
+                  çalışmalar yapılır.
                 </div>
-              </details>
+              </div>
 
-              <details>
-                <summary>ADRA Play</summary>
+              <div
+                className={
+                  openAccordion === "accordion6"
+                    ? "open-accordion"
+                    : "close-accordion"
+                }
+                onClick={() => accordionHandler("accordion6")}
+              >
+                <h4 className="workshops-title2">ADRA Play</h4>
                 <div className="workshop-accordion-text">
                   İlkokul öğrencileri ve okul öncesi gruplar için eğlenceli
-                  <br />
                   oyunlar yoluyla dil edinimi amaçlanır.
                 </div>
-              </details>
+              </div>
 
-              <details>
-                <summary>ADRA Sings</summary>
+              <div
+                className={
+                  openAccordion === "accordion7"
+                    ? "open-accordion"
+                    : "close-accordion"
+                }
+                onClick={() => accordionHandler("accordion7")}
+              >
+                <h4 className="workshops-title2">ADRA Sings</h4>
                 <div className="workshop-accordion-text">
                   Ortaokul ve lise öğrencileri için şarkılarla İngilizce
-                  <br />
                   telaffuz ve doğal dil kullanımı geliştirmeye odaklanır.
                 </div>
-              </details>
+              </div>
 
-              <details>
-                <summary>ADRA Film</summary>
+              <div
+                className={
+                  openAccordion === "accordion8"
+                    ? "open-accordion"
+                    : "close-accordion"
+                }
+                onClick={() => accordionHandler("accordion8")}
+              >
+                <h4 className="workshops-title2">ADRA Film</h4>
                 <div className="workshop-accordion-text">
-                  Yetişkinlere yönelik bu atölye grubumuzda film, dizi ve
-                  <br />
-                  video gibi dijital içerikler izleyerek dil geliştirmenin
-                  <br />
-                  keyfini çıkarabilirsiniz.
+                  Yetişkinlere yönelik bu atölye grubumuzda film, dizi ve video
+                  gibi dijital içerikler izleyerek dil geliştirmenin keyfini
+                  çıkarabilirsiniz.
                 </div>
-              </details>
+              </div>
             </div>
           </div>
           <img className="workshop-photo" src={workshop2} alt="" />
+        </div>
+
+        <div className="workshops-content-container" id="content3">
+          <img className="workshop-photo" src={workshop3} alt="" />
+
+          <div className="workshops-text-container">
+            <div className="workshops-title">
+              <h2 className="worksop-title">İngilizce Gelişim Atölyeleri</h2>
+            </div>
+            <div className="workshop-accordion">
+              <div
+                className={
+                  openAccordion === "accordion9"
+                    ? "open-accordion"
+                    : "close-accordion"
+                }
+                onClick={() => accordionHandler("accordion9")}
+              >
+                <h4 className="workshops-title2">Sınav Hazırlık Atölyeleri</h4>
+                <div className="workshop-accordion-text">
+                  TOEFL, IELTS, YÖKDİL, YDS, YDT (YKS-DİL) gibi sınavlara
+                  yönelik hazırlık atölyelerimiz, sınavlara ilişkin teknik
+                  detaylara ve bilgi içeriğine hâkim olmanızı sağlar.
+                </div>
+              </div>
+              <div
+                className={
+                  openAccordion === "accordion10"
+                    ? "open-accordion"
+                    : "close-accordion"
+                }
+                onClick={() => accordionHandler("accordion10")}
+              >
+                <h4 className="workshops-title2">
+                  Mesleki İngilizce Atölyeleri
+                </h4>
+                <div className="workshop-accordion-text">
+                  İş dünyasında çağı yakalamak için özel olarak tasarlanmış bu
+                  atölyemizde, meslek alanlarınıza yönelik İngilizce terim
+                  bilginizi geliştirebilir, sözlü ve yazılı iletişim
+                  becerilerinizi geliştirebilirsiniz.
+                </div>
+              </div>
+              <div
+                className={
+                  openAccordion === "accordion11"
+                    ? "open-accordion"
+                    : "close-accordion"
+                }
+                onClick={() => accordionHandler("accordion11")}
+              >
+                <h4 className="workshops-title2">
+                  Akademik İngilizce Atölyeleri
+                </h4>
+                <div className="workshop-accordion-text">
+                  ADRA Academics atölyesi ile akademik yazım ve sözlü sunum
+                  becerilerinizi geliştirebilirsiniz.
+                </div>
+              </div>
+              <div
+                className={
+                  openAccordion === "accordion12"
+                    ? "open-accordion"
+                    : "close-accordion"
+                }
+                onClick={() => accordionHandler("accordion12")}
+              >
+                <h4 className="workshops-title2">Çeviri Atölyesi</h4>
+                <div className="workshop-accordion-text">
+                  ADRA Translate, farklı alanlarda çeviri eğitimi sunan üç
+                  aşamalı çeviri atölyemiz, çeviri sürecine ilişkin akademik
+                  ilkeler, bilgi ve becerilere odaklanır.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
