@@ -2,28 +2,22 @@ $primary-font: Work Sans;
 
 .workshops-content-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  gap: 60px;
+  gap: 150px;
   padding: 100px 50px;
   font-family: $primary-font;
   
 
-  &#content1 {
-    flex-wrap: wrap-reverse;
-    align-items: start;  
-  }
-  &#content2 {
-    flex-wrap: wrap;
+
+  .workshop-wrapper {
+    display: flex;
+    gap: 50px;
   }
 
-  &#content3 {
-    flex-wrap: wrap-reverse;
-    align-items: start;  
-    padding-right: 100px;
-    
-    // .workshop-photo{
-    //   height: 400px;
-    // }
+  .reverse-wrapper {
+    flex-direction: row-reverse;
   }
 
   .workshop-photo {
