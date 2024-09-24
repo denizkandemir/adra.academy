@@ -55,7 +55,7 @@ const workshops = [
             },
             {
                 title: "ADRA Film",
-                id: 3,
+                id: 4,
                 name: "accordion7",
                 text: "Yetişkinlere yönelik bu atölye grubumuzda film, dizi ve video gibi dijital içerikler izleyerek dil geliştirmenin keyfini çıkarabilirsiniz."
             }
@@ -86,7 +86,7 @@ const workshops = [
             },
             {
                 title: "Çeviri Atölyesi",
-                id: 3,
+                id: 4,
                 name: "accordion11",
                 text: "ADRA Translate, farklı alanlarda çeviri eğitimi sunan üç aşamalı çeviri atölyemiz, çeviri sürecine ilişkin akademik ilkeler, bilgi ve becerilere odaklanır."
             }

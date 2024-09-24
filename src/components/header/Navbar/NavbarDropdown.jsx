@@ -8,8 +8,8 @@ const NavbarDropdown = ({ content }) => {
       {
         content.map((item) => (
           <div key={item.id} className="item-container" >
-            <img className="dropdown-img" src={item.img} alt="" />
-            <Link className="dropdown-link"  to={{ pathname: item.path,}} state={item} >
+            <Link className="dropdown-link" to={{ pathname: item.path, }} state={item} >
+              <img className="dropdown-img" src={item.img} alt="" />
               <p className="dropdown-title"> {item.title} </p>
             </Link>
           </div>
