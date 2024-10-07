@@ -8,6 +8,7 @@ import Loader from "/loader.gif";
 import AcademicPage from "./pages/AcademicPage";
 import StudentCoach from "./pages/StudentCoach";
 import ServicesPage from "./pages/ServicesPage";
+import WorkshopsPage from "./pages/WorkshopsPage";
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/academicPage" element={<AcademicPage/>}/>
           <Route path="/ogrenciKoclugu" element={<StudentCoach/>}/>
+          <Route path="/workshopPage" element={<WorkshopsPage/>}/>
           <Route path="/hizmetlerimiz" element={<ServicesPage/>}/>
         </Route>
       </Routes>

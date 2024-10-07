@@ -1,0 +1,220 @@
+@import "./src/styles/variables";
+
+
+.workshops-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.workshops-main-container {
+  padding: 100px 0px;
+
+}
+
+.workshops-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 180px;
+  font-family: $primary-font;
+  margin-bottom: 80px;
+
+  .workshop-wrapper {
+    display: flex;
+    gap: 50px 120px;
+    align-items: center;
+    padding: 0 30px;
+    justify-content: center;
+  }
+
+  .workshops-main-title {
+    font-family: $primary-font;
+    font-family: Work Sans;
+    color: rgb(11, 72, 75);
+    font-weight: 550;
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  
+  .non-title {
+    display: none;
+  }
+
+  .workshops-text-container {
+    max-width: 520px;
+  }
+
+  .reverse-wrapper {
+    flex-direction: row-reverse;
+    background: rgb(34, 149, 161);
+    background: linear-gradient(270deg, rgba(34, 149, 161, 1) 25%, rgba(12, 72, 76, 1) 100%);
+    justify-content: center;
+    width: 100vw;
+    padding:  80px 30px;
+  }
+
+  .workshop-photo {
+    object-fit: cover;
+    height: 530px;
+    width: 500px;
+    border-radius: 5px;
+  }
+
+  .workshops-title-container {
+    padding-bottom: 25px;
+    overflow: hidden;
+  }
+
+  .workshops-title-svg-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .workshops-title {
+    max-width: 600px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: $primary-color;
+  }
+
+  .workshops-mini-text {
+    font-family: $primary-font;
+    font-weight: 450;
+    letter-spacing: -0.5px;
+    color: $primary-color;
+    font-size: 17px;
+    color: rgb(129, 126, 126);
+    margin-bottom: 4px;
+  }
+
+  .white-mini-p {
+    color: white;
+    opacity: 0.7;
+  }
+
+  .white-text{
+    color: rgba(255,255,255,0.9);
+  }
+
+  .workshops-title2 {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    transition: all 0.3s ease;
+    color: #000000;
+    cursor: pointer;
+    display: block;
+  }
+
+  .workshops-contact-buttton {
+    padding: 10px 70px;
+    border-radius: 10px;
+    font-family: $primary-font;
+    font-size: 18px;
+    background-color: #000000;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: $primary-color;
+    border: none;
+  }
+
+  .color-button {
+    background-color: rgb(0 165 173);
+  }
+
+  .workshop-accordion {
+    font-size: 15px;
+    // background-color: #f5f5f5;
+    border-top: 2px solid $secondary-color;
+    border-width: 2px;
+    cursor: pointer;
+    max-width: 550px;
+    padding: 15px 0;
+
+
+    .workshop-accordion-texts {
+      overflow: hidden;
+
+      .white-text{
+        color: rgba(255,255,255,0.9);
+      }
+    }
+
+    .workshop-smenu {
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.3s ease;
+    }
+  
+    .workshop-accordion-text {
+      color: black;
+      opacity: 0.9;
+      display: block;
+      padding: 16px 12px;
+      font-size: 17.5px;
+      line-height: 23px;
+      font-family: $primary-font;
+      position: relative;
+    }
+
+    .workshop-accordion-text::before {
+      content: "";
+      width: 5px;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      transition: 0.3s;
+      opacity: 0;
+    }
+
+    .workshop-svg {
+      cursor: pointer;
+      transition: all 0.4s ease;
+    }
+     
+    .workshop-svg-reverse {
+      transform: rotate(180deg);
+      transition: all 0.4s ease;
+      cursor: pointer;
+    }
+
+    .close-accordion {
+      transition: all 0.6s ease-in-out;
+      overflow: hidden;
+    }
+
+    .open-accordion {
+      transition: all 0.6s ease-in-out;
+      overflow: hidden;
+      max-height: 120px;
+    }
+  }
+
+  .white-accordion {
+    border-top: 2px solid rgba(255,255,255,0.8);
+  }
+}
+
+
+@media(max-width:1125px) {
+  .workshops-content-container {
+    .workshop-wrapper {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+
+@media(max-width:570px) {
+  .workshops-content-container{
+    .workshop-photo{
+      width: 100%;
+      // height: auto;
+    }
+
+  } 
+}
