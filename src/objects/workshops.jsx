@@ -1,5 +1,5 @@
-import workshop1 from "/workshop-1.jpg";
-import workshop2 from "/workshop-2.jpeg";
+import workshop1 from "/adra-mini.png";
+import workshop2 from "/adra-group.png";
 import workshop3 from "/workshop-3.jpg";
 
 const workshops = [
