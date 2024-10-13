@@ -26,6 +26,7 @@
     align-items: center;
     padding: 0 30px;
     justify-content: center;
+    position: relative;
   }
 
   .workshops-main-title {
@@ -50,9 +51,17 @@
     flex-direction: row-reverse;
    // background: rgb(34, 149, 161);
    // background: linear-gradient(270deg, rgba(34, 149, 161, 1) 25%, rgba(12, 72, 76, 1) 100%);
+  //  background-color: $gray-color;
     justify-content: center;
     width: 100vw;
     padding:  80px 30px;
+  }
+
+
+  .background-container {
+   background-color: $gray-color;
+   position: absolute;
+   width: 100vw;
   }
 
   .workshop-photo {

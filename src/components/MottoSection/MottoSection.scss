@@ -8,10 +8,10 @@
    flex-direction: column;
 
    .title-photo-main-container {
-      padding: 70px 50px 40px 50px;
+      padding: $mobil-padding;
       display: flex;
       justify-content: center;
-      gap: 100px;
+      gap: 0px 100px;
       flex-wrap: wrap-reverse;
 
       .motto-content-container {
@@ -79,14 +79,6 @@
    }
 }
 
-@media(max-width:1360px) {
-   .motto-container{
-      .title-photo-main-container {
-         gap: 0px;
-      }
-   }
-  
-}
 
 @media(max-width:1370px) {
    .insta-svg-container {
