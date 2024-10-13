@@ -50,7 +50,6 @@ const Workshops = () => {
                           }>
                             <p className={ "workshop-accordion-text"}> {accordion.text} </p>
                           </div>
-
                         </div>
                       </div>
                     ))}
@@ -58,6 +57,7 @@ const Workshops = () => {
                       <button className={ "workshops-contact-buttton"}> Bilgi Al </button>
                     </Link>
                   </div>
+                  <div className="background-container"></div>
                 </div>
               ))
             }

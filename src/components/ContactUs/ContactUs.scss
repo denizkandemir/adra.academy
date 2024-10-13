@@ -89,3 +89,10 @@
   text-decoration: none;
   font-family: $primary-font;
 }
+
+
+@media(max-width:600px){ 
+ .contact-us-container {
+  padding: $mobil-padding;
+ }
+}
