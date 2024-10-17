@@ -24,7 +24,8 @@ const Services = () => {
               <div className="services-button-container">
                 <img className="services-logo" src={service.gif} alt="" />
                  <Link className="services-link" to={service.path}>
-                  <button className="services-button"> İncele </button>     
+                  <button className="services-button"> 
+                  <p className="button-text">İletişim</p> </button>     
                  </Link>          
               </div>
             </div>

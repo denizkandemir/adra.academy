@@ -1,5 +1,6 @@
 @import "./src/styles/variables";
 
+
 .service-page-container {
     display: flex;
     justify-content: center;
@@ -46,18 +47,41 @@
 
     .service-page-button-container {
         .service-page-button {
-            padding: 12px 40px;
-            margin-top: 20px;
-            text-align: center;
-            cursor: pointer;
-            background-color: $secondary-color;
-            border: none;
+            background-color: rgb(21, 121, 130);
             color: white;
-            font-family: $primary-font;
-            font-size: 18px;
+            font-size: 15px;
+            padding: 12px 20px;
+            margin-top: 20px;
             border-radius: 10px;
+            border: 1px solid white;
+            font-family: $primary-font;
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            transition: color 0.3s;
+          }
+          
+          .service-page-button::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            background-color: #054b4d;
+            transition: width 0.3s;
+            border-radius: 10px;
+            z-index: 0;
+          }
+          
+          .service-page-button:hover::before {
+            width: 100%;
+          }
         }
-    }
+    
 
     .service-page-img {
         object-fit: cover;
