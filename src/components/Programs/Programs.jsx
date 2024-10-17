@@ -12,7 +12,6 @@ const Programs = () => {
             <p className="programs-main-title">  Kurslarımız </p>
             <p className="programs-main-text">Academy Adra Başarı İçin Doğru Tercih! </p>
           </div>
-          <p className="programs-side-text"> Eğitimde kalite ve başarı için doğru yerdesiniz. Dil öğrenme sürecinizi hızlandıran, eğlenceli ve etkili yöntemlerimizle hedeflerinize ulaşın.</p>
         </div>
         <div className="courses-container">
           {
