@@ -1,7 +1,7 @@
 
 import "./Header.scss";
 import TeacherSvg from "../svgs/teacher";
-import headerBackGreen from "/new-header-bg.png"
+import headerBackGreen from "/new-header-bg.jpg"
 import headerBackLeft from "/header-back-left.png"
 import headerMainImg from "/new-header-sticker.png"
 
