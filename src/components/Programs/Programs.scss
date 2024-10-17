@@ -5,6 +5,17 @@
   background: radial-gradient(circle, rgba(34, 149, 161, 1) 15%, rgba(12, 72, 76, 1) 100%);  margin-top: 20px;
   padding-bottom: 55px;
   padding-top: 10px;
+  position: relative;
+
+  .programs-background-container {
+    position: absolute;
+    top: -13%;
+
+    .programs-background-img {
+      object-fit: contain;
+      width: 100vw;
+    }
+  }
 }
 
 .programs-main-title-container {

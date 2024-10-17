@@ -1,11 +1,15 @@
 import "./Programs.scss";
 import courses from "../../objects/courses";
 import { Link } from "react-router-dom";
+import background from "/cards-background.png"
 
 const Programs = () => {
 
   return (
     <div className="programs-container">
+      <div className="programs-background-container">
+        <img src={background} className="programs-background-img" alt="" />
+      </div>
       <div className="programs-main-title-container">
         <p className="programs-main-title">  Kurslarımız </p>
       </div>
