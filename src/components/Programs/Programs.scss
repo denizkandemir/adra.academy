@@ -10,10 +10,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  .programs-background-container {
+    position: absolute;
+    top: -13%;
+    z-index: 1;
+
+    .programs-background-img {
+      object-fit: contain;
+      width: 100vw;
+    }
+  }
 }
 
 .programs-content-container{
   max-width: 1280px;
+  position: relative;
+  z-index: 10;
 }
 
 .programs-main-title-container {
@@ -27,7 +40,7 @@
     font-family: Work Sans;
     font-size: 17px;
     color: white;
-    opacity: 0.9;
+    opacity: 1;
     letter-spacing: -0.7px;
     font-weight: 500;
   }
@@ -88,9 +101,9 @@
       object-fit: cover;
       width: 100%;
       height: 100%;
-      opacity: 0.8;
+      opacity: 1;
       border-radius: 10px;
-      filter: brightness(80%);
+      filter: brightness(70%);
       background-size: cover;
       transition: all 1s ease-out;
     }

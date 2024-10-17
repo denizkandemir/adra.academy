@@ -1,9 +1,9 @@
 
 import "./Header.scss";
 import TeacherSvg from "../svgs/teacher";
-import headerBackGreen from "/header-back-green.png"
+import headerBackGreen from "/new-header-bg.png"
 import headerBackLeft from "/header-back-left.png"
-import headerMainImg from "/header-main-img.png"
+import headerMainImg from "/new-header-sticker.png"
 
 function Header() {
 
