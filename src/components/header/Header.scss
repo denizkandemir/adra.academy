@@ -4,26 +4,29 @@
 .header-container {
     position: relative;
     background-color: rgb(255, 255, 255);
-    z-index: -1;
-    padding: 20px 50px;
+    padding: 50px 0px 50px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("/new-header-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
 }
+
 
 .header-content-container {
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 1500px;
-    gap: 20px 0px;
+    gap: 20px 10px;
     height: 100%;
     z-index: 10;
 }
 
 .header-p-button-container {
     margin-top: 20px;
-    
 }
 
 .header-title {
@@ -32,17 +35,18 @@
     font-family: $primary-font;
     margin-bottom: 20px;
     font-weight: 550;
+    max-width: 430px;
 }
 
 .header-p {
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     font-family: $primary-font;
     font-weight: 400;
     opacity: 0.8;
     line-height: 24px;
     word-spacing: 2px;
-    max-width: 560px;
+    max-width: 460px;
 }
 
 .header-back-left {
@@ -55,21 +59,11 @@
 }
 
 
-.header-green {
-    object-fit: contain;
-    position: absolute;
-    z-index: -1;
-    right: 0;
-    top: 0;
-    width: 100vw;
-}
-
 .header-person {
     z-index: 1;
-    max-height: 550px;
-    max-width: 100%;
+    max-width: 800px;
+    // max-width: 500px;
     object-fit: contain;
-    margin-top: 40px;
 }
 
 

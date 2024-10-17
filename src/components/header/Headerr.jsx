@@ -4,6 +4,10 @@ import TeacherSvg from "../svgs/teacher";
 import headerBackGreen from "/new-header-bg.jpg"
 import headerBackLeft from "/header-back-left.png"
 import headerMainImg from "/new-header-sticker.png"
+import headerMainImgWoman from "/new-header-sticker-woman.png"
+import headerBackgroundImg from "/header-background-sticker.png"
+
+
 
 function Header() {
 
@@ -19,11 +23,11 @@ function Header() {
             <button className="header-button"> Aramıza Katılın! </button>
           </div>
           <div>
-            <img className="header-person" src={headerMainImg} alt="" />
+            <img className="header-person" src={headerBackgroundImg} alt="" />
           </div>
         </div>
         <div className="header-logo-container">
-          <img className="header-green" src={headerBackGreen} alt="" />
+          {/* <img className="header-green" src={headerBackGreen} alt="" /> */}
         </div>
       </div>
     </>
