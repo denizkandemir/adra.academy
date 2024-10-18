@@ -5,7 +5,7 @@ import headerBackGreen from "/new-header-bg.jpg"
 import headerBackLeft from "/header-back-left.png"
 import headerMainImg from "/new-header-sticker.png"
 import headerMainImgWoman from "/new-header-sticker-woman.png"
-import headerBackgroundImg from "/header-background-sticker.png"
+import headerBackgroundImg from "/new-header-sticker.png"
 
 
 
