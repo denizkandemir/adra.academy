@@ -6,6 +6,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url("/workshops-main-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 
@@ -24,20 +28,8 @@
     padding: 0 30px;
     justify-content: center;
     position: relative;
+
     padding-top: 80px;
-
-    .workshops-top-background {
-      position: absolute;
-      top: -20px;
-      left: 0px;
-    }
-
-   
-    .workshops-bottom-background {
-      position: absolute;
-      bottom: -20px;
-      right: 0px;
-    }
   }
 
 
@@ -68,35 +60,16 @@
     justify-content: center;
     padding:  0px 30px;
     padding-top: 80px;
-
-    .workshops-middle-top-background {
-      position: absolute;
-      top: -520px;
-      width: 100vw;
-      right: 0px;
-      z-index: -1;
-    }
-   
-    
-    .workshops-middle-bottom-background {
-      position: absolute;
-      bottom: -430px;
-      left: 0px;
-      z-index: -1;
-    }
   }
 
   .workshops-background-img{
-    object-fit: contain;
-    max-width: 280px;
-    max-height: 200px;
-  } 
-
-  .workshops-middle-background-img {
-    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     object-fit: cover;
-    max-height: 730px;
-  }
+    width: 100vw;
+  } 
 
 
 

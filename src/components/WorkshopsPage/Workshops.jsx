@@ -26,15 +26,11 @@ const Workshops = () => {
           <div className="workshops-content-container">
             {
               workshops.map((workshop) => (
+                // style={{ backgroundImage: `url(${workshop.background})` }} 
                 <div className={workshop.id % 2 === 1 ? "workshop-wrapper" : "workshop-wrapper reverse-wrapper"} key={workshop.id}>
-                  <div className={workshop.backgroundClass}>
-                    <img src={workshop.background} className={workshop.id % 2 === 0 ?  "workshops-middle-background-img"  : "workshops-background-img"} alt="" />
-                  </div>
-                  {workshop.id % 2 === 0 && (
-                    <div className={workshop.background2Class}>
-                      <img src={workshop.background2} className="workshops-middle-background-img" alt="" />
-                    </div>
-                  )}
+                  {/* <div className={workshop.backgroundClass}>
+                    <img src={workshop.background} className={ "workshops-background-img"} alt="" />
+                  </div> */}
                   <div>
                     <h2 className={workshop.id === 1 ? "workshops-main-title" : "non-title"}> Yabancı Dil Atölyeleri </h2>
                     <img className="workshop-photo" src={workshop.img} alt="" />

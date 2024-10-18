@@ -4,8 +4,7 @@ import workshop1 from "/workshop-11.png";
 //import workshop2 from "/workshop-2.jpeg";
 import workshop3 from "/workshop-3.jpg";
 import topBackground from "/workshops-top-background.png";
-import middleTopBackground from "/cards-background.png";
-import middleBottomBackground from "/cards-background-reverse.png";
+import middleBackground from "/workshops-middle-background.png";
 import bottomBackground from "/workshops-bottom-background.png";
 
 
@@ -43,10 +42,8 @@ const workshops = [
         img: workshop2,
         title: "Odaklı İngilizce Atölye Grupları",
         id: 2,
-        background: middleTopBackground,
-        background2:middleBottomBackground,
-        backgroundClass:"workshops-middle-top-background",
-        background2Class:"workshops-middle-bottom-background",
+        background: middleBackground,
+        backgroundClass:"workshops-middle-background",
         accordions:[
             {
                 title: "ADRA Learn",
