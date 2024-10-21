@@ -4,16 +4,44 @@
     background: rgb(34, 149, 161);
     background: radial-gradient(circle, rgba(34, 149, 161, 1) 20%, rgba(12, 72, 76, 1) 100%);
     padding: 50px 40px 100px 40px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    .services-title {
-        color: white;
-        font-family: $primary-font;
-        font-size: 45px;
-        font-weight: 600;
-        margin-bottom: 50px;
-        text-align: center;
+    position: relative;
+    .services-background-container {
+      position: absolute;
+      z-index: 1;
+  
+      .services-background-img {
+        object-fit: contain;
+        width: 100vw;
+      }
     }
 
+    .services-main-title {
+        font-family: Work Sans;
+        font-size: 19px;
+        color: white;
+        opacity: 0.96;
+        letter-spacing: -0.7px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 13px;
+    }
+
+    .services-main-text {
+        font-family: $primary-font;
+        font-size: 40px;
+        color: white;
+        margin-top: 5px;
+        font-weight: 600;
+        text-align: center;
+        line-height: 40px;
+        margin-bottom: 50px;
+    }
 
     .services-container {
         display: flex;
@@ -21,6 +49,8 @@
         justify-content: center;
         gap: 55px;
         flex-wrap: wrap; 
+        position: relative;
+        z-index: 10;
     
         .services-wrapper {
             background-color: white;
