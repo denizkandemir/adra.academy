@@ -1,11 +1,7 @@
 
 import "./Header.scss";
-import TeacherSvg from "../svgs/teacher";
-import headerBackGreen from "/new-header-bg.jpg"
-import headerBackLeft from "/header-back-left.png"
-import headerMainImg from "/new-header-sticker.png"
-import headerMainImgWoman from "/new-header-sticker-woman.png"
 import headerBackgroundImg from "/new-header-sticker.png"
+import Navbar from "./Navbar/navbar";
 
 
 
@@ -14,6 +10,7 @@ function Header() {
   return (
     <>
       <div className="header-container">
+        <Navbar containerClass={"header-navbar-container"} svgFill={"black"} linkClass={"header-navbar-link"}/>
         <div className="header-content-container">
           <div className="header-p-button-container">
             <h1 className="header-title"> ACADEMY ADRA İLE <br />  HAYAT İÇİN İNGİLİZCE ÖĞREN! </h1>
