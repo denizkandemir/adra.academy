@@ -9,7 +9,6 @@
    position: relative;
    z-index: 11;
    background: white;
-   padding: 10px 0;
 
    .title-photo-main-container {
       padding: $mobil-padding;
@@ -91,5 +90,37 @@
       justify-content: center;
       margin-top: 10px;
 
+      .social-media-p {
+         text-align: center;
+      }
+
    }
+}
+
+@media(max-width:650px) {
+
+   .motto-container {
+      .title-photo-main-container {
+         padding: $mobil-padding;
+         padding-top: 30px;
+         padding-bottom: 30px;
+
+         .title-p-container {
+            gap: 23px;
+         }
+      }
+
+
+   .insta-svg-container {
+      padding-top: 0;
+      margin: 0;
+      padding-bottom: 30px;
+      gap: 20px;
+      .social-media-p {
+         text-align: center;
+         font-size: 29px;
+      }
+
+   }
+}
 }

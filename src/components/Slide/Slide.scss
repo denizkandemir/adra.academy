@@ -1,3 +1,5 @@
+@import "./src/styles/variables";
+
 .slide-container {
   display: flex;
   justify-content: center;
@@ -7,9 +9,12 @@
  
 }
 
+.slide-content-container {
+  padding: 0 20px;
+}
+
 .slide-page-container {
    padding: 20px 0 100px 0;
-   margin-top: 150px;
    position: relative;
    z-index: 11;
    background: white;
@@ -22,17 +27,34 @@
   border-radius: 5px;
 }
 
-.slide-title {
-  font-family: Work Sans;
-  font-size: 50px;
-  color: rgb(11, 72, 75);
-  margin-bottom: 30px;
-  text-align: center;
-  text-decoration: underline;
-  text-decoration-style: wavy;
-  text-underline-offset: 15px;
-  margin-top: 30px;
+.slide-title-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .slide-title {
+    font-family: Work Sans;
+    font-size: 55px;
+    color: rgb(11, 72, 75);
+    text-align: center;
+    font-weight: 600;
+    line-height: 20px;
+    margin-top: 70px;
+
+    margin-bottom: 25px;
+  }
+
+  .underline-div {
+    background-color: $primary-color;
+    width: 330px;
+    height: 3px;
+    border-radius: 10px;
+  }
+
 }
+
+
 
 .button-prev-slide,
 .button-next-slide {
@@ -101,4 +123,70 @@
   margin-top: 20px;
   padding-bottom: 40px;
  }
+}
+
+@media(max-width:1330px) {
+  .slide-title-container {
+    .slide-title{
+      margin-top: 20px;
+    }
+  }
+
+  .button-next-slide {
+    display: none;
+  }
+
+  .button-prev-slide {
+    display: none;
+  }
+
+}
+
+@media(max-width:600px) {
+
+  .slide-content-container {
+    padding: 0 10px;
+  }
+
+  .slide-page-container {
+    padding-bottom: 25px;
+  }
+
+  .slide-container {
+    margin-top: 17px;
+    padding: 10px;
+  }
+
+  .slide-title-container {
+    .slide-title{
+      margin-top: 10px;
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    .underline-div {
+      width: 220px;
+    }
+  }
+
+}
+
+@media(max-width:550px) { 
+ .swiper-pagination {
+  bottom: 20px;
+ }
+} 
+
+@media(max-width:450px) { 
+  .slide-title-container {
+    .slide-title{
+      font-size: 35px;
+      margin-bottom: 10px;
+    }
+
+    .underline-div {
+      height: 2px;
+      width: 200px;
+    }
+  }
 }

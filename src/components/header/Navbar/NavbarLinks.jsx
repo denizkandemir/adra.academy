@@ -8,14 +8,14 @@ import FacebookSvg from "../../svgs/FacebookSvg";
 import InstagramIcon from "../../svgs/InstaSvg";
 import LinkedInSvg2 from "../../svgs/LinkedInSvg2";
 
-const NavbarLinks = ({ container }) => {
+const NavbarLinks = ({ container, linkClass }) => {
     return (
         <div className={container}>
-            <Link className="navbar-link" to="/">Ana Sayfa</Link>
+            <Link className={linkClass} to="/">Ana Sayfa</Link>
             <div className="menü-container">
                 <div className="sidebar-link-icon-container">
-                    <p className="navbar-dropdown-p navbar-link"> Hizmetlerimiz </p>
-                    <div className="dropdown-icon">
+                <p className={`${linkClass} navbar-dropdown-p`}>Hizmetlerimiz</p>
+                <div className="dropdown-icon">
                      <SidebarDropdownIcon />
                     </div>
                 </div>
@@ -25,7 +25,7 @@ const NavbarLinks = ({ container }) => {
             </div>
             <div className="menü-container">
                 <div className="sidebar-link-icon-container">
-                    <p className="navbar-dropdown-p navbar-link"> Kurslarımız </p>
+                    <p className={`${linkClass} navbar-dropdown-p`}> Kurslarımız </p>
                     <div className="dropdown-icon">
                      <SidebarDropdownIcon />
                     </div>
@@ -34,7 +34,7 @@ const NavbarLinks = ({ container }) => {
                     <NavbarDropdown content={courses} />
                 </div>
             </div>
-            <Link className="navbar-link" to="/contact">İletişim</Link>
+            <Link className={linkClass} to="/contact">İletişim</Link>
             <div className="sidebar-social-container">
                <InstagramIcon width={30} height={25}  fill={"white"}/>
                <FacebookSvg width={30} height={30}  fill={"white"} />

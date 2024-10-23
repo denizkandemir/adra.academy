@@ -9,10 +9,9 @@
 
 .contact-content-container {
   display: flex;
-  gap: 50px;
+  gap: 20px 50px;
   max-width: 1500px;
   align-items: center;
-  flex-wrap: wrap-reverse;
   justify-content: center;
 }
 
@@ -28,6 +27,7 @@
     font-weight: 600;
     font-family: $primary-font;
     margin-bottom: 15px;
+    color: $primary-color;
   
   }
 
@@ -36,6 +36,7 @@
     font-family: $primary-font;
     max-width: 590px;
     line-height: 25px;
+    color: rgba(0,0,0,0.8);
   }
 
 
@@ -43,6 +44,7 @@
     font-weight: 500;
     font-family: $primary-font;
     margin-bottom: 15px;
+    color: rgba(0,0,0,0.8);
   }
 }
 
@@ -90,9 +92,36 @@
   font-family: $primary-font;
 }
 
+@media(max-width:1200px){ 
+  .contact-content-container {
+    flex-wrap: wrap-reverse;
+    .cu-text-container {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
 
 @media(max-width:600px){ 
  .contact-us-container {
   padding: $mobil-padding;
+  padding-top: 40px;
+ }
+ 
+ .cu-button-container { 
+   padding: 8px 15px;
+   margin-top: 25px;
+ }
+
+ .cu-text-container { 
+  .cu-text {
+    font-size: 18px;
+  }
+  .cu-mid-title {
+    font-size: 20px;
+  }
  }
 }

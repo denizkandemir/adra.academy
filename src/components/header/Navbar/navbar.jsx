@@ -8,7 +8,7 @@ import FacebookSvg from "../../svgs/FacebookSvg";
 import InstagramIcon from "../../svgs/InstaSvg";
 import LinkedInSvg from "../../svgs/LinkedInSvg";
 
-function Navbar() {
+function Navbar({containerClass , svgFill , linkClass}) {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
 
   const sidebarOpener = (event) => {
@@ -30,13 +30,13 @@ function Navbar() {
           setSidebarOpen={setSidebarOpen}
         />
       </div>
-      <div className="navbar-container">
+      <div className={containerClass}>
         <div className="navbar-logo-title-container">
           <img className="navbar-logo" src={logo} alt="" />
           <h1 className="navbar-title"> Academy Adra </h1>
         </div>
         <div className="navbar-center-content">
-          <NavbarLinks container={"navbar-links"} />
+          <NavbarLinks container={"navbar-links"} linkClass={linkClass} />
         </div>
 
         <div className="navbar-svg-container">
@@ -45,7 +45,7 @@ function Navbar() {
             className="navbar-svg-link"
             target="_blank"
           >
-            <LinkedInSvg width={30} height={30} fill={"white"} />
+            <LinkedInSvg width={30} height={30} fill={svgFill} />
           </a>
           <a
             href="https://www.instagram.com/academyadra/"
@@ -53,7 +53,7 @@ function Navbar() {
             target="_blank"
             style={{ marginTop: '4px' }}
           >
-            <InstagramIcon width={30} height={25} fill={"white"} />
+            <InstagramIcon width={30} height={25} fill={svgFill} />
           </a>
           <a
             href="https://www.facebook.com/p/Academy-Adra-61553271547191/"
@@ -61,10 +61,10 @@ function Navbar() {
             target="_blank"
             style={{ marginTop: '3px' }}
           >
-            <FacebookSvg height={30} width={30} fill={"white"} />
+            <FacebookSvg height={30} width={30} fill={svgFill} />
           </a>
           <div onClick={sidebarOpener} className="hamburger-container">
-            <MenuIcon />
+            <MenuIcon fill={svgFill} />
           </div>
         </div>
       </div>

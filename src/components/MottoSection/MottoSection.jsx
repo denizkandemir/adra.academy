@@ -29,21 +29,18 @@ const MottoSection = () => {
             <div className="social-media-svg-container">
               <a
                 href="https://www.facebook.com/p/Academy-Adra-61553271547191/"
-                className="navbar-svg-link"
                 target="_blank"
               >
                 <FacebookSvg width={50} height={50} fill={"black"} />
               </a>
               <a
                 href="https://www.instagram.com/academyadra/"
-                className="navbar-svg-link"
                 target="_blank"
               >
                 <LinkedInSvg2 width={45} height={45} fill={"black"} />
               </a>
               <a
                 href="https://www.instagram.com/academyadra/"
-                className="navbar-svg-link"
                 target="_blank"
         
               >

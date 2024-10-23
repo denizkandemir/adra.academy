@@ -12,7 +12,7 @@ const Sidebar = ({ isSidebarOpen, setSidebarOpen }) => {
   return (
     <div className="sidebar-container">
       <div className="sidebar-links-container">
-        <NavbarLinks container={"sidebar-links"} />
+        <NavbarLinks container={"sidebar-links"} linkClass={"navbar-link"}/>
         <div onClick={() => closeSidebar()} className="sidebar-closer">
           <Xmark/>
         </div>

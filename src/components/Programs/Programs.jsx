@@ -9,14 +9,12 @@ const Programs = () => {
 
   return (
     <div className="programs-container">
-      {/* <div className="programs-background-container">
-        <img src={background} className="programs-background-img" alt="" />
-      </div> */}
       <div className="programs-content-container">
         <div className="programs-main-title-container">
           <div className="title-text-container">
             <p className="programs-main-title">Kurslarımız</p>
-            <p className="programs-main-text">Academy Adra <br /> Başarı İçin Doğru Tercih!</p>
+            <p className="programs-main-text"> Academy Adra, İngilizce dil becerilerinizi geliştirmek ve hedeflerinize ulaşmanıza yardımcı olmak için geniş bir yelpazede kurslar sunmaktadır.</p>
+            <p className="programs-motto-p"> Academy Adra Başarı İçin Doğru Tercih!</p>
           </div>
         </div>
   
