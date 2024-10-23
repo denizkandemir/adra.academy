@@ -4,8 +4,6 @@ import headerBackgroundImg from "/new-header-sticker.png"
 import Navbar from "./Navbar/navbar";
 import { Link } from "react-router-dom";
 
-
-
 function Header() {
 
   return (
@@ -30,6 +28,7 @@ function Header() {
           {/* <img className="header-green" src={headerBackGreen} alt="" /> */}
         </div>
       </div>
+  
     </>
   )
 }

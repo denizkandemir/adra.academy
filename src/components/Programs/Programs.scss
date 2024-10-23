@@ -2,14 +2,18 @@
 
 .programs-container {
   background: rgb(34, 149, 161);
-  background: radial-gradient(circle, rgba(34, 149, 161, 1) 15%, rgba(12, 72, 76, 1) 100%);  margin-top: 20px;
-  padding-bottom: 55px;
+  background: linear-gradient(to bottom, rgba(34, 149, 161, 1) 1%, rgba(12, 72, 76, 1) 100%); 
+ 
+  padding-bottom: 65px;
   padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
-
   .programs-background-container {
     position: absolute;
-    top: -13%;
+    z-index: 1;
 
     .programs-background-img {
       object-fit: contain;
@@ -18,19 +22,35 @@
   }
 }
 
+.programs-content-container{
+  max-width: 1280px;
+  position: relative;
+  z-index: 10;
+}
+
 .programs-main-title-container {
   display: flex;
   gap: 30px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 70px 20px 50px 0px;
 
   .programs-main-title {
     font-family: Work Sans;
-    font-size: 47px;
+    font-size: 17px;
     color: white;
+    opacity: 1;
     letter-spacing: -0.7px;
-    padding: 45px 0;
-    text-align: center;
+    font-weight: 500;
+    margin-left: 2px;
+  }
+
+  .programs-main-text {
+    font-family: $primary-font;
+    font-size: 40px;
+    color: white;
+    margin-top: 2px;
+    max-width: 615px;
     font-weight: 600;
   }
 }
@@ -38,29 +58,26 @@
 .courses-container {
   display: flex;
   justify-content: center;
-  gap: 40px;
-  padding: 20px;
+  gap: 50px;
   align-items: stretch;
-  flex-wrap: wrap;
 
   padding-bottom: 40px;
-  flex-wrap: wrap;
 
   .programs-wrapper:hover .programs-img {
-    transform: scale(1.13);
+    transform: scale(1.08);
   }
 
   .programs-wrapper {
     margin-bottom: 25px;
     padding-top: 40px;
-    width: 280px;
+    width: 275px;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    border: 1px solid rgb(11, 72, 75);
-    padding: 20px;
     border-radius: 10px;
     height: 400px;
+    padding: 20px;
     overflow: hidden;
+    
 
     .programs-img {
       position: absolute;
@@ -69,9 +86,9 @@
       object-fit: cover;
       width: 100%;
       height: 100%;
-      opacity: 0.7;
+      opacity: 1;
       border-radius: 10px;
-      filter: brightness(70%);
+      filter: brightness(65%);
       background-size: cover;
       transition: all 1s ease-out;
     }
@@ -155,7 +172,7 @@
         }
 
         .programs-button:hover {
-          box-shadow: rgba(11, 72, 75) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+          box-shadow: rgba(11, 72, 75) 0 -25px 18px -14px inset, rgba(31, 59, 42, 0.15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(41, 99, 63, 0.15) 0 4px 8px, rgba(31, 80, 50, 0.15) 0 8px 16px, rgba(43, 102, 65, 0.15) 0 16px 32px;
         }
 
         .programs-p {
@@ -168,6 +185,29 @@
   }
 }
 
+
+@media(max-width:1240px){ 
+  .courses-container {
+    flex-wrap: wrap;
+  }
+
+  .programs-main-title-container{ 
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media(max-width:1110px){
+  .programs-main-title-container{
+    flex-wrap: wrap;
+    padding:$mobil-padding;
+
+    .programs-side-text {
+      max-width: 615px;
+      margin-top: 0;
+    }
+  }
+}
 
 
 /* CSS */
