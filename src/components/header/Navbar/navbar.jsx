@@ -16,10 +16,14 @@ function Navbar({containerClass , svgFill , linkClass}) {
     setSidebarOpen(true);
   };
 
+  const root = document.querySelector("#root");
+
   if (isSidebarOpen) {
     document.body.classList.add("no-scroll");
+    root.classList.add("no-scroll");
   } else {
     document.body.classList.remove("no-scroll");
+    root.classList.remove("no-scroll");
   }
 
   return (

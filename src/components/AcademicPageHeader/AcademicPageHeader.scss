@@ -35,12 +35,13 @@
       color: $primary-color;
       font-weight: 550;
       font-size: 32px;
+      margin-left: 8px;
    }
 
    .academic-imgs-info-container {
       display: flex;
       gap: 80px;
-      margin-top: 30px;
+      margin-top: 10px;
       justify-content: center;
 
       .academic-info-container {
@@ -61,7 +62,7 @@
             line-height: 27px;
             margin-bottom: 10px;
             margin-top: 17px;
-            opacity: 0.8;
+            color: rgba(0,0,0,0.7);
             max-width: 600px;
          }
 
@@ -72,8 +73,8 @@
             line-height: 30px;
             font-family: $primary-font;
             margin-top: 15px;
-            opacity: 0.7;
             max-width: 600px;
+            color: rgba(0,0,0,0.8);
          }
       }
 
@@ -136,13 +137,14 @@
 
 @media(max-width:1280px) {
    .academic-page-header-container {
+      padding-top: 30px;
       .academic-imgs-info-container {
          flex-wrap: wrap-reverse;
          margin-top: 40px;
       }
 
       .academic-title {
-         text-align: center;
+         display: none;
       }
    }
 }

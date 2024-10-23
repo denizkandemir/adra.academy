@@ -116,6 +116,15 @@
     }
 }
 
+@media(max-width:900px) { 
+    .academic-courses-container {
+        .academic-course-main-wrapper {
+            padding: $mobil-padding;
+        }
+    }
+}
+
+
 @media(max-width:550px) {
 
     .academic-courses-container{
@@ -124,3 +133,4 @@
         }
     }
 }
+
