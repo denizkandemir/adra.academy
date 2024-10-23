@@ -2,7 +2,7 @@
 
 .programs-container {
   background: rgb(34, 149, 161);
-  background: linear-gradient(to bottom, rgba(34, 149, 161, 1) 4%, rgba(12, 72, 76, 1) 100%); 
+  background: linear-gradient(to bottom, rgba(34, 149, 161, 1) 1%, rgba(12, 72, 76, 1) 100%); 
  
   padding-bottom: 65px;
   padding-top: 10px;
@@ -42,13 +42,14 @@
     opacity: 1;
     letter-spacing: -0.7px;
     font-weight: 500;
+    margin-left: 2px;
   }
 
   .programs-main-text {
     font-family: $primary-font;
     font-size: 40px;
     color: white;
-    margin-top: 5px;
+    margin-top: 2px;
     max-width: 615px;
     font-weight: 600;
   }

@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <div className="services-main-container">
-      <div className="services-background-container">
+      {/* <div className="services-background-container">
         <img src={background} className="services-background-img" alt="" />
-      </div>
+      </div> */}
       <div className="services-title-container">
         <p className="services-main-title"> Hizmetlerimiz </p>
         <p className="services-main-text"> Dil Öğreniminde <br /> Profesyonel Çözümler! </p>

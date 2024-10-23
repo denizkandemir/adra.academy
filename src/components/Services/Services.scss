@@ -4,7 +4,7 @@
     background: rgb(34, 149, 161);
     // background: linear-gradient(to bottom, rgba(34, 149, 161, 1) 10%, rgba(12, 72, 76, 1) 100%);
     background: radial-gradient(circle, rgba(34, 149, 161, 1) 20%, rgba(12, 72, 76, 1) 100%);
-
+    // background-color: $gray-color;
     padding: 50px 40px 110px 40px;
     z-index: 10;
     display: flex;
@@ -25,19 +25,22 @@
 
     .services-main-title {
         font-family: Work Sans;
-        font-size: 19px;
+        font-size: 21px;
         color: white;
+        // color: rgba(98,98,98);
         opacity: 0.96;
         letter-spacing: -0.7px;
         font-weight: 500;
         text-align: center;
-        margin-bottom: 13px;
+        margin-bottom: 10px;
     }
 
     .services-main-text {
         font-family: $primary-font;
         font-size: 40px;
         color: white;
+        // color: $primary-color;
+
         margin-top: 5px;
         font-weight: 600;
         text-align: center;
@@ -48,7 +51,7 @@
         display: flex;
         align-items: stretch;
         justify-content: center;
-        gap: 55px;
+        gap: 60px;
         flex-wrap: wrap; 
         position: relative;
         z-index: 10;

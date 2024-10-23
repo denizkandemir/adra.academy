@@ -26,11 +26,7 @@ const Workshops = () => {
           <div className="workshops-content-container">
             {
               workshops.map((workshop) => (
-                // 
                 <div className="workshop-main-backgrounds-container" key={workshop.id}>
-                  <div  className={workshop.backgroundClass}>
-                    <img src={workshop.background} className={"workshops-background-img"} alt="" />
-                  </div>
                   <div className={workshop.id % 2 === 1 ? "workshop-wrapper" : "workshop-wrapper reverse-wrapper"} >
                     <div>
                       <h2 className={workshop.id === 1 ? "workshops-main-title" : "non-title"}> Yabancı Dil Atölyeleri </h2>

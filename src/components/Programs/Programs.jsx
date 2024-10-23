@@ -9,9 +9,9 @@ const Programs = () => {
 
   return (
     <div className="programs-container">
-      <div className="programs-background-container">
+      {/* <div className="programs-background-container">
         <img src={background} className="programs-background-img" alt="" />
-      </div>
+      </div> */}
       <div className="programs-content-container">
         <div className="programs-main-title-container">
           <div className="title-text-container">
