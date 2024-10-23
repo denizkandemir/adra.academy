@@ -1,14 +1,18 @@
 import React from "react";
 import services from "../../objects/services";
-import logo from "/logo.jpg"
 import "./Services.scss"
+import background from "/cards-background.png"
 import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
     <div className="services-main-container">
+      {/* <div className="services-background-container">
+        <img src={background} className="services-background-img" alt="" />
+      </div> */}
       <div className="services-title-container">
-        <p className="services-title"> Hizmetlerimiz </p>
+        <p className="services-main-title"> Hizmetlerimiz </p>
+        <p className="services-main-text"> Academy Adra olarak, ihtiyaçlarınıza uygun yüksek kaliteli dil eğitimi sunmaya kararlıyız. Çeşitli hizmetlerimiz, her seviyeden öğrencilerimizin dil hedeflerine güvenle ulaşmalarını sağlamayı amaçlıyor. </p>
       </div>
       <div className="services-container">
         {
@@ -24,7 +28,8 @@ const Services = () => {
               <div className="services-button-container">
                 <img className="services-logo" src={service.gif} alt="" />
                  <Link className="services-link" to={service.path}>
-                  <button className="services-button"> İncele </button>     
+                  <button className="services-button"> 
+                  <p className="button-text">İletişim</p> </button>     
                  </Link>          
               </div>
             </div>

@@ -16,7 +16,10 @@ const ServicesPageContent = ({service}) => {
           </p>
           <div className="service-page-button-container">
             <Link to={"/contact"}>
-             <button className="service-page-button"> İletişim </button>
+             <button className="service-page-button">  
+             <p className="button-text">İletişim</p>
+
+             </button>
             </Link>
           </div>
         </div>

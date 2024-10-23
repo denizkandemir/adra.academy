@@ -20,6 +20,7 @@
         font-weight: 450;
         margin-bottom: 5px;
         font-size: 18px;
+        margin-left: 1px;
         color: rgb(129, 126, 126);
     }
 
@@ -66,7 +67,7 @@
 
 
     .academic-course-img {
-        width: 320px;
+        width: 330px;
         object-fit: cover;
         height: 430px;
         border-radius: 15px;
@@ -87,7 +88,9 @@
 
     .black-button {
         backdrop-filter: blur(2px);
-        background-color: rgb(0 165 173);
+        background-color: rgba(246, 246, 246, 0.2);
+        // background: transparent;
+        backdrop-filter: blur(10px);
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     }
 }

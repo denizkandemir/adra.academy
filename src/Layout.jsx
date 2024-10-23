@@ -12,7 +12,7 @@ export function Layout(){
     return(
         <>
         {
-            !isHomePage &&  <Navbar containerClass={"navbar-container"} svgFill={"white"}/>
+            !isHomePage &&  <Navbar containerClass={"navbar-container"} svgFill={"white"} linkClass={"navbar-link"}/>
         }
         <main>
             <Outlet/>

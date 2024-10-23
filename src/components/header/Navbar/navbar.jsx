@@ -64,7 +64,7 @@ function Navbar({containerClass , svgFill , linkClass}) {
             <FacebookSvg height={30} width={30} fill={svgFill} />
           </a>
           <div onClick={sidebarOpener} className="hamburger-container">
-            <MenuIcon />
+            <MenuIcon fill={svgFill} />
           </div>
         </div>
       </div>

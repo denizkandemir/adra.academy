@@ -23,7 +23,10 @@ function Slide() {
 
 
       <div className="slide-page-container">
-        <h1 className="slide-title"> Biz Kimiz? </h1>
+        <div className="slide-title-container">
+         <h2 className="slide-title"> Biz Kimiz? </h2>
+         <div className="underline-div"></div>
+        </div>
         <div className="slide-content-container">
           <Swiper
             modules={[Navigation, Pagination, Autoplay, Keyboard, EffectCards]}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MenuIcon = () => {
+const MenuIcon = ({fill}) => {
   return (
     <svg
       width="40px"
@@ -20,7 +20,7 @@ const MenuIcon = () => {
             x2="19"
             y2="7"
             id="Path"
-            stroke="white"
+            stroke={fill}
             strokeWidth="2"
             strokeLinecap="round"
           />
@@ -30,7 +30,7 @@ const MenuIcon = () => {
             x2="19"
             y2="17"
             id="Path"
-            stroke="white"
+            stroke={fill}
             strokeWidth="2"
             strokeLinecap="round"
           />
@@ -40,7 +40,7 @@ const MenuIcon = () => {
             x2="19"
             y2="12"
             id="Path"
-            stroke="white"
+            stroke={fill}
             strokeWidth="2"
             strokeLinecap="round"
           />

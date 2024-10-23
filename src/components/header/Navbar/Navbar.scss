@@ -88,7 +88,7 @@
 
 .dropdown-component-container {
     position: absolute;
-    z-index: 10;
+    z-index: 200;
     left: -89px;
     top: 40px;
     border-radius: 10px;
@@ -193,6 +193,12 @@
 
     .navbar-container {
         padding: 10px 20px;
+    }
+
+    .header-navbar-container {
+        padding: 20px 30px;
+        padding-bottom: 0;
+
     }
 
   .navbar-title {
