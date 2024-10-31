@@ -12,10 +12,10 @@
 
    .title-photo-main-container {
       padding: $mobil-padding;
-      padding-left: 65px;
+      padding-left: 70px;
       display: flex;
       justify-content: center;
-      gap: 0px 30px;
+      gap: 0px 25px;
       flex-wrap: wrap-reverse;
 
       .title-p-container {
@@ -31,11 +31,11 @@
           .list-title {
             font-family: $primary-font;
             font-size: 25px;
-            font-weight: 460;
+            font-weight: 410;
             margin-bottom: 11px;
             position: relative;
             margin-left: 3px;
-            color: rgba(0,0,0,0.8);
+            color: rgba(0,0,0,0.7);
             word-spacing: 0.8px;
 
           }
