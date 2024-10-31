@@ -1,14 +1,17 @@
 import courses from "../../objects/courses";
 import { Link } from "react-router-dom";
 import "./AcademicPageCourses.scss";
+import withFadeInOnScroll from "../animation/animationHook";
 
 const AcademicPageCourses = () => {
+  withFadeInOnScroll();
+
   return (
     <div className="academic-courses-container">
       {
         courses.map((course) => (
-          <div key={course.id} className={parseInt(course.id) % 2 === 0 ? "academic-course-main-wrapper" : "academic-course-main-wrapper course-background"} >
-            <div className={parseInt(course.id) % 2 === 0 ? "academic-course-wrapper" : "academic-course-wrapper reverse"}>
+          <div key={course.id} className={parseInt(course.id) % 2 === 0 ? "academic-course-main-wrapper " : "academic-course-main-wrapper course-background"} >
+            <div className={parseInt(course.id) % 2 === 0 ? "academic-course-wrapper fade-in" : "academic-course-wrapper reverse fade-in"}>
               <img src={course.img} alt="" className="academic-course-img" />
               <div className="academic-course-title-container">
                 <p className={parseInt(course.id) % 2 === 0 ? "academic-gray-p" : "academic-gray-p white-p opacity-p"}> Kurslarımız </p>
