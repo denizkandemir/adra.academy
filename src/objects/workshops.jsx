@@ -1,6 +1,6 @@
 //import workshop1 from "/adra-mini.png";
 import workshop2 from "/adra-group.png";
-import workshop1 from "/workshop-11.png";
+import workshop1 from "/workshop-111.png";
 //import workshop2 from "/workshop-2.jpeg";
 import workshop3 from "/workshop-3.jpg";
 import topBackground from "/workshops-top-background.png";
