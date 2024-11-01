@@ -3,17 +3,13 @@ import "./Header.scss";
 import headerBackgroundImg from "/new-header-sticker.png"
 import Navbar from "./Navbar/navbar";
 import { Link } from "react-router-dom";
-import withFadeInOnScroll from "../animation/animationHook";
 
 function Header() {
-
-  withFadeInOnScroll();
-
   return (
     <>
       <div className="header-container">
         <Navbar containerClass={"header-navbar-container"} svgFill={"black"} linkClass={"header-navbar-link"}/>
-        <div className="header-content-container fade-in">
+        <div className="header-content-container">
           <div className="header-p-button-container">
             <h1 className="header-title"> ACADEMY ADRA İLE <br />  HAYAT İÇİN İNGİLİZCE ÖĞREN! </h1>
             <p className="header-p">

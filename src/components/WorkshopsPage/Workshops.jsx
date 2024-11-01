@@ -30,10 +30,10 @@ const Workshops = () => {
             {
               workshops.map((workshop) => (
                 <div className="workshop-main-backgrounds-container" key={workshop.id}>
-                  <div className={workshop.id % 2 === 1 ? "workshop-wrapper " : "workshop-wrapper reverse-wrapper"} >
-                    <div className="fade-in">
-                      <h2 className={workshop.id === 1 ? "workshops-main-title " : "non-title "}> Yabancı Dil Atölyeleri </h2>
-                      <img className="workshop-photo " src={workshop.img} alt="" />
+                  <div className={`${workshop.id % 2 === 1 ? "workshop-wrapper" : "workshop-wrapper reverse-wrapper"} ${workshop.id === 1 ? "workshop-wrapper less-gap" : "workshop-wrapper"}`}>
+                    <div>
+                      <h2 className={workshop.id === 1 ? "workshops-main-title" : "non-title"}> Yabancı Dil Atölyeleri </h2>
+                      <img className={workshop.id !== 1 ?"workshop-photo" : "workshop-photo-with-gif"} src={workshop.img} alt="" />
                     </div>
                     <div className="workshops-text-container fade-in">
                       <p className={"workshops-mini-text"}> Kurslarımız </p>

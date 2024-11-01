@@ -9,8 +9,8 @@ const Programs = () => {
 
   return (
     <div className="programs-container">
-      <div className="programs-content-container fade-in">
-        <div className="programs-main-title-container">
+      <div className="programs-content-container">
+        <div className="programs-main-title-container fade-in">
           <div className="title-text-container">
             <p className="programs-main-title">Kurslarımız</p>
             <p className="programs-main-text"> Academy Adra, İngilizce dil becerilerinizi geliştirmek ve hedeflerinize ulaşmanıza yardımcı olmak için geniş bir yelpazede kurslar sunmaktadır.</p>
@@ -18,7 +18,7 @@ const Programs = () => {
           </div>
         </div>
   
-        <div className="courses-container">
+        <div className="courses-container fade-in">
           {courses.map((course) => (
             <div key={course.id} className="programs-wrapper">
               <img className="programs-img" src={course.img} alt="" />

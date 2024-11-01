@@ -4,16 +4,12 @@ import CapSvg from "../svgs/CapSvg";
 import studentsImg from "/academic-students.jpg";
 import kidsImg from "/academic-kids.jpg";
 import bookImg from "/academic-books.jpg";
-import withFadeInOnScroll from "../animation/animationHook";
 
 
 const AcademicPageHeader = () => {
-
-  withFadeInOnScroll();
-
   return (
     <div className="academic-page-header-container">
-      <div className="academic-page-content-container fade-in">
+      <div className="academic-page-content-container">
         <div className="academic-title-container">
           <h1 className="academic-title">
             Yabancı Dil Ve Akademik Başarı
