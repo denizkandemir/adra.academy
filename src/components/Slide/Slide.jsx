@@ -16,13 +16,16 @@ import slide2 from "/slide2.jpg";
 import slide3 from "/slide3.jpg";
 import slide4 from "/slide4.jpg";
 import slide5 from "/slide5.jpg";
+import withFadeInOnScroll from "../animation/animationHook";
 
 function Slide() {
+
+
+  withFadeInOnScroll();
+
   return (
     <>
-
-
-      <div className="slide-page-container">
+      <div className="slide-page-container fade-in">
         <div className="slide-title-container">
          <h2 className="slide-title"> Biz Kimiz? </h2>
          <div className="underline-div"></div>

@@ -1,20 +1,20 @@
 import React from "react";
 import services from "../../objects/services";
 import "./Services.scss"
-import background from "/cards-background.png"
 import { Link } from "react-router-dom";
+import withFadeInOnScroll from "../animation/animationHook";
 
 const Services = () => {
+
+  withFadeInOnScroll();
+
   return (
     <div className="services-main-container">
-      {/* <div className="services-background-container">
-        <img src={background} className="services-background-img" alt="" />
-      </div> */}
-      <div className="services-title-container">
+      <div className="services-title-container fade-in">
         <p className="services-main-title"> Hizmetlerimiz </p>
-        <p className="services-main-text"> Academy Adra olarak, ihtiyaçlarınıza uygun yüksek kaliteli dil eğitimi sunmaya kararlıyız. Çeşitli hizmetlerimiz, her seviyeden öğrencilerimizin dil hedeflerine güvenle ulaşmalarını sağlamayı amaçlıyor. </p>
+        <p className="services-main-text"> Academy Adra olarak, ihtiyaçlarınıza uygun yüksek kaliteli dil eğitimi sunmaya kararlıyız. Çeşitli hizmetlerimiz, akademik başarınızı ve profesyonel gelişiminizi desteklemek amacıyla özenle tasarlanmıştır </p>
       </div>
-      <div className="services-container">
+      <div className="services-container fade-in">
         {
           services.map((service) => (
             <div key={service.id} className="services-wrapper">

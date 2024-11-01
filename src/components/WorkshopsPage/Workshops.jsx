@@ -4,6 +4,7 @@ import workshops from "../../objects/workshops";
 import { useState } from "react";
 import ArrowIcon from "../svgs/downArrow";
 import { Link } from "react-router-dom";
+import withFadeInOnScroll from "../animation/animationHook";
 
 
 
@@ -19,6 +20,8 @@ const Workshops = () => {
     }
   };
 
+  withFadeInOnScroll();
+
   return (
     <>
       <div className="workshops-container">
@@ -27,12 +30,12 @@ const Workshops = () => {
             {
               workshops.map((workshop) => (
                 <div className="workshop-main-backgrounds-container" key={workshop.id}>
-                  <div className={workshop.id % 2 === 1 ? "workshop-wrapper" : "workshop-wrapper reverse-wrapper"} >
+                  <div className={`${workshop.id % 2 === 1 ? "workshop-wrapper" : "workshop-wrapper reverse-wrapper"} ${workshop.id === 1 ? "workshop-wrapper less-gap" : "workshop-wrapper"}`}>
                     <div>
                       <h2 className={workshop.id === 1 ? "workshops-main-title" : "non-title"}> Yabancı Dil Atölyeleri </h2>
-                      <img className="workshop-photo" src={workshop.img} alt="" />
+                      <img className={workshop.id !== 1 ?"workshop-photo" : "workshop-photo-with-gif"} src={workshop.img} alt="" />
                     </div>
-                    <div className="workshops-text-container">
+                    <div className="workshops-text-container fade-in">
                       <p className={"workshops-mini-text"}> Kurslarımız </p>
                       <h2 className={"workshops-title"}>{workshop.title}</h2>
                       {workshop.accordions.map((accordion) => (

@@ -1,11 +1,15 @@
 import React from "react";
 import "./ContactPage.scss";
 import logo from "/logo.jpg";
+import withFadeInOnScroll from "../animation/animationHook";
 
 const ContactPage = () => {
+
+  withFadeInOnScroll();
+
   return (
     <>
-      <div className="contact-container">
+      <div className="contact-container fade-in">
         <div className="contact-all-container">
           <div className="contact-page-content-container">
             <div className="contact-svg-container">
@@ -129,6 +133,7 @@ const ContactPage = () => {
               ></iframe>
             
           </div>
+          
         </div>
       </div>
     </>

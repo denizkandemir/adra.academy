@@ -1,16 +1,16 @@
 import "./Programs.scss";
 import courses from "../../objects/courses";
 import { Link } from "react-router-dom";
-import background from "/cards-background.png"
-import reverseBackground from "/cards-background-reverse.png"
+import withFadeInOnScroll from "../animation/animationHook";
 
 
 const Programs = () => {
+  withFadeInOnScroll();
 
   return (
     <div className="programs-container">
       <div className="programs-content-container">
-        <div className="programs-main-title-container">
+        <div className="programs-main-title-container fade-in">
           <div className="title-text-container">
             <p className="programs-main-title">Kurslarımız</p>
             <p className="programs-main-text"> Academy Adra, İngilizce dil becerilerinizi geliştirmek ve hedeflerinize ulaşmanıza yardımcı olmak için geniş bir yelpazede kurslar sunmaktadır.</p>
@@ -18,7 +18,7 @@ const Programs = () => {
           </div>
         </div>
   
-        <div className="courses-container">
+        <div className="courses-container fade-in">
           {courses.map((course) => (
             <div key={course.id} className="programs-wrapper">
               <img className="programs-img" src={course.img} alt="" />

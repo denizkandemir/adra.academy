@@ -223,6 +223,14 @@
   }
 }
 
+@media(max-width:830px) {
+  .programs-main-title-container {
+    .programs-main-text {
+      font-size: 19px;
+    }
+  }
+} 
+
 @media(max-width:600px) {
   .programs-main-title-container {
     .programs-motto-p {display: none;}

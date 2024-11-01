@@ -4,12 +4,16 @@ import coach from "/coach2.png";
 import coach2 from "/coach3.png";
 import studentCoaching from "/Adra Coaching2.png";
 import { useLocation } from "react-router-dom";
+import withFadeInOnScroll from "../animation/animationHook";
 
 const StudentCoachPage = () => {
+
+  withFadeInOnScroll();
+
   return (
     <>
       <div className="student-coach-container">
-        <div className="student-coach-content-container">
+        <div className="student-coach-content-container fade-in">
           <div className="student-coach-text-container">
             <img src={studentCoaching} alt="" className="student-coach-title" />
             <div className="student-coach-title2">
