@@ -1,7 +1,7 @@
 import React from "react";
 import "./ServicesPageContent.scss";
 import { Link } from "react-router-dom";
-import withFadeInOnScroll from "../animation/animationHook";
+import withFadeInOnScroll from "../../hooks/animation/animationHook";
 
 const ServicesPageContent = ({service}) => {
 

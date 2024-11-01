@@ -2,7 +2,7 @@ import React from "react";
 import services from "../../objects/services";
 import "./Services.scss"
 import { Link } from "react-router-dom";
-import withFadeInOnScroll from "../animation/animationHook";
+import withFadeInOnScroll from "../../hooks/animation/animationHook";
 
 const Services = () => {
 

@@ -1,7 +1,7 @@
 import React from "react";
 import "./ContactPage.scss";
 import logo from "/logo.jpg";
-import withFadeInOnScroll from "../animation/animationHook";
+import withFadeInOnScroll from "../../hooks/animation/animationHook";
 
 const ContactPage = () => {
 

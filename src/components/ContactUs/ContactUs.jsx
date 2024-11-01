@@ -1,7 +1,7 @@
 import "./ContactUs.scss";
 import sticker from "/cu-sticker.jpg";
 import { Link } from "react-router-dom";
-import withFadeInOnScroll from "../animation/animationHook";
+import withFadeInOnScroll from "../../hooks/animation/animationHook";
 
 const ContactUs = () => {
 

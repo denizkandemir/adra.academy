@@ -4,7 +4,7 @@ import coach from "/coach2.png";
 import coach2 from "/coach3.png";
 import studentCoaching from "/Adra Coaching2.png";
 import { useLocation } from "react-router-dom";
-import withFadeInOnScroll from "../animation/animationHook";
+import withFadeInOnScroll from "../../hooks/animation/animationHook";
 
 const StudentCoachPage = () => {
 
