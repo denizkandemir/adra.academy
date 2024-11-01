@@ -1,7 +1,7 @@
 // useFadeInOnScroll.js
 import { useEffect } from 'react';
 
-const useFadeInOnScroll = (selector = '.fade-in') => {
+const withFadeInOnScroll = (selector = '.fade-in') => {
   useEffect(() => {
     const elements = document.querySelectorAll(selector);
     const observer = new IntersectionObserver(
@@ -22,4 +22,4 @@ const useFadeInOnScroll = (selector = '.fade-in') => {
   }, [selector]);
 };
 
-export default useFadeInOnScroll;
+export default withFadeInOnScroll;

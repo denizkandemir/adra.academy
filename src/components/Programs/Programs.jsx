@@ -1,15 +1,15 @@
 import "./Programs.scss";
 import courses from "../../objects/courses";
 import { Link } from "react-router-dom";
-import background from "/cards-background.png"
-import reverseBackground from "/cards-background-reverse.png"
+import withFadeInOnScroll from "../animation/animationHook";
 
 
 const Programs = () => {
+  withFadeInOnScroll();
 
   return (
     <div className="programs-container">
-      <div className="programs-content-container">
+      <div className="programs-content-container fade-in">
         <div className="programs-main-title-container">
           <div className="title-text-container">
             <p className="programs-main-title">Kurslarımız</p>

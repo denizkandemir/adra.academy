@@ -4,14 +4,17 @@ import mottoImg from "/adraMotto.jpg"
 import InstagramIcon from "../svgs/InstaSvg";
 import FacebookSvg from "../svgs/FacebookSvg";
 import LinkedInSvg2 from "../svgs/LinkedInSvg2";
+import withFadeInOnScroll from "../animation/animationHook";
 
 
 const MottoSection = () => {
 
+  withFadeInOnScroll();
+
   return (
     <>
       <div className="motto-container">
-        <div className="motto-content-container">
+        <div className="motto-content-container fade-in">
           <div className="title-photo-main-container">
             <div className="title-p-container">
               <h1 className="main-title">  Neden Bizi Seçmelisiniz? </h1>

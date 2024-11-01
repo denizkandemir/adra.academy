@@ -1,12 +1,17 @@
 import "./ContactUs.scss";
 import sticker from "/cu-sticker.jpg";
 import { Link } from "react-router-dom";
+import withFadeInOnScroll from "../animation/animationHook";
 
 const ContactUs = () => {
+
+
+  withFadeInOnScroll();
+
   return (
     <>
       <div className="contact-us-container">
-        <div className="contact-content-container">
+        <div className="contact-content-container fade-in">
           <div className="cu-sticker-container">
             <img src={sticker} alt="" className="cu-sticker" />
           </div>
