@@ -13,7 +13,7 @@ const StudentCoachPage = () => {
   return (
     <>
       <div className="student-coach-container">
-        <div className="student-coach-content-container fade-in">
+        <div className="student-coach-content-container">
           <div className="student-coach-text-container">
             <img src={studentCoaching} alt="" className="student-coach-title" />
             <div className="student-coach-title2">
@@ -33,7 +33,7 @@ const StudentCoachPage = () => {
         </div>
 
         <div className="background">
-          <div className="student-coach-content-container">
+          <div className="student-coach-content-container fade-in">
             <div className="student-coach-mid-text">
               <p>
                 Adra Öğrenci Koçluğu hizmeti, akademik başarısını 
@@ -48,7 +48,7 @@ const StudentCoachPage = () => {
           </div>
         </div>
 
-        <div className="student-coach-content-container bottom-content-container">
+        <div className="student-coach-content-container bottom-content-container fade-in">
           <img className="student-coach-sticker" src={coach2} alt="" />
           <div className="student-coach-last-p">
             <p>

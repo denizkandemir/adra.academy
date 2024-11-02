@@ -16,15 +16,13 @@ const ContactUs = () => {
             <img src={sticker} alt="" className="cu-sticker" />
           </div>
           <div className="cu-text-container">
-            <h1 className="cu-title">Lorem ipsum</h1>
+            <h1 className="cu-title"> Bize Ulaşın! </h1>
             <h2 className="cu-mid-title">
-              Lorem ipsum dolor sit amet consectetur.
+              Kurslarımıza kayıt olmak ve detaylı bilgi almak için bizimle iletişime geçin.
             </h2>
             <p className="cu-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quasi
-              eveniet, eligendi accusamus excepturi, repudiandae  vero unde
-              quibusdam itaque, officia harum delectus dolores nulla
-              necessitatibus quaerat? Adipisci, ratione?
+            İngilizce öğrenmeye başlamak, kurslarımız ve hizmetlerimiz hakkında bilgi almak veya kayıt işlemleriyle ilgili yardım almak için bizimle iletişime geçin!
+            Her türlü sorunuz için size yardımcı olmaktan mutluluk duyarız. 
             </p>
             <Link to="/contact" className="button-text">
               <button className="cu-button-container">
@@ -54,7 +52,7 @@ const ContactUs = () => {
                     </g>
                   </svg>
                 </div>
-                <p className="button-text">Bize Ulaşın!</p>
+                <p className="button-text">İletişim</p>
               </button>
             </Link>
           </div>

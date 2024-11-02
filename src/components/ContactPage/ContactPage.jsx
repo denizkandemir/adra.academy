@@ -1,15 +1,11 @@
 import React from "react";
 import "./ContactPage.scss";
 import logo from "/logo.jpg";
-import withFadeInOnScroll from "../../hooks/animation/animationHook";
 
 const ContactPage = () => {
-
-  withFadeInOnScroll();
-
   return (
     <>
-      <div className="contact-container fade-in">
+      <div className="contact-container ">
         <div className="contact-all-container">
           <div className="contact-page-content-container">
             <div className="contact-svg-container">
@@ -95,11 +91,9 @@ const ContactPage = () => {
             </div>
 
             <div className="contact-title-p-container">
-              <h1 className="contact-title">Bize Ulaşın</h1>
+              <h2 className="contact-title">Bize Ulaşın</h2>
               <p className="contact-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae
-                dicta ratione dolores dolorem. Alias illum aperiam tempore
-                similique, fugiat reiciendis dolores expedita?
+              Her türlü soru ve bilgi talepleriniz için bizimle iletişime geçin! Size en kısa sürede dönüş yapmaktan mutluluk duyarız.
               </p>
               <div className="contact-btn-container">
                 <button className="contact-btn">
