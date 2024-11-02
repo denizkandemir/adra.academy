@@ -1,7 +1,7 @@
 import "./Programs.scss";
 import courses from "../../objects/courses";
 import { Link } from "react-router-dom";
-import withFadeInOnScroll from "../animation/animationHook";
+import withFadeInOnScroll from "../../hooks/animation/animationHook";
 
 
 const Programs = () => {

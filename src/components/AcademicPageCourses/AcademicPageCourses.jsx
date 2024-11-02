@@ -1,7 +1,7 @@
 import courses from "../../objects/courses";
 import { Link } from "react-router-dom";
 import "./AcademicPageCourses.scss";
-import withFadeInOnScroll from "../animation/animationHook";
+import withFadeInOnScroll from "../../hooks/animation/animationHook";
 
 const AcademicPageCourses = () => {
   withFadeInOnScroll();

@@ -4,7 +4,7 @@ import mottoImg from "/adraMotto.jpg"
 import InstagramIcon from "../svgs/InstaSvg";
 import FacebookSvg from "../svgs/FacebookSvg";
 import LinkedInSvg2 from "../svgs/LinkedInSvg2";
-import withFadeInOnScroll from "../animation/animationHook";
+import withFadeInOnScroll from "../../hooks/animation/animationHook";
 
 
 const MottoSection = () => {

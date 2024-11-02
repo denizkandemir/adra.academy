@@ -1,16 +1,25 @@
-
-.footer-container{
+.footer-container {
   background-image: url("/back adra.png");
   background-repeat: no-repeat;
-  background-size:cover; 
+  background-size: cover;
   background-position: bottom;
-  display: flex;
-  align-items: center;
   padding: 50px 75px;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-  .footer-link{
+
+  .footer-main-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    gap: 60px;
+  }
+
+  .footer-link {
     text-decoration: none;
     color: white;
   }
@@ -23,16 +32,16 @@
     margin-bottom: 56px;
   }
 
-  
-@media(max-width:730px) {
-  .footer-second {
-    margin-bottom: 0px;
-  }
 
-  .footer-third {
-    margin-bottom: 0px;
+  @media(max-width:730px) {
+    .footer-second {
+      margin-bottom: 0px;
+    }
+
+    .footer-third {
+      margin-bottom: 0px;
+    }
   }
-}
 
   .footer-content-container {
     display: grid;
@@ -40,13 +49,13 @@
   }
 }
 
-.footer-logo{
+.footer-logo {
   height: 300px;
   object-fit: cover;
   width: 300px;
 }
 
-.footer-svg-p-container{
+.footer-svg-p-container {
   display: flex;
   margin-left: 4px;
   gap: 10px;
@@ -60,18 +69,18 @@
   font-family: Work Sans;
 }
 
-.footer-social-container{
+.footer-social-container {
   display: flex;
   gap: 10px;
 }
 
-.footer-social{
+.footer-social {
   display: flex;
   justify-content: center;
   align-items: end;
 }
 
-.footer-courses-services-title{
+.footer-courses-services-title {
   font-size: 24px;
   font-weight: 600;
   padding-bottom: 5px;
@@ -79,24 +88,41 @@
   font-family: Work Sans;
 }
 
-.footer-courses-services-index{
+.footer-courses-services-index {
   font-size: 15px;
   margin-bottom: 35px;
 }
 
 
-@media(max-width:1370px){
+@media(max-width:1310px) {
+  .footer-container {
+    .footer-main-content-container {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 80px;
+    }
+  }
+}
 
+@media(max-width:780px) {
   .footer-container{
-    justify-content: center;
-    gap: 60px;
-  }
-
-  .footer-content-container{
-    width: 275px;
-  }
+    .footer-second {
+      margin-bottom: 0;
+    }
+  } 
 
 }
 
 
+@media(max-width:1370px) {
 
+  .footer-content {
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .footer-content-container {
+    width: 275px;
+  }
+
+}

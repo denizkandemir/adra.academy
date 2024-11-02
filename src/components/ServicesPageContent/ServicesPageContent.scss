@@ -45,6 +45,10 @@
         color: $primary-color;
     }
 
+    .service-link-button {
+        text-decoration: none;
+      }
+
     .service-page-button-container {
         .service-page-button {
             background-color: rgb(21, 121, 130);
@@ -55,6 +59,7 @@
             border-radius: 10px;
             border: 1px solid white;
             font-family: $primary-font;
+            text-decoration: none;
             display: flex;
             align-items: center;
             gap: 7px;
@@ -63,6 +68,8 @@
             overflow: hidden;
             transition: color 0.3s;
           }
+
+       
           
           .service-page-button::before {
             content: '';
@@ -71,6 +78,7 @@
             left: 0;
             width: 0%;
             height: 100%;
+            text-decoration: none;
             background-color: #054b4d;
             transition: width 0.3s;
             border-radius: 10px;

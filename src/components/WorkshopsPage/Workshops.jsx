@@ -4,7 +4,7 @@ import workshops from "../../objects/workshops";
 import { useState } from "react";
 import ArrowIcon from "../svgs/downArrow";
 import { Link } from "react-router-dom";
-import withFadeInOnScroll from "../animation/animationHook";
+import withFadeInOnScroll from "../../hooks/animation/animationHook";
 
 
 
