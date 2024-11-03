@@ -44,8 +44,6 @@ const Slide = () => {
             rewind={true}
             effect="cards"
             cardsEffect={{ slideShadows: false, perSlideRotate: 2 }}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
           >
             <SwiperSlide>
               <div className="slide-container">

@@ -1,4 +1,3 @@
-import React from "react";
 import { useEffect } from "react";
 import ContactPage from "../components/ContactPage/ContactPage";
 
