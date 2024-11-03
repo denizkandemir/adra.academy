@@ -1,14 +1,10 @@
 import React from "react";
 import "./ServicesPageContent.scss";
 import { Link } from "react-router-dom";
-import withFadeInOnScroll from "../animation/animationHook";
 
 const ServicesPageContent = ({service}) => {
-
-  withFadeInOnScroll();
-
   return (
-   <div className="service-page-container fade-in"> 
+   <div className="service-page-container "> 
       <div className="service-page-text-container">
         <p className="service-page-mini-title"> {service.contentTitle} </p>
         <h2 className="service-page-title"> {service.title}  </h2> 
@@ -19,7 +15,7 @@ const ServicesPageContent = ({service}) => {
             Kurslarımıza Kayıt Olmak ve Daha Detaylı Bilgi Almak İçin Bizimle İletişime Geçin!
           </p>
           <div className="service-page-button-container">
-            <Link to={"/contact"}>
+            <Link to={"/contact"} className="service-link-button">
              <button className="service-page-button">  
              <p className="button-text">İletişim</p>
              </button>

@@ -2,7 +2,7 @@ import React from "react";
 import services from "../../objects/services";
 import "./Services.scss"
 import { Link } from "react-router-dom";
-import withFadeInOnScroll from "../animation/animationHook";
+import withFadeInOnScroll from "../../hooks/animation/animationHook";
 
 const Services = () => {
 
@@ -27,9 +27,9 @@ const Services = () => {
               </div>
               <div className="services-button-container">
                 <img className="services-logo" src={service.gif} alt="" />
-                 <Link className="services-link" to={service.path}>
+                 <Link className="services-link" to={{ pathname: service.path,}} state={service} >
                   <button className="services-button"> 
-                  <p className="button-text">İletişim</p> </button>     
+                  <p className="button-text"> İncele </p> </button>     
                  </Link>          
               </div>
             </div>
