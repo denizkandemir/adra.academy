@@ -14,8 +14,8 @@ const MottoSection = () => {
   return (
     <>
       <div className="motto-container">
-        <div className="motto-content-container fade-in">
-          <div className="title-photo-main-container">
+        <div className="motto-content-container ">
+          <div className="title-photo-main-container fade-in">
             <div className="title-p-container">
               <h1 className="main-title">  Neden Bizi Seçmelisiniz? </h1>
               <ul className="motto-list-container">
@@ -32,16 +32,12 @@ const MottoSection = () => {
                   <p className="list-title-p">   Eğitiminizinde size rehberlik edecek danışmanımızın sağladığı düzenli değerlendirme ve geri bildirimlerle gelişiminizi yakından takip ediyor, öğreniminizi kolaylaştırıyoruz.    </p>       
                 </li>
               </ul>
-              {/* <p className="motto-p"> OKUL İÇİN DEĞİL HAYAT İÇİN ÖĞRENİYORUZ! </p> */}
-
-
-
             </div>
             <div className="photo-container">
               <img className="motto-photo" src={mottoImg} alt="" />
             </div>
           </div>
-          <div className="insta-svg-container">
+          <div className="insta-svg-container fade-in">
             <p className="social-media-p"> Bizi Sosyal Medyadan Takip Edin </p>
             <div className="social-media-svg-container">
               <a

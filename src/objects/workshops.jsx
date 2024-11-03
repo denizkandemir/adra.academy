@@ -1,7 +1,6 @@
-//import workshop1 from "/adra-mini.png";
-import workshop2 from "/adra-group.png";
 import workshop1 from "/workshop-111.png";
-//import workshop2 from "/workshop-2.jpeg";
+import workshop12 from "/workshop-11.png";
+import workshop2 from "/adra-group.png";
 import workshop3 from "/workshop-3.jpg";
 import topBackground from "/workshops-top-background.png";
 import middleBackground from "/workshops-middle-background.png";
@@ -11,6 +10,7 @@ import bottomBackground from "/workshops-bottom-background.png";
 const workshops = [
     {
         img: workshop1,
+        img2: workshop12,
         title: "Genel İngilizce Atölye Grupları",
         id: 1,
         background: topBackground,
