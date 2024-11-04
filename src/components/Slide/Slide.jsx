@@ -18,17 +18,15 @@ import slide4 from "/slide4.jpg";
 import slide5 from "/slide5.jpg";
 import withFadeInOnScroll from "../../hooks/animation/animationHook";
 
-function Slide() {
-
-
+const Slide = () => {
   withFadeInOnScroll();
 
   return (
     <>
       <div className="slide-page-container fade-in">
         <div className="slide-title-container">
-         <h2 className="slide-title"> Biz Kimiz? </h2>
-         <div className="underline-div"></div>
+          <h2 className="slide-title"> Biz Kimiz? </h2>
+          <div className="underline-div"></div>
         </div>
         <div className="slide-content-container">
           <Swiper
@@ -46,13 +44,8 @@ function Slide() {
             rewind={true}
             effect="cards"
             cardsEffect={{ slideShadows: false, perSlideRotate: 2 }}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
           >
             <SwiperSlide>
-              {({ isActive }) => (
-                <div>Current slide is {isActive ? "active" : "not active"}</div>
-              )}
               <div className="slide-container">
                 <img className="slide-1" src={slide1} alt="" />
               </div>
@@ -77,6 +70,7 @@ function Slide() {
                 <img className="slide-5" src={slide5} alt="" />
               </div>
             </SwiperSlide>
+
 
             <div className="navigation-buttons">
               <div className="button-next-slide">
