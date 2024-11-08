@@ -5,7 +5,7 @@ import MottoSection from "../components/MottoSection/MottoSection";
 import ContactUs from "../components/ContactUs/ContactUs";
 import Services from "../components/Services/Services";
 import { useEffect } from "react";
-import Header from "../components/Header/Header";
+import HomePageHeader from "../components/HomePageHeader/HomePageHeader";
 
 const HomePage = () => {
   useEffect(() => {
@@ -14,7 +14,7 @@ const HomePage = () => {
 
   return (
     <>
-      <Header />
+      <HomePageHeader/>
       <Slide />
       <Services/>
       <MottoSection />

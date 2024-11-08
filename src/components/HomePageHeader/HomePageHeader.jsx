@@ -1,10 +1,10 @@
 
-import "./Header.scss";
+import "./HomePageHeader.scss";
 import headerBackgroundImg from "/new-header-sticker2.png"
 import { Link } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 
-const Header = () => {
+const HomePageHeader = () => {
   return (
     <>
       <div className="header-container">
@@ -29,6 +29,4 @@ const Header = () => {
   )
 }
 
-
-
-export default Header;
+export default HomePageHeader;
