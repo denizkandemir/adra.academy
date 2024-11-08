@@ -14,10 +14,10 @@ const Services = () => {
         <p className="services-main-title"> Hizmetlerimiz </p>
         <p className="services-main-text"> Academy Adra olarak, ihtiyaçlarınıza uygun yüksek kaliteli dil eğitimi sunmaya kararlıyız. Çeşitli hizmetlerimiz, akademik başarınızı ve profesyonel gelişiminizi desteklemek amacıyla özenle tasarlanmıştır </p>
       </div>
-      <div className="services-container fade-in">
+      <div className="services-container ">
         {
           services.map((service) => (
-            <div key={service.id} className="services-wrapper">
+            <div key={service.id} className="services-wrapper fade-in">
               <div className="services-img-container">
                 <img src={service.img} className="services-img" alt="" />
               </div>

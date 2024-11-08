@@ -18,9 +18,9 @@ const Programs = () => {
           </div>
         </div>
   
-        <div className="courses-container fade-in">
+        <div className="courses-container ">
           {courses.map((course) => (
-            <div key={course.id} className="programs-wrapper">
+            <div key={course.id} className="programs-wrapper fade-in">
               <img className="programs-img" src={course.img} alt="" />
               <div className="programs-content-container">
                 <p className="courses-title">{course.title}</p>
