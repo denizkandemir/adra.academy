@@ -4,9 +4,9 @@ import Contact from "./pages/Contact";
 import { Layout } from "./Layout";
 import AcademicPage from "./pages/AcademicPage";
 import StudentCoach from "./pages/StudentCoach";
+import Home from "./pages/Home";
 import ServicesPage from "./pages/ServicesPage";
 import WorkshopsPage from "./pages/WorkshopsPage";
-import Home from "./pages/Home";
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home/>} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/academicPage" element={<AcademicPage/>}/>
           <Route path="/ogrenciKoclugu" element={<StudentCoach/>}/>
