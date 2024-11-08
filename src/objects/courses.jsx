@@ -2,9 +2,7 @@ import img1 from "/atölye-adra.jpeg"
 import img2 from "/destek-adra.jpeg"
 import img3 from "/öğrenci-koçluğu-adra.jpeg"
 import img4 from "/adra-tutor.png"
-//import img4 from "/courses-111.png"
 import serviceImg1 from "/adraEnglishCoaching.png"
-import serviceImg12 from "/adraEnglishCoaching2.png"
 import serviceImg2 from "/adraAcademicSupport.png"
 
 

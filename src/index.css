@@ -7,3 +7,14 @@
 #root {
     overflow-x: hidden;
 }
+
+:root {
+    --svg-color-light: #000;
+    --svg-color-dark: #fff;
+  }
+  [data-theme="light"] .hamburger-container {
+    fill: var(--svg-color-light);
+  }
+  [data-theme="dark"] .hamburger-container {
+    fill: var(--svg-color-dark);
+  }

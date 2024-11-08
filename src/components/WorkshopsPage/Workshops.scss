@@ -1,10 +1,5 @@
 @import "./src/styles/variables";
 
-
-.workshops-container {
-  position: relative;
-}
-
 .workshops-content-container {
   display: flex;
   flex-direction: column;
@@ -102,8 +97,8 @@
   }
 
   .white-mini-p {
-    color: white;
-    opacity: 0.7;
+    color: rgba(255,255,255,0.7);
+
   }
 
   .white-text{
@@ -162,8 +157,7 @@
     }
   
     .workshop-accordion-text {
-      color: black;
-      opacity: 0.9;
+      color: rgba(0,0,0,0.9);
       display: block;
       padding: 16px 12px;
       font-size: 17.5px;
@@ -227,12 +221,26 @@
 
 @media(max-width:570px) {
   .workshops-content-container{
+
+    padding: 50px 0;
+
     .workshop-photo{
       width: 100%;
       object-fit: contain;
       height: 100%;
     }
+    .workshop-wrapper{
+      padding: 0 30px;
 
+    }
+
+    .reverse-wrapper{
+      padding: 65px 30px;
+    }
+
+    .workshops-main-title{
+      display: none;
+    }
     .workshop-photo-with-gif {
       display: none;
     }
@@ -245,6 +253,12 @@
       margin-top: 10px;
       display: block;
     }
+
+    .workshop-accordion{
+      .workshop-accordion-text {
+        font-size: 15.5px;
+      }
+    } 
 
  .workshop-wrapper { 
   gap: 25px ;
