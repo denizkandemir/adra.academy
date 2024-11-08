@@ -7,8 +7,7 @@ import Services from "../components/Services/Services";
 import { useEffect } from "react";
 import Headerr from "../components/Header/Headerr";
 
-
-const Home = () => {
+const HomePage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -25,4 +24,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
