@@ -4,7 +4,7 @@ import headerBackgroundImg from "/new-header-sticker2.png"
 import { Link } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 
-function Headerr() {
+const Headerr = () => {
   return (
     <>
       <div className="header-container">
@@ -22,8 +22,6 @@ function Headerr() {
           <div>
             <img className="header-person" src={headerBackgroundImg} alt="" />
           </div>
-        </div>
-        <div className="header-logo-container">
         </div>
       </div>
   
