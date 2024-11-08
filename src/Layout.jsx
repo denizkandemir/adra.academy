@@ -1,8 +1,8 @@
 import Footer from "./components/Footer/Footer"
-import Navbar from "./components/Header/Navbar/navbar"
 import { Outlet } from "react-router-dom"
 import { useLocation } from "react-router-dom"
 import ScrollToTop from "./hooks/scrollTop/scrollTop";
+import Navbar from "./components/Header/Navbar/navbar";
 
 
 export function Layout(){
