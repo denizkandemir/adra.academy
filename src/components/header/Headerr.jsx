@@ -1,6 +1,6 @@
 
 import "./Header.scss";
-import headerBackgroundImg from "/new-header-sticker.png"
+import headerBackgroundImg from "/new-header-sticker2.png"
 import Navbar from "./Navbar/navbar";
 import { Link } from "react-router-dom";
 

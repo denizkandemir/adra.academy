@@ -138,6 +138,15 @@
 
          .title-p-container {
             gap: 23px;
+
+            .main-title {
+               margin-bottom: 0;
+            }
+
+            .list-title-p {
+               font-size: 16px;
+               line-height: 20.5px;
+            }
          }
       }
 
