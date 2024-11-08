@@ -13,7 +13,6 @@ const MenuIcon = ({fill}) => {
       <title>Menu</title>
       <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
         <g id="Menu">
-          <rect id="Rectangle" fillRule="nonzero" x="0" y="0" width="24" height="24" />
           <line
             x1="5"
             y1="7"

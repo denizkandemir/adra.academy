@@ -67,17 +67,15 @@ const ContactPage = () => {
             <div className="contact-title-p-container">
               <h2 className="contact-title">Bize Ulaşın</h2>
               <p className="contact-p">
-                Her türlü soru ve bilgi talepleriniz için bizimle iletişime geçin! Size en kısa sürede dönüş yapmaktan mutluluk duyarız.
+                Her türlü soru ve bilgi talepleriniz için bizimle iletişime
+                geçin! Size en kısa sürede dönüş yapmaktan mutluluk duyarız.
               </p>
               <div className="contact-btn-container">
-                <button className="contact-btn">
-                  <a
-                    href="tel:+905077055010"
-                    className="contact-btn-text"
-                    data-initialized="true"
-                  >
-                    Bizi Arayın
-                  </a>
+                <button
+                  className="contact-btn"
+                  onClick={() => (window.location.href = "tel:+905077055010")}
+                >
+                  Bizi Arayın
                 </button>
                 <button className="contact-btn">
                   <a

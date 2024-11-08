@@ -24,7 +24,6 @@ $primary-color: rgb(12, 72, 75);
       display: flex;
       font-weight: 450;
       gap: 20px;
-      padding-bottom: 10px;
       align-items: center;
       padding-bottom: 30px;
     }
@@ -81,6 +80,16 @@ $primary-color: rgb(12, 72, 75);
     .contact-page-content-container {
       flex-wrap: wrap-reverse;
       justify-content: center;
+    }
+  }
+}
+
+@media(max-width:550px){
+  .contact-container {
+    .contact-page-content-container {
+      .contact-info:last-child{
+          padding-bottom: 0;
+      }
     }
   }
 }

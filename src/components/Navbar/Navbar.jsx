@@ -24,6 +24,7 @@ function Navbar({containerClass , svgFill , linkClass}) {
   } else {
     document.body.classList.remove("no-scroll");
     root.classList.remove("no-scroll");
+
   }
 
   return (

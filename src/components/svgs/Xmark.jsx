@@ -3,8 +3,8 @@ import React from 'react';
 const Xmark = () => {
   return (
     <svg 
-      width="45px" 
-      height="45px" 
+      width="30px" 
+      height="30px" 
       viewBox="0 0 32 32" 
       xmlns="http://www.w3.org/2000/svg"
     >
