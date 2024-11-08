@@ -1,7 +1,7 @@
 import React from "react";
 import NavbarLinks from "./NavbarLinks";
 import "./sidebar.scss"
-import Xmark from "../../svgs/Xmark";
+import Xmark from "../svgs/Xmark";
 
 const Sidebar = ({ isSidebarOpen, setSidebarOpen }) => {
   

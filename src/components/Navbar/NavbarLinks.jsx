@@ -1,12 +1,12 @@
 import React from "react";
 import NavbarDropdown from "./NavbarDropdown";
-import courses from "../../../objects/courses";
-import services from "../../../objects/services";
 import { Link } from "react-router-dom";
-import SidebarDropdownIcon from "../../svgs/SidebarDropdownSvg";
-import FacebookSvg from "../../svgs/FacebookSvg";
-import InstagramIcon from "../../svgs/InstaSvg";
-import LinkedInSvg2 from "../../svgs/LinkedInSvg2";
+import courses from "../../objects/courses";
+import services from "../../objects/services";
+import SidebarDropdownIcon from "../svgs/SidebarDropdownSvg";
+import FacebookSvg from "../svgs/FacebookSvg";
+import LinkedInSvg2 from "../svgs/LinkedInSvg2";
+import InstagramIcon from "../svgs/InstaSvg";
 
 const NavbarLinks = ({ container, linkClass }) => {
     return (

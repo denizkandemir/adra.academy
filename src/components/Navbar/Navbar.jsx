@@ -1,12 +1,12 @@
 import "./Navbar.scss";
 import logo from "/logo.jpg";
-import MenuIcon from "../../svgs/MenuIcon";
 import { useState } from "react";
 import Sidebar from "./Sidebar";
 import NavbarLinks from "./NavbarLinks";
-import FacebookSvg from "../../svgs/FacebookSvg";
-import InstagramIcon from "../../svgs/InstaSvg";
-import LinkedInSvg from "../../svgs/LinkedInSvg";
+import MenuIcon from "../svgs/MenuIcon";
+import FacebookSvg from "../svgs/FacebookSvg";
+import InstagramIcon from "../svgs/InstaSvg";
+import LinkedInSvg from "../svgs/LinkedInSvg";
 
 function Navbar({containerClass , svgFill , linkClass}) {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
