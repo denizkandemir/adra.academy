@@ -32,6 +32,10 @@ const Sidebar = ({ isSidebarOpen, setSidebarOpen }) => {
     setSidebarOpen(false);
   }
 
+  const linkHandler = () => {
+    setSidebarOpen(false);
+  }
+
   useEffect(() => {
     setSidebarOpen(false)
   }, [currentLocation]);
@@ -56,7 +60,7 @@ const Sidebar = ({ isSidebarOpen, setSidebarOpen }) => {
                 {
                   services.map((service) => (
                     <Link to={{ pathname: service.path,}} state={service} key={service.id} className="sidebar-link-text">
-                      <p className={"sidebar-accordion-text"}>
+                      <p className={"sidebar-accordion-text"} onClick={() => linkHandler()}>
                         {service.title}
                       </p>
                     </Link>
@@ -80,7 +84,7 @@ const Sidebar = ({ isSidebarOpen, setSidebarOpen }) => {
               {
                 courses.map((course) => (
                   <Link to={{ pathname: course.path,}} state={course} key={course.id} className="sidebar-link-text">
-                    <p className={"sidebar-accordion-text"}>
+                    <p className={"sidebar-accordion-text"} onClick={() => linkHandler()}>
                       {course.title}
                     </p>
                   </Link>
