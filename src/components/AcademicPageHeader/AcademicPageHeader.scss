@@ -154,6 +154,14 @@
    .academic-page-header-container {
        .academic-imgs-info-container {
            gap: 40px;
+           .academic-info-container{
+            .academic-p{
+               font-size: 16px;
+            }
+            .academic-bottom-p{
+               font-size: 22px;
+            }
+           }
            .academic-imgs-container {
                .imgs-bottom-content-container {
                   gap: 0;
