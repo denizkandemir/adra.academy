@@ -4,7 +4,7 @@ import headerBackgroundImg from "/new-header-sticker2.png"
 import { Link } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 
-function Header() {
+function Headerr() {
   return (
     <>
       <div className="header-container">
@@ -33,4 +33,4 @@ function Header() {
 
 
 
-export default Header;
+export default Headerr;
