@@ -2,9 +2,7 @@ import workshop1 from "/workshop-111.png";
 import workshop12 from "/workshop-11.png";
 import workshop2 from "/adra-group.png";
 import workshop3 from "/workshop-3.jpg";
-import topBackground from "/workshops-top-background.png";
-import middleBackground from "/workshops-middle-background.png";
-import bottomBackground from "/workshops-bottom-background.png";
+
 
 
 const workshops = [
@@ -13,8 +11,6 @@ const workshops = [
         img2: workshop12,
         title: "Genel İngilizce Atölye Grupları",
         id: 1,
-        background: topBackground,
-        backgroundClass:"workshops-top-background",
         accordions:[
             {
                 title: "ADRA Mini",
@@ -42,8 +38,6 @@ const workshops = [
         img: workshop2,
         title: "Odaklı İngilizce Atölye Grupları",
         id: 2,
-        background: middleBackground,
-        backgroundClass:"workshops-middle-background",
         accordions:[
             {
                 title: "ADRA Learn",
@@ -82,8 +76,6 @@ const workshops = [
         img: workshop3,
         title: "İngilizce Gelişim Atölyeleri",
         id: 3,
-        background: bottomBackground,
-        backgroundClass:"workshops-bottom-background",
         accordions:[
             {
                 title: "Sınav Hazırlık Atölyeleri",
