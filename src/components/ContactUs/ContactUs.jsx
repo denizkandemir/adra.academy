@@ -11,11 +11,11 @@ const ContactUs = () => {
   return (
     <>
       <div className="contact-us-container">
-        <div className="contact-content-container fade-in">
-          <div className="cu-sticker-container">
+        <div className="contact-content-container">
+          <div className="cu-sticker-container fade-in">
             <img src={sticker} alt="" className="cu-sticker" />
           </div>
-          <div className="cu-text-container">
+          <div className="cu-text-container fade-in">
             <h1 className="cu-title"> Bize Ulaşın! </h1>
             <h2 className="cu-mid-title">
               Kurslarımıza kayıt olmak ve detaylı bilgi almak için bizimle iletişime geçin.

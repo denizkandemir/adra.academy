@@ -6,11 +6,15 @@ import LinkedInSvg from "../svgs/LinkedInSvg";
 import courses from "../../objects/courses";
 import services from "../../objects/services";
 import { Link } from "react-router-dom";
+import background from "/footer-background.jpeg";
 
 const Footer = () => {
   return (
     <>
       <div className="footer-container">
+        <div className="footer-background-container">
+          <img src={background} alt="" className="footer-background" />
+        </div>
         <div className="footer-main-content-container">
           <img className="footer-logo" src={logo} alt="" />
           <div className="footer-content-container">

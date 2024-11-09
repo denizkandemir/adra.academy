@@ -95,8 +95,13 @@ const Sidebar = ({ isSidebarOpen, setSidebarOpen }) => {
           </div>
           <Link className="navbar-link" to="/contact">İletişim</Link>
           <div className="sidebar-social-container">
-            <InstagramIcon width={30} height={25} fill={"white"} />
-            <FacebookSvg width={30} height={30} fill={"white"} />
+            <a   href="https://www.instagram.com/academyadra/">
+             <InstagramIcon width={30} height={25} fill={"white"} />
+
+            </a>
+            <a href="https://www.facebook.com/p/Academy-Adra-61553271547191/">
+             <FacebookSvg width={30} height={30} fill={"white"} />
+            </a>
             <LinkedInSvg2 width={30} height={25} fill={"white"} />
           </div>
         </div>
