@@ -1,4 +1,3 @@
-// useFadeInOnScroll.js
 import { useEffect } from 'react';
 
 const withFadeInOnScroll = (selector = '.fade-in') => {
@@ -9,11 +8,11 @@ const withFadeInOnScroll = (selector = '.fade-in') => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add('show');
-            observer.unobserve(entry.target); // Stop observing once the element is shown
+            observer.unobserve(entry.target); 
           }
         });
       },
-      { threshold: 0.15 } // Adjust threshold to control trigger point
+      { threshold: 0.15 }
     );
 
     elements.forEach((element) => observer.observe(element));

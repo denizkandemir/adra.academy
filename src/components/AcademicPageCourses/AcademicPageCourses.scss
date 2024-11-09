@@ -108,6 +108,7 @@
                 .academic-course-img {
                     width: 100%;
                     min-width: 350px;
+                    height: 360px;
                 }
             }
         }
@@ -127,7 +128,7 @@
         .academic-course-main-wrapper {
             .academic-course-wrapper {
                 .academic-course-img {
-                    height: auto;
+                    height: 300px;
                 }
             }
         }
@@ -149,3 +150,14 @@
     }
 }
 
+@media(max-width:500px) { 
+    .academic-courses-container{
+        .academic-course-main-wrapper {
+            .academic-course-wrapper {
+                .academic-course-img {
+                    height: 250px;
+                }
+            }
+        }
+    }
+}
