@@ -27,10 +27,15 @@ const Services = () => {
               </div>
               <div className="services-button-container">
                 <img className="services-logo" src={service.gif} alt="" />
-                 <Link className="services-link" to={{ pathname: service.path,}} state={service} >
-                  <button className="services-button"> 
-                  <p className="button-text"> İncele </p> </button>     
-                 </Link>          
+                <Link
+                  className="services-link"
+                  to={{
+                    pathname: `${service.path}/${service.routeId}`,
+                    search: `?name=${encodeURIComponent("service")}`,
+                  }}
+                >                  <button className="services-button">
+                    <p className="button-text"> İncele </p> </button>
+                </Link>
               </div>
             </div>
           ))

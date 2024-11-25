@@ -125,8 +125,14 @@ const Footer = () => {
             {
               services.map((service) => (
                 <div key={service.id}>
-                  <Link to={{ pathname: service.path, }} state={service} className="footer-link">
-                    <p className="footer-p" key={service.id}> {service.title} </p>
+               <Link
+                  className="footer-link"
+                  to={{
+                    pathname: `${service.path}/${service.routeId}`,
+                    search: `?name=${encodeURIComponent("service")}`,
+                  }}
+                >                    
+                  <p className="footer-p" key={service.id}> {service.title} </p>
                   </Link>
                 </div>
               ))
@@ -137,8 +143,14 @@ const Footer = () => {
             {
               courses.map((course) => (
                 <div key={course.id}>
-                  <Link to={{ pathname: course.path, }} state={course} className="footer-link">
-                    <p className="footer-p" key={course.id}> {course.title} </p>
+                <Link
+                    className="footer-link"
+                    to={{
+                      pathname: `${course.path}/${course.routeId}`,
+                      search: `?name=${encodeURIComponent("course")}`,
+                    }}
+                  >                      
+                  <p className="footer-p" key={course.id}> {course.title} </p>
                   </Link>
                 </div>
               ))

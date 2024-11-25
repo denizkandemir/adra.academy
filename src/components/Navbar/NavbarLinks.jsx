@@ -20,7 +20,7 @@ const NavbarLinks = ({ container, linkClass }) => {
                     </div>
                 </div>
                 <div className="dropdown-component-container">
-                    <NavbarDropdown content={services} />
+                    <NavbarDropdown content={services} name={"service"} />
                 </div>
             </div>
             <div className="menü-container">
@@ -31,10 +31,10 @@ const NavbarLinks = ({ container, linkClass }) => {
                     </div>
                 </div>
                 <div className="dropdown-component-container">
-                    <NavbarDropdown content={courses} />
+                    <NavbarDropdown content={courses} name={"course"} />
                 </div>
             </div>
-            <Link className={linkClass} to="/contact">İletişim</Link>
+            <Link className={linkClass} to="/iletişim">İletişim</Link>
             <div className="sidebar-social-container">
                <InstagramIcon width={30} height={25}  fill={"white"}/>
                <FacebookSvg width={30} height={30}  fill={"white"} />

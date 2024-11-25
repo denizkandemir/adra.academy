@@ -16,7 +16,7 @@ const HomePageHeader = () => {
               İngilizce, global dünyada başarıya ulaşmanın anahtarıdır. Uzman eğitmenlerimiz, kişiye özel eğitim planlarımız ve esnek ders programlarımız ile hedeflerinize ulaşmanızı sağlıyoruz. Online veya yüz yüze ders seçeneklerimiz ile öğrenim deneyiminizi kolaylaştırıyoruz.
             </p>
             <div className="header-button-container">
-             <Link to="/contact"> <button className="header-button"> Aramıza Katılın! </button> </Link> 
+             <Link to="/iletişim"> <button className="header-button"> Aramıza Katılın! </button> </Link> 
             </div>
           </div>
           <div>

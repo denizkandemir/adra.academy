@@ -14,11 +14,12 @@ const services = [
         id: 1,
         text: "Yabancı dil alanında her yaş grubu ve eğitim ihtiyacına uygun atölyeler, öğrenci koçluğu ve birebir akademik destek programlarımızı keşfedin.",
         gif: academyGif,
-        path: "/academicPage",
+        path: "/akademikBaşarı",
         serviceText:"",
         serviceText2:"", 
         serviceImg:"",
         contentTitle: "Hizmetlerimiz",
+        routeId:1
       },
   
   
@@ -28,11 +29,12 @@ const services = [
         id: 2,
         text:"Modern dil eğitimi çözümlerimizle, kurumsal ihtiyaçlarınıza özel, etkili ve sürdürülebilir bir ortaklık sunuyoruz.",
         gif: brainGif,
-        path: "/hizmetlerimiz",
+        path: "/kurumsalÇözümOrtaklığı",
         serviceText:"Global ölçekte faaliyet yürüten, uluslararası bağlantılarla çalışan, ya da ölçeğini genişletmeyi hedefleyen kurumsal oluşumların dil eğitimine yönelik ihtiyaçlarının belirlenmesi ve giderilmesi için kurumsal çözüm ortağınız olarak hizmet vermekteyiz.",
         serviceText2:"Academy Adra olarak, işletmenizin uluslararası arenada rekabet gücünü artırmak için özel olarak tasarlanmış kurumsal çözüm ortaklığı hizmetleri sunmaktayız. Şirket içi eğitimlerden, bireysel çalışan eğitimine kadar geniş bir yelpazede dil eğitimi çözümleri sağlıyoruz.", 
         serviceImg: serviceImg1,
         contentTitle: "Hizmetlerimiz",
+        routeId:2,
       },
   
       {
@@ -41,11 +43,12 @@ const services = [
         id: 3,
         text:"Alanında uzman çeviri ve tercüme ekibimizle, yazılı ve sözlü çeviri hizmetlerinizi yüksek kalite standartlarında ve etkin bir şekilde karşılıyoruz.",
         gif:translatorGif,
-        path: "/hizmetlerimiz",
+        path: "/tercümeHizmetleri",
         serviceText:"Akademimizde yalnızca dil eğitimi vermekle kalmıyor, aynı zamanda profesyonel tercüme hizmetleri de sunuyoruz. Deneyimli tercüman ekibimiz, çeşitli dillerde yazılı ve sözlü çeviri hizmetleri ile akademik, iş ve kişisel ihtiyaçlarınıza yönelik çözümler sunar.",
         serviceText2:"Her alanda uzman tercümanlarımız, metinlerinizin amacına uygun bir şekilde çevrilmesini sağlar. İhtiyaçlarınıza göre hızlı ve güvenilir çözümler sunarak, dünya ile iletişiminizi güçlendirmeyi hedefliyoruz. Tercüme ihtiyaçlarınız için bize ulaşın ve dünya ile dil engeli olmadan iletişim kurun.", 
         serviceImg:serviceImg2,
         contentTitle: "Hizmetlerimiz",
+        routeId:3,
       },
 ]
 
