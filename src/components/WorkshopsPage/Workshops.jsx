@@ -65,7 +65,7 @@ const Workshops = () => {
                         </div>
 
                       ))}
-                      <Link to="/contact">
+                      <Link to="/iletişim">
                         <button className={"workshops-contact-buttton"}> Bilgi Al </button>
                       </Link>
                     </div>

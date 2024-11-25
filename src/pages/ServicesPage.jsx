@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 const ServicesPage = () => {
   const location = useLocation();
-  const service = location.state || {};
+  const services = location.state || {};
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -15,7 +15,7 @@ const ServicesPage = () => {
  
   return (
     <>
-      <ServicesPageContent service={service}/>
+      <ServicesPageContent services={services}/>
     </>
   );
 };

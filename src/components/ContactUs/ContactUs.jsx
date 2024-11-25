@@ -24,7 +24,7 @@ const ContactUs = () => {
             İngilizce öğrenmeye başlamak, kurslarımız ve hizmetlerimiz hakkında bilgi almak veya kayıt işlemleriyle ilgili yardım almak için bizimle iletişime geçin!
             Her türlü sorunuz için size yardımcı olmaktan mutluluk duyarız. 
             </p>
-            <Link to="/contact" className="button-text">
+            <Link to="/iletişim" className="button-text">
               <button className="cu-button-container">
                 <div className="button-arrow">
                   <svg

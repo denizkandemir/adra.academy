@@ -18,8 +18,13 @@ const AcademicPageCourses = () => {
                 <h3 className={parseInt(course.id) % 2 === 0 ? "academic-course-title" : "academic-course-title white-p"}> {course.title} </h3>
                 <p className={parseInt(course.id) % 2 === 0 ? "academic-course-p opacity-p" : "academic-course-p white-p "}> {course.text} </p>
                 <p className={parseInt(course.id) % 2 === 0 ? "academic-course-p second-p opacity-p" : "academic-course-p second-p white-p"}> {course.text2} </p>
-                <Link  to={{ pathname: course.path,}} state={course}>
-                  <button className={parseInt(course.id) % 2 === 0 ? "academic-course-button" : "academic-course-button black-button"}> Kurs Detayını Gör </button>
+                <Link
+                    to={{
+                      pathname: `${course.path}/${course.routeId}`,
+                      search: `?name=${encodeURIComponent("course")}`,
+                    }}
+                  >                   
+                   <button className={parseInt(course.id) % 2 === 0 ? "academic-course-button" : "academic-course-button black-button"}> Kurs Detayını Gör </button>
                 </Link>
               </div>
             </div>

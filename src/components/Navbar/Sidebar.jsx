@@ -59,8 +59,14 @@ const Sidebar = ({ isSidebarOpen, setSidebarOpen }) => {
               }>
                 {
                   services.map((service) => (
-                    <Link to={{ pathname: service.path,}} state={service} key={service.id} className="sidebar-link-text">
-                      <p className={"sidebar-accordion-text"} onClick={() => linkHandler()}>
+                    <Link
+                    className="sidebar-link-text"
+                    key={service.id}
+                    to={{
+                      pathname: `${service.path}/${service.routeId}`,
+                      search: `?name=${encodeURIComponent("service")}`,
+                    }}
+                  >                                            <p className={"sidebar-accordion-text"} onClick={() => linkHandler()}>
                         {service.title}
                       </p>
                     </Link>
@@ -83,8 +89,14 @@ const Sidebar = ({ isSidebarOpen, setSidebarOpen }) => {
             }>
               {
                 courses.map((course) => (
-                  <Link to={{ pathname: course.path,}} state={course} key={course.id} className="sidebar-link-text">
-                    <p className={"sidebar-accordion-text"} onClick={() => linkHandler()}>
+                  <Link
+                  className="sidebar-link-text"
+                  key={course.id}
+                  to={{
+                    pathname: `${course.path}/${course.routeId}`,
+                    search: `?name=${encodeURIComponent("course")}`,
+                  }}
+                >                      <p className={"sidebar-accordion-text"} onClick={() => linkHandler()}>
                       {course.title}
                     </p>
                   </Link>
@@ -93,7 +105,7 @@ const Sidebar = ({ isSidebarOpen, setSidebarOpen }) => {
 
             </div>
           </div>
-          <Link className="navbar-link" to="/contact">İletişim</Link>
+          <Link className="navbar-link" to="/iletişim">İletişim</Link>
           <div className="sidebar-social-container">
             <a   href="https://www.instagram.com/academyadra/">
              <InstagramIcon width={30} height={25} fill={"white"} />

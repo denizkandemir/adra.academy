@@ -17,7 +17,7 @@ const Programs = () => {
             <p className="programs-motto-p"> Academy Adra Başarı İçin Doğru Tercih!</p>
           </div>
         </div>
-  
+
         <div className="courses-container ">
           {courses.map((course) => (
             <div key={course.id} className="programs-wrapper fade-in">
@@ -49,8 +49,14 @@ const Programs = () => {
                       />
                     </svg>
                   </div>
-                  <Link className="programs-link"  to={{ pathname: course.path,}} state={course} >
-                   <button className="programs-button">  Keşfet </button>
+                  <Link
+                    className="services-link"
+                    to={{
+                      pathname: `${course.path}/${course.routeId}`,
+                      search: `?name=${encodeURIComponent("course")}`,
+                    }}
+                  >  
+                    <button className="programs-button">  Keşfet </button>
                   </Link>
                 </div>
               </div>
@@ -60,7 +66,7 @@ const Programs = () => {
       </div>
     </div>
   );
-  
+
 }
 
-      export default Programs;
+export default Programs;
