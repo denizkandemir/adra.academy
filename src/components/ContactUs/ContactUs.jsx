@@ -18,11 +18,10 @@ const ContactUs = () => {
           <div className="cu-text-container fade-in">
             <h1 className="cu-title"> Bize Ulaşın! </h1>
             <h2 className="cu-mid-title">
-              Kurslarımıza kayıt olmak ve detaylı bilgi almak için bizimle iletişime geçin.
+              Detaylı bilgi almak için bizimle iletişime geçin.
             </h2>
             <p className="cu-text">
-            İngilizce öğrenmeye başlamak, kurslarımız ve hizmetlerimiz hakkında bilgi almak veya kayıt işlemleriyle ilgili yardım almak için bizimle iletişime geçin!
-            Her türlü sorunuz için size yardımcı olmaktan mutluluk duyarız. 
+            Eğitimlerimiz ve sunduğumuz hizmetler hakkında detaylı bilgi almak, kayıt işlemleriyle ilgili destek sağlamak ya da merak ettiğiniz herhangi bir konuda yardım almak için bizimle dilediğiniz zaman iletişime geçebilirsiniz! Size en iyi şekilde rehberlik etmek ve sorularınıza çözüm sunmak için buradayız.
             </p>
             <Link to="/iletişim" className="button-text">
               <button className="cu-button-container">

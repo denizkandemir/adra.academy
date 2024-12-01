@@ -76,14 +76,14 @@ const Sidebar = ({ isSidebarOpen, setSidebarOpen }) => {
          
           </div>
           <div className="menü-container">
-            <div className="sidebar-link-icon-container" onClick={() => accordionHandler("Kurslarımız")}>
-              <p className={`navbar-link navbar-dropdown-p`} onClick={() => accordionHandler("Kurslarımız")}> Kurslarımız </p>
-              <div className={openAccordion === "Kurslarımız" ? "sidebar-svg-reverse" : "sidebar-svg"}>
+            <div className="sidebar-link-icon-container" onClick={() => accordionHandler("Eğitimlerimiz")}>
+              <p className={`navbar-link navbar-dropdown-p`} onClick={() => accordionHandler("Eğitimlerimiz")}> Eğitimlerimiz </p>
+              <div className={openAccordion === "Eğitimlerimiz" ? "sidebar-svg-reverse" : "sidebar-svg"}>
                 <ArrowIcon width={25} height={22} fill={"white"} />
               </div>
             </div>
             <div className={
-              openAccordion === "Kurslarımız"
+              openAccordion === "Eğitimlerimiz"
                 ? "open-accordion"
                 : "sidebar-smenu close-accordion"
             }>

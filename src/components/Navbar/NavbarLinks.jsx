@@ -25,7 +25,7 @@ const NavbarLinks = ({ container, linkClass }) => {
             </div>
             <div className="menü-container">
                 <div className="sidebar-link-icon-container">
-                    <p className={`${linkClass} navbar-dropdown-p`}> Kurslarımız </p>
+                    <p className={`${linkClass} navbar-dropdown-p`}> Eğitimlerimiz </p>
                     <div className="dropdown-icon">
                      <SidebarDropdownIcon />
                     </div>

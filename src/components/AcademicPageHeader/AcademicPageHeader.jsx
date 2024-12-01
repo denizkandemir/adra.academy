@@ -40,7 +40,7 @@ const AcademicPageHeader = () => {
               <p className="academic-service-title"> Hizmetlerimiz </p>
             </div>
             <h2 className="academic-header-title">
-              Alanında Uzman Eğitmenlerimiz İle <br /> İngilizce Geleceğinizi Şekillendirin!
+              Alanında Uzman Eğitmenlerimiz İle <br /> Akademik Geleceğinizi Şekillendirin!
             </h2>
             <p className="academic-p">
               Academy Adra olarak, yabancı dil eğitiminin akademik başarı üzerindeki önemli etkisinin farkındayız. Yabancı dilde yeterlilik kazanmak, öğrencilerimize sadece dil becerileri kazandırmakla kalmaz, aynı zamanda akademik hayatta da önemli avantajlar sağlar.

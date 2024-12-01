@@ -43,7 +43,7 @@ const Workshops = () => {
                       )}
                     </div>
                     <div className="workshops-text-container fade-in">
-                      <p className={"workshops-mini-text"}> Kurslarımız </p>
+                      <p className={"workshops-mini-text"}> Eğitimlerimiz </p>
                       <h2 className={"workshops-title"}>{workshop.title}</h2>
                       {workshop.accordions.map((accordion) => (
                         <div className={"workshop-accordion"} onClick={() => accordionHandler(accordion.name)} key={accordion.id}>
