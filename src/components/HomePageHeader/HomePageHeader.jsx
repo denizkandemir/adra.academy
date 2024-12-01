@@ -13,8 +13,7 @@ const HomePageHeader = () => {
           <div className="header-p-button-container">
             <h1 className="header-title"> ACADEMY ADRA İLE <br />  HAYAT İÇİN İNGİLİZCE ÖĞREN! </h1>
             <p className="header-p">
-              İngilizce, global dünyada başarıya ulaşmanın anahtarıdır. Uzman eğitmenlerimiz, kişiye özel eğitim planlarımız ve esnek ders programlarımız ile hedeflerinize ulaşmanızı sağlıyoruz. Online veya yüz yüze ders seçeneklerimiz ile öğrenim deneyiminizi kolaylaştırıyoruz.
-            </p>
+            Academy Adra,  farklı eğitim ihtiyaçlarına sahip öğrenenleri yüksek kaliteli öğrenme fırsatlarıyla güçlendirmeye adanmış dinamik bir eğitim danışmanlık merkezidir. Geniş yelpazede düzenlediğimiz eğitim atölyeleri ile hem akademik başarıyı hem sanatsal yaratıcılığı teşvik ederek bireysel ve profesyonel gelişimi desteklemekteyiz. "Okul İçin Değil, Hayat İçin Öğreniyoruz! " mottosu ışığında bireylerin ve kurumların akademi ve iş dünyasında ihtiyaç duydukları yenilikçi araçları sunmayı amaçlamaktayız.            </p>
             <div className="header-button-container">
              <Link to="/iletişim"> <button className="header-button"> Aramıza Katılın! </button> </Link> 
             </div>

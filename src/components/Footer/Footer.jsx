@@ -139,7 +139,7 @@ const Footer = () => {
             }
           </div>
           <div className="footer-content-container  footer-third">
-            <p className="footer-courses-services-title">Kurslarımız</p>
+            <p className="footer-courses-services-title">Eğitimlerimiz</p>
             {
               courses.map((course) => (
                 <div key={course.id}>

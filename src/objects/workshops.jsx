@@ -9,26 +9,26 @@ const workshops = [
     {
         img: workshop1,
         img2: workshop12,
-        title: "Genel İngilizce Atölye Grupları",
+        title: "Genel Yabancı Dil Atölye Grupları",
         id: 1,
         accordions:[
             {
                 title: "ADRA Mini",
                 id: 1,
                 name: "accordion1",
-                text: "İlkokul öğrencileri için tasarlanmış özgün ve eğlenceli İngilizce eğitimi programımızdır."
+                text: "Okul öncesi ve ilkokul öğrencileri için tasarlanmış özgün ve eğlenceli yabancı dil eğitimi programımızdır."
             },
             {
                 title: "ADRA Teens",
                 id: 2,
                 name: "accordion2",
-                text: "Ortaokul ve lise düzeyinde öğrencilerimizin katılabileceği bu atölyemiz genç öğrencilerin İngilizce dil becerilerinin geliştirilmesine odaklanan bütüncül bir yaklaşım sunmaktadır."
+                text: "Ortaokul ve lise düzeyinde öğrencilerimizin katılabileceği bu atölyemiz genç öğrencilerin yabancı dil becerilerinin geliştirilmesine odaklanan bütüncül bir yaklaşım sunmaktadır."
             },
             {
                 title: "ADRA Adults",
                 id: 3,
                 name: "accordion3",
-                text: "Yetişkinlere yönelik Genel İngilizce atölyemiz, zengin içeriklerle dört temel dil becerisinin geliştirilmesini hedefler."
+                text: "Yetişkinlere yönelik Genel Yabancı Dil Atölyemiz, zengin içeriklerle dört temel dil becerisinin geliştirilmesini hedefler."
             }
         ]
     },
@@ -36,7 +36,7 @@ const workshops = [
   
     {
         img: workshop2,
-        title: "Odaklı İngilizce Atölye Grupları",
+        title: "Odaklı Yabancı Dil Atölye Grupları",
         id: 2,
         accordions:[
             {
@@ -61,7 +61,7 @@ const workshops = [
                 title: "ADRA Sings",
                 id: 4,
                 name: "accordion7",
-                text: "Ortaokul ve lise öğrencileri için şarkılarla İngilizce telaffuz ve doğal dil kullanımı geliştirmeye odaklanır."
+                text: "Ortaokul ve lise öğrencileri için şarkılarla telaffuz ve doğal dil kullanımı geliştirmeye odaklanır."
             },
             {
                 title: "ADRA Film",
@@ -74,7 +74,7 @@ const workshops = [
     },
     {
         img: workshop3,
-        title: "İngilizce Gelişim Atölyeleri",
+        title: "Uzmanlık Atölyeleri",
         id: 3,
         accordions:[
             {
@@ -84,16 +84,16 @@ const workshops = [
                 text: "TOEFL, IELTS, YÖKDİL, YDS, YDT (YKS-DİL) gibi sınavlara yönelik hazırlık atölyelerimiz, sınavlara ilişkin teknik detaylara ve bilgi içeriğine hâkim olmanızı sağlar."            
             },
             {
-                title: "Mesleki İngilizce Atölyeleri",
+                title: "Mesleki Yabancı Dil Atölyeleri",
                 id: 2,
                 name: "accordion10",
-                text: "İş dünyasında çağı yakalamak için özel olarak tasarlanmış bu atölyemizde, meslek alanlarınıza yönelik İngilizce terim bilginizi geliştirebilir, sözlü ve yazılı iletişim becerilerinizi geliştirebilirsiniz."
+                text: "İş dünyasında çağı yakalamak için özel olarak tasarlanmış bu atölyemizde, meslek alanlarınıza yönelik terim bilginizi geliştirebilir, sözlü ve yazılı iletişim becerilerinizi geliştirebilirsiniz."
             },
             {
-                title: "Akademik İngilizce Atölyeleri",
+                title: "Akademik Yabancı Dil Atölyeleri",
                 id: 3,
                 name: "accordion11",
-                text: "ADRA Academics atölyesi ile akademik yazım ve sözlü sunum becerilerinizi geliştirebilirsiniz."
+                text: "ADRA Academics atölyesi ile akademik yazım ve sözlü sunum becerilerinizi geliştirebilirsiniz. Ayrıca, üniversite eğitiminiz boyunca dil dersleri dahilinde ihtiyaç duyduğunuz yabancı dil eğitim destegini alabilirsiniz."
             },
             {
                 title: "Çeviri Atölyesi",

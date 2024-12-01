@@ -30,7 +30,7 @@ const ServicesPageContent = () => {
             <p className="service-page-p"> {service.serviceText2} </p>
             <div className="service-contact-container">
               <p className="service-page-contact-p">
-                Kurslarımıza Kayıt Olmak ve Daha Detaylı Bilgi Almak İçin Bizimle İletişime Geçin!
+                Detaylı Bilgi Almak İçin Bizimle İletişime Geçin!
               </p>
               <div className="service-page-button-container">
                 <Link to={"/iletişim"} className="service-link-button">

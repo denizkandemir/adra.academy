@@ -18,7 +18,7 @@ const courses = [
       serviceText:"", 
       serviceText2:"", 
       serviceImg:"",
-      miniTitle:"Kurslarımız",
+      miniTitle:"Eğitimlerimiz",
       routeId:4,
     },
 
@@ -32,7 +32,7 @@ const courses = [
       serviceText:"Öğrencilerimizin ve profesyonellerimizin akademik başarılarını desteklemek amacıyla kapsamlı akademik destek hizmetleri sunuyoruz. Kişiye özel program tasarımları ile bire bir eğitim fırsatı sunmaktayız.",
       serviceText2:"Her alanda uzman eğitmenlerimiz ve danışmanlarımız, akademik yolculuğunuzda size rehberlik etmek ve çalışmalarınızı en yüksek standartlara taşımak için yanınızda. Başarıya giden yolda güvenilir bir çözüm ortağı arıyorsanız, bize ulaşın ve ihtiyaçlarınıza yönelik bireysel destek alın.", 
       serviceImg:serviceImg2,
-      contentTitle: "Kurslarımız",
+      contentTitle: "Eğitimlerimiz",
       routeId:5,
     },
 
@@ -46,7 +46,7 @@ const courses = [
       serviceText:"",
       serviceText2:"", 
       serviceImg:"",
-      contentTitle: "Kurslarımız",
+      contentTitle: "Eğitimlerimiz",
       routeId:6,
     },
 
@@ -60,9 +60,11 @@ const courses = [
       serviceText:"Yabancı Dil Koçluğu, sınıf ortamında ya da grup çalışmaları ile dil öğrenme biçimini benimsemeyen, ya da öncesinde bu gibi yöntemleri deneyimlemiş olan dil öğrenicilerinin bireysel ihtiyaçlarına yönelik oluşturulan bir profesyonel takip ve destek sistemidir.",
       serviceText2:"Öğrencilerin ve yetişkinlerin yararlanabileceği bu hizmet ile profesyoneller tarafından bireylerin dil gelişimleri için uygun stratejiler belirlenir, dil eğitiminin zorluklarına ve bu zorlukları aşma yöntemlerine ilişkin farkındalık yaratılır, dil gelişimine yönelik çalışma programları oluşturulur, uygulanır ve gözlemlenir.", 
       serviceImg:serviceImg1,
-      contentTitle: "Kurslarımız",
+      contentTitle: "Eğitimlerimiz",
       routeId:7,
     },
+
+  
   ]
 
 
