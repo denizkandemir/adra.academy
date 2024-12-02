@@ -13,8 +13,7 @@ const Programs = () => {
         <div className="programs-main-title-container fade-in">
           <div className="title-text-container">
             <p className="programs-main-title">Eğitimlerimiz</p>
-            <p className="programs-main-text"> Academy Adra, akademik becerilerinizi geliştirmek ve hedeflerinize ulaşmanıza yardımcı olmak için geniş bir yelpazede eğitimler sunmaktadır.</p>
-            {/* <p className="programs-motto-p"> Academy Adra Başarı İçin Doğru Tercih!</p> */}
+            <p className="programs-main-text"> Academy Adra, akademik becerilerinizi geliştirmek ve hedeflerinize ulaşmanıza yardımcı olmak için geniş bir yelpazede eğitimler sunmaktadır. Academy Adra Başarı İçin Doğru Tercih!</p>
           </div>
         </div>
 
