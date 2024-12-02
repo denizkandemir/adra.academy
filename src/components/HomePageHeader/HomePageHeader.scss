@@ -14,14 +14,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 0px 90px 50px;
-    gap: 20px 30px;
+    padding: 10px 50px 90px 50px;
+    gap: 20px 40px;
     height: 100%;
     z-index: 10;
 }
 
 .header-p-button-container {
-    margin-top: 20px;
+    margin-top: 70px;
     margin-left: 40px;
 }
 
@@ -29,25 +29,25 @@
     color: rgb(12, 72, 75);
     font-size: 40px;
     font-family: $primary-font;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-weight: 600;
     max-width: 430px;
 }
 
 .header-p {
     color: rgba(0, 0, 0, 0.8);
-    font-size: 18px;
+    font-size: 19px;
     font-family: $primary-font;
     font-weight: 400;
     line-height: 24px;
     word-spacing: 2px;
-    max-width: 460px;
+    max-width: 471px;
 }
 
 
 .header-person {
     z-index: 1;
-    max-width: 825px;
+    max-width: 805px;
     object-fit: cover;
     height: 560px;
     padding-top: 50px;

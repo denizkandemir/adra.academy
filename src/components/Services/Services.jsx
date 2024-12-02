@@ -12,7 +12,7 @@ const Services = () => {
     <div className="services-main-container">
       <div className="services-title-container fade-in">
         <p className="services-main-title"> Hizmetlerimiz </p>
-        <p className="services-main-text"> Academy Adra olarak, ihtiyaçlarınıza uygun yüksek kaliteli bir eğitim sunmaya kararlıyız. Çeşitli hizmetlerimiz, akademik başarınızı ve profesyonel gelişiminizi desteklemek amacıyla özenle tasarlanmıştır </p>
+        <p className="services-main-text"> Academy Adra olarak "Okul İçin Değil, Hayat İçin Öğreniyoruz! " mottosu ışığında bireylerin ve kurumların akademi ve iş dünyasında ihtiyaç duydukları yenilikçi araçları sunmayı amaçlamaktayız. </p>
       </div>
       <div className="services-container ">
         {
