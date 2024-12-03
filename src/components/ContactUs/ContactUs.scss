@@ -102,6 +102,11 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+
+      .cu-text {
+        text-align: left;
+        max-width: 543px; 
+      }
     }
   }
 }

@@ -240,7 +240,10 @@
     }
 
     .programs-main-text {
-      font-size: 17px;
+      font-size: 18px;
+      text-align: start;
+      max-width: 470px;
+      margin-left: 30px; 
     }
   }
 
@@ -259,6 +262,8 @@
 
     .programs-main-text {
       font-size: 16px;
+      max-width: 311px;
+      margin-left: 0;
     }
   }
 }
