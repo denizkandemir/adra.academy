@@ -2,6 +2,8 @@ import img1 from "/atölye-adra.jpeg"
 import img2 from "/destek-adra.jpeg"
 import img3 from "/öğrenci-koçluğu-adra.jpeg"
 import img4 from "/adra-tutor.png"
+import img5 from "/sanat-atölye.jpg"
+import serviceImg3 from "/art.jpg"
 import serviceImg1 from "/adraEnglishCoaching.png"
 import serviceImg2 from "/adraAcademicSupport.png"
 
@@ -62,6 +64,20 @@ const courses = [
       serviceImg:serviceImg1,
       contentTitle: "Eğitimlerimiz",
       routeId:7,
+    },
+
+    {
+      img: img5,
+      title: "Sanat Atölyeleri",
+      id: 5,
+      path: "/sanatAtölyeleri",
+      text: "",
+      text2:"",
+      serviceText:"Academy Adra olarak sanatı hayatın ayrılmaz bir parçası olarak görüyor, başarılı insanların öne çıkan özelliğinin sanat ile hayatlarını ve zihinlerini zenginleştirmeleri olduğunu gözlemliyoruz. Bu sebeple kurumumuz bünyesinde çocuklar, gençler ve yetişkinler için sanatın çeşitli dallarına yönelik atölye çalışmaları yürütüyoruz.",  
+      serviceText2:"", 
+      serviceImg:serviceImg3,
+      contentTitle: "Eğitimlerimiz",
+      routeId:8,
     },
 
   

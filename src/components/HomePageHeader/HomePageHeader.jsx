@@ -11,7 +11,7 @@ const HomePageHeader = () => {
         <Navbar containerClass={"header-navbar-container"} svgFill={"black"} linkClass={"header-navbar-link"}/>
         <div className="header-content-container">
           <div className="header-p-button-container">
-            <h1 className="header-title"> ACADEMY ADRA İLE <br />  HAYAT İÇİN İNGİLİZCE ÖĞREN! </h1>
+            <h1 className="header-title"> ACADEMY ADRA İLE <br />  HAYAT İÇİN ÖĞREN! </h1>
             <p className="header-p">
             Academy Adra, farklı eğitim ihtiyaçlarına sahip öğrenenleri yüksek kaliteli öğrenme fırsatlarıyla güçlendirmeye adanmış dinamik bir eğitim danışmanlık merkezidir. Geniş yelpazede sunduğumuz  eğitim atölyeleri ile hem akademik başarıyı hem sanatsal yaratıcılığı teşvik ederek bireysel ve profesyonel gelişimi desteklemekteyiz.  </p>
             <div className="header-button-container">

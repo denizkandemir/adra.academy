@@ -39,13 +39,13 @@ const services = [
   
       {
         img: img3,
-        title: "Tercüme ve Çeviri Hizmetleri",
+        title: "Çeviri Hizmetleri",
         id: 3,
-        text:"Alanında uzman çeviri ve tercüme ekibimizle, yazılı ve sözlü çeviri hizmetlerinizi yüksek kalite standartlarında ve etkin bir şekilde karşılıyoruz.",
+        text:"Alanında uzman çeviri ekibimizle, yazılı ve sözlü çeviri hizmetlerinizi yüksek kalite standartlarında ve etkin bir şekilde karşılıyoruz.",
         gif:translatorGif,
         path: "/tercümeHizmetleri",
-        serviceText:"Akademimizde yalnızca dil eğitimi vermekle kalmıyor, aynı zamanda profesyonel tercüme hizmetleri de sunuyoruz. Deneyimli tercüman ekibimiz, çeşitli dillerde yazılı ve sözlü çeviri hizmetleri ile akademik, iş ve kişisel ihtiyaçlarınıza yönelik çözümler sunar.",
-        serviceText2:"Her alanda uzman tercümanlarımız, metinlerinizin amacına uygun bir şekilde çevrilmesini sağlar. İhtiyaçlarınıza göre hızlı ve güvenilir çözümler sunarak, dünya ile iletişiminizi güçlendirmeyi hedefliyoruz. Tercüme ihtiyaçlarınız için bize ulaşın ve dünya ile dil engeli olmadan iletişim kurun.", 
+        serviceText:"Akademimizde yalnızca dil eğitimi vermekle kalmıyor, aynı zamanda profesyonel çeviri hizmetleri de sunuyoruz. Deneyimli çeviri ekibimiz, çeşitli dillerde yazılı ve sözlü çeviri hizmetleri ile akademik, iş yerinde profesyonel ve kişisel ihtiyaçlarınıza yönelik çözümler sunar.",
+        serviceText2:"Her alanda uzman çevirmenlerimiz, metinlerinizin amacına uygun bir şekilde çevrilmesini sağlar. İhtiyaçlarınıza göre hızlı ve güvenilir çözümler sunarak, dünya ile iletişiminizi güçlendirmeyi hedefliyoruz. Çeviri ihtiyaçlarınız için bize ulaşın ve dünya ile dil engeli olmadan iletişim kurun.", 
         serviceImg:serviceImg2,
         contentTitle: "Hizmetlerimiz",
         routeId:3,
