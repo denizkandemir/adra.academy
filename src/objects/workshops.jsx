@@ -9,7 +9,7 @@ const workshops = [
     {
         img: workshop1,
         img2: workshop12,
-        title: "Genel Yabancı Dil Atölye Grupları",
+        title: "Genel Amaçlı Yabancı Dil Atölye Grupları",
         id: 1,
         accordions:[
             {
@@ -68,7 +68,26 @@ const workshops = [
                 id: 5,
                 name: "accordion8",
                 text: "Yetişkinlere yönelik bu atölye grubumuzda film, dizi ve video gibi dijital içerikler izleyerek dil geliştirmenin keyfini çıkarabilirsiniz."
-            }
+            },       
+            {
+                title: "ADRA Readers",
+                id: 6,
+                name: "accordion9",
+                text: "Çocuklara, gençlere ve yetişkinlere yönelik okuma kulübümüz Adra Readers, kitap okuyarak ve okunan kitaplar üzerinden tartışma yaparak dil becerilerini ilgi alanları ile birleştirmek isteyen herkes için tasarlanmıştır."
+            },
+            {
+                title: "ADRA Basic Skills",
+                id: 7,
+                name: "accordion10",
+                text: "Yabancı dil öğreniminde dört temel beceriye (dinleme, anlama, okuma, yazma) yönelik bütüncül bir yaklaşım benimsediğimiz Temel Beceriler atölyemiz, örgün eğitime devam eden öğrencilerin yanı sıra yetişkinler için de yüksek düzeyde verimlilik sağlamaktadır."
+            },
+            {
+                title: "ADRA Academic Skills",
+                id: 8,
+                name: "accordion11",
+                text: "Adra Akademik Beceriler atölyemiz yabancı dil öğreniminde temel aldığımız dört beceriye (dinleme, konuşma, okuma, yazma) yönelik ileri düzeyde çalışma yapmak isteyen üniversite lisans ve lisansüstü öğrenciler için tasarlanmıştır. Üniversite eğitimi sırasında ve sonrasında ihtiyaç duyulan ileri sözlü ve yazılı iletişim düzeyi hedeflenmektedir. Üniversitelerin Hazırlık okullarında öğrenim gören, lisans düzeyi mesleki yabanci dil dersleri alan, lisansüstü düzeyde akademik okuma-yazma, sözlü iletişim ve sözlü sunum becerilerini ilerletmek isteyen öğrenci grupları bu atölyemizde hedef odaklı çalışmalar ile kendilerini geliştirmektedir."
+            },
+
            
         ]
     },
@@ -80,25 +99,25 @@ const workshops = [
             {
                 title: "Sınav Hazırlık Atölyeleri",
                 id: 1,
-                name: "accordion9",
+                name: "accordion12",
                 text: "TOEFL, IELTS, YÖKDİL, YDS, YDT (YKS-DİL) gibi sınavlara yönelik hazırlık atölyelerimiz, sınavlara ilişkin teknik detaylara ve bilgi içeriğine hâkim olmanızı sağlar."            
             },
             {
                 title: "Mesleki Yabancı Dil Atölyeleri",
                 id: 2,
-                name: "accordion10",
+                name: "accordion13",
                 text: "İş dünyasında çağı yakalamak için özel olarak tasarlanmış bu atölyemizde, meslek alanlarınıza yönelik terim bilginizi geliştirebilir, sözlü ve yazılı iletişim becerilerinizi geliştirebilirsiniz."
             },
             {
                 title: "Akademik Yabancı Dil Atölyeleri",
                 id: 3,
-                name: "accordion11",
+                name: "accordion14",
                 text: "ADRA Academics atölyesi ile akademik yazım ve sözlü sunum becerilerinizi geliştirebilirsiniz. Ayrıca, üniversite eğitiminiz boyunca dil dersleri dahilinde ihtiyaç duyduğunuz yabancı dil eğitim destegini alabilirsiniz."
             },
             {
                 title: "Çeviri Atölyesi",
                 id: 4,
-                name: "accordion12",
+                name: "accordion15",
                 text: "ADRA Translate, farklı alanlarda çeviri eğitimi sunan üç aşamalı çeviri atölyemiz, çeviri sürecine ilişkin akademik ilkeler, bilgi ve becerilere odaklanır."
             }
         ]
