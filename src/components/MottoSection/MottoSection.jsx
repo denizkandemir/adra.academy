@@ -29,7 +29,7 @@ const MottoSection = () => {
                       </li>
                 <li className="title-photo-p fade-in">
                   <h3 className="list-title">Kapsamlı Destek ve Geri Bildirim</h3>
-                  <p className="list-title-p">   Eğitiminizinde size rehberlik edecek danışmanımızın sağladığı düzenli değerlendirme ve geri bildirimlerle gelişiminizi yakından takip ediyor, öğreniminizi kolaylaştırıyoruz.    </p>       
+                  <p className="list-title-p">   Eğitiminizde size rehberlik edecek danışmanımızın sağladığı düzenli değerlendirme ve geri bildirimlerle gelişiminizi yakından takip ediyor, öğreniminizi kolaylaştırıyoruz.    </p>       
                 </li>
               </ul>
             </div>
